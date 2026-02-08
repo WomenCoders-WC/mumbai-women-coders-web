@@ -1,0 +1,22 @@
+RewriteEngine On
+
+# Force HTTPS (Optional, uncomment if SSL is set up)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Legal Pages Routing
+RewriteRule ^privacy-policy$ legal/privacy-policy.php [L]
+RewriteRule ^terms-and-conditions$ legal/terms-and-conditions.php [L]
+RewriteRule ^code-of-conduct$ legal/code-of-conduct.php [L]
+RewriteRule ^faq$ legal/faq.php [L]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Handle Directory Index
+DirectoryIndex index.php
+
+# Error Pages
+ErrorDocument 404 /index.php
