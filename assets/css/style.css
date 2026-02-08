@@ -2040,3 +2040,304 @@ section {
         padding: 10px;
     }
 }
+
+/* --- Events Page Styles --- */
+
+/* Event Card Modern */
+.event-card-modern {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.event-card-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(123, 44, 191, 0.15);
+}
+
+.event-card-img-wrapper {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.event-card-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.event-card-modern:hover .event-card-img-wrapper img {
+    transform: scale(1.1);
+}
+
+.event-date-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    padding: 8px 12px;
+    text-align: center;
+    color: var(--p-indigo-1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Chapter Card Fancy */
+.chapter-card-fancy {
+    position: relative;
+    height: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.chapter-card-fancy:hover {
+    transform: scale(1.02);
+    box-shadow: 0 25px 50px rgba(123, 44, 191, 0.3);
+}
+
+.chapter-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(16, 0, 43, 0.8) 70%, rgba(16, 0, 43, 0.95) 100%);
+    transition: all 0.4s ease;
+}
+
+.chapter-card-fancy:hover .chapter-overlay {
+    background: linear-gradient(to bottom, rgba(123, 44, 191, 0.2) 0%, rgba(16, 0, 43, 0.9) 100%);
+}
+
+.chapter-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    width: 100%;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+.chapter-card-fancy:hover .chapter-content {
+    transform: translateY(0);
+}
+
+.chapter-badge {
+    display: inline-block;
+    background: var(--p-violet);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chapter-title {
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chapter-desc {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease 0.1s;
+    height: 0;
+    overflow: hidden;
+}
+
+.chapter-card-fancy:hover .chapter-desc {
+    opacity: 1;
+    transform: translateY(0);
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+/* Past Highlights */
+.highlight-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 300px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.highlight-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.highlight-card:hover .highlight-img {
+    transform: scale(1.1);
+}
+
+.highlight-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem;
+}
+
+.highlight-content span {
+    display: inline-block;
+}
+
+/* Gallery Masonry-like */
+.gallery-item {
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    filter: brightness(1.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Background badge */
+.bg-lavender-subtle {
+    background-color: rgba(157, 78, 221, 0.1) !important;
+}
+
+/* Events Page Responsive Styles */
+@media (max-width: 991px) {
+    .chapter-card-fancy {
+        height: 380px;
+    }
+
+    .chapter-title {
+        font-size: 1.75rem;
+    }
+
+    .highlight-card {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .chapter-card-fancy {
+        height: 350px;
+    }
+
+    .event-card-modern {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .chapter-card-fancy {
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .chapter-title {
+        font-size: 1.5rem;
+    }
+
+    .chapter-badge {
+        font-size: 0.7rem;
+        padding: 5px 12px;
+    }
+
+    .event-card-modern .event-card-body {
+        padding: 1.5rem !important;
+    }
+
+    .event-date-badge {
+        top: 10px;
+        right: 10px;
+        padding: 6px 10px;
+    }
+
+    .event-date-badge span {
+        font-size: 1.5rem;
+    }
+
+    .event-date-badge small {
+        font-size: 0.7rem;
+    }
+
+    .highlight-card {
+        height: 220px;
+        margin-bottom: 15px;
+    }
+
+    .highlight-overlay {
+        padding: 1.5rem;
+    }
+
+    .gallery-item {
+        margin-bottom: 15px !important;
+    }
+}
+
+/* Tablet specific adjustments */
+@media (min-width: 768px) and (max-width: 991px) {
+    .event-card-modern {
+        margin-bottom: 20px;
+    }
+
+    .chapter-content {
+        padding: 1.5rem;
+    }
+}
+
+/* Nav pills responsive */
+@media (max-width: 576px) {
+    #eventsTab .nav-link {
+        font-size: 0.85rem;
+        padding: 8px 16px !important;
+    }
+}
+
+/* Events Page Tab Pills Custom Styling */
+#eventsTab .nav-link {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(123, 44, 191, 0.2);
+    color: var(--text-main);
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+#eventsTab .nav-link:hover {
+    background: rgba(157, 78, 221, 0.1);
+    border-color: var(--p-lavender);
+    transform: translateY(-2px);
+}
+
+#eventsTab .nav-link.active {
+    background: var(--grad-lavender);
+    border-color: transparent;
+    color: white;
+    box-shadow: 0 5px 15px rgba(157, 78, 221, 0.3);
+}
