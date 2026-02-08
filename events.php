@@ -10,14 +10,16 @@ include 'includes/navigation.php';
     <!-- Overlay/Background Effect -->
     <div class="hero-bg-1"></div>
     <div class="hero-bg-2"></div>
-    
+
     <div class="container hero-container-inner position-relative z-2">
         <div class="row justify-content-center text-center">
             <div class="col-lg-10 animate__animated animate__fadeIn">
                 <!-- Fancy Breadcrumb -->
                 <nav aria-label="breadcrumb" class="d-inline-block mb-3">
-                    <ol class="breadcrumb bg-white bg-opacity-10 backdrop-blur px-4 py-2 rounded-pill shadow-sm mb-0 border border-white border-opacity-25">
-                        <li class="breadcrumb-item"><a href="index.php" class="text-white text-decoration-none opacity-75 hover-opacity-100">Home</a></li>
+                    <ol
+                        class="breadcrumb bg-white bg-opacity-10 backdrop-blur px-4 py-2 rounded-pill shadow-sm mb-0 border border-white border-opacity-25 justify-content-center">
+                        <li class="breadcrumb-item"><a href="index.php"
+                                class="text-white text-decoration-none opacity-75 hover-opacity-100">Home</a></li>
                         <li class="breadcrumb-item active text-white fw-bold" aria-current="page">Events</li>
                     </ol>
                 </nav>
@@ -26,7 +28,8 @@ include 'includes/navigation.php';
                     Community <span class="text-gradient">Events</span>
                 </h1>
                 <p class="lead mb-5 hero-desc">
-                    Join our vibrant community gatherings, technical workshops, and global conferences. Whether you're in Mumbai, London, or Berlin, there's a place for you.
+                    Join our vibrant community gatherings, technical workshops, and global conferences. Whether you're
+                    in Mumbai, London, or Berlin, there's a place for you.
                 </p>
             </div>
         </div>
@@ -44,10 +47,14 @@ include 'includes/navigation.php';
         <!-- Global vs Chapter Tabs -->
         <ul class="nav nav-pills justify-content-center mb-5 fade-up-trigger" id="eventsTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active rounded-pill px-4 fw-bold" id="global-tab" data-bs-toggle="pill" data-bs-target="#global" type="button" role="tab" aria-controls="global" aria-selected="true">Global / Online</button>
+                <button class="nav-link active rounded-pill px-4 fw-bold" id="global-tab" data-bs-toggle="pill"
+                    data-bs-target="#global" type="button" role="tab" aria-controls="global" aria-selected="true">Global
+                    / Online</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link rounded-pill px-4 fw-bold" id="chapters-tab" data-bs-toggle="pill" data-bs-target="#chapters-list" type="button" role="tab" aria-controls="chapters-list" aria-selected="false">Chapter Events</button>
+                <button class="nav-link rounded-pill px-4 fw-bold" id="chapters-tab" data-bs-toggle="pill"
+                    data-bs-target="#chapters-list" type="button" role="tab" aria-controls="chapters-list"
+                    aria-selected="false">Chapter Events</button>
             </li>
         </ul>
 
@@ -59,7 +66,8 @@ include 'includes/navigation.php';
                     <div class="col-lg-4 col-md-6 fade-up-trigger">
                         <div class="event-card-modern h-100">
                             <div class="event-card-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800" alt="Global Webinar">
+                                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800"
+                                    alt="Global Webinar">
                                 <div class="event-date-badge">
                                     <span class="d-block fw-bold h4 mb-0">20</span>
                                     <small class="text-uppercase">APR</small>
@@ -69,16 +77,18 @@ include 'includes/navigation.php';
                                 <span class="badge bg-lavender-subtle text-primary mb-3">Webinar</span>
                                 <h4 class="fw-bold mb-2">Future of AI in Healthcare</h4>
                                 <p class="text-muted small mb-3"><i class="bi bi-clock me-2"></i>18:00 - 19:30 UTC</p>
-                                <p class="text-secondary mb-4 small">Join top researchers discussing the ethical implications and advancements of AI in medical fields.</p>
+                                <p class="text-secondary mb-4 small">Join top researchers discussing the ethical
+                                    implications and advancements of AI in medical fields.</p>
                                 <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold">Register Now</a>
                             </div>
                         </div>
                     </div>
-                     <!-- Event 2 -->
-                     <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.1s;">
+                    <!-- Event 2 -->
+                    <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.1s;">
                         <div class="event-card-modern h-100">
                             <div class="event-card-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800" alt="Networking">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+                                    alt="Networking">
                                 <div class="event-date-badge">
                                     <span class="d-block fw-bold h4 mb-0">05</span>
                                     <small class="text-uppercase">MAY</small>
@@ -88,7 +98,8 @@ include 'includes/navigation.php';
                                 <span class="badge bg-lavender-subtle text-primary mb-3">Networking</span>
                                 <h4 class="fw-bold mb-2">Global Virtual Coffee</h4>
                                 <p class="text-muted small mb-3"><i class="bi bi-clock me-2"></i>10:00 - 11:00 UTC</p>
-                                <p class="text-secondary mb-4 small">Casual networking session to meet fellow women in tech from around the world. Bring your coffee!</p>
+                                <p class="text-secondary mb-4 small">Casual networking session to meet fellow women in
+                                    tech from around the world. Bring your coffee!</p>
                                 <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold">Join Waitlist</a>
                             </div>
                         </div>
@@ -120,7 +131,7 @@ include 'includes/navigation.php';
         <div class="row g-4 justify-content-center">
             <!-- Mumbai Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger">
-                <div class="chapter-card-fancy" style="background-image: url('https://images.unsplash.com/photo-1566552881560-0be862a7c445?auto=format&fit=crop&q=80&w=800');">
+                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/mumbai.png');">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">Mumbai</div>
@@ -133,7 +144,7 @@ include 'includes/navigation.php';
 
             <!-- London Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.2s;">
-                <div class="chapter-card-fancy" style="background-image: url('https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&q=80&w=800');">
+                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/london.png');">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">London</div>
@@ -146,7 +157,7 @@ include 'includes/navigation.php';
 
             <!-- Berlin Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.4s;">
-                <div class="chapter-card-fancy" style="background-image: url('https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&q=80&w=800');">
+                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/berlin.png');">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">Berlin</div>
@@ -177,7 +188,8 @@ include 'includes/navigation.php';
             <!-- Highlight 1 -->
             <div class="col-md-6 col-lg-4 fade-up-trigger">
                 <div class="highlight-card">
-                    <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=600" class="highlight-img" alt="Tech Summit 2025">
+                    <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80&w=600"
+                        class="highlight-img" alt="Tech Summit 2025">
                     <div class="highlight-overlay">
                         <div class="highlight-content">
                             <span class="badge bg-primary mb-2">Summit</span>
@@ -190,8 +202,9 @@ include 'includes/navigation.php';
             <!-- Highlight 2 -->
             <div class="col-md-6 col-lg-8 fade-up-trigger" style="animation-delay: 0.2s;">
                 <div class="highlight-card">
-                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1000" class="highlight-img" alt="Hackathon 2024">
-                     <div class="highlight-overlay">
+                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1000"
+                        class="highlight-img" alt="Hackathon 2024">
+                    <div class="highlight-overlay">
                         <div class="highlight-content">
                             <span class="badge bg-success mb-2">Hackathon</span>
                             <h4 class="text-white fw-bold">Code for Good Hackathon</h4>
@@ -207,49 +220,55 @@ include 'includes/navigation.php';
 <!-- Event Gallery -->
 <section id="gallery" class="py-5 bg-surface-variant">
     <div class="container py-5">
-         <div class="text-center mb-5 fade-up-trigger">
+        <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Memories</h6>
             <h2 class="display-4 fw-bold">Captured Moments</h2>
         </div>
 
         <div class="row g-3 gallery-grid">
             <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger">
-                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Group Discussion" />
-                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Coding Session" />
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Group Discussion" />
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Coding Session" />
             </div>
 
             <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger" style="animation-delay: 0.2s;">
-                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Workshop" />
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Team Meeting" />
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Workshop" />
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Team Meeting" />
             </div>
 
             <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger" style="animation-delay: 0.4s;">
-                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Conference" />
-                <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=600" class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Networking" />
+                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Conference" />
+                <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=600"
+                    class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Networking" />
             </div>
         </div>
     </div>
 </section>
 
 <script>
-// Fade-up animation on scroll
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-};
+    // Fade-up animation on scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
 
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('animate-fade-up');
-            observer.unobserve(entry.target);
-        }
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-fade-up');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.fade-up-trigger').forEach(el => {
+        observer.observe(el);
     });
-}, observerOptions);
-
-document.querySelectorAll('.fade-up-trigger').forEach(el => {
-    observer.observe(el);
-});
 </script>
 
 <?php include 'includes/footer.php'; ?>

@@ -20,16 +20,18 @@ include 'includes/navigation.php';
                     to Excel in Tech.
                 </h1>
                 <p class="lead mb-5 hero-desc">
-                    Empowering the next generation of female technical leaders through community, mentorship, and hands-on innovation.
+                    Empowering the next generation of female technical leaders through community, mentorship, and
+                    hands-on innovation.
                 </p>
                 <div class="d-flex gap-3 gap-md-4 flex-column flex-sm-row justify-content-center mb-4 pb-2">
-                    <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" class="btn btn-premium btn-lg shadow-lg">
+                    <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
+                        class="btn btn-premium btn-lg shadow-lg">
                         Join a Chapter <i class="bi bi-people ms-2"></i>
                     </a>
                     <a href="chapters/" class="btn btn-m-outline btn-lg">
                         Explore Chapters <i class="bi bi-compass ms-2"></i>
                     </a>
-                    <a href="support" class="btn btn-m-outline btn-lg">
+                    <a href="support-us.php" class="btn btn-m-outline btn-lg">
                         Support Us <i class="bi bi-heart ms-2"></i>
                     </a>
                 </div>
@@ -67,20 +69,25 @@ include 'includes/navigation.php';
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-5 mb-lg-0 fade-up-trigger">
-                  <div class="position-relative p-2">
-                    <div id="aboutCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="position-relative p-2">
+                    <div id="aboutCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel"
+                        data-bs-interval="3000">
                         <div class="carousel-inner img-premium-container shadow-lg">
                             <div class="carousel-item active">
-                                <img src="assets/images/sliders/slider1.webp" class="d-block w-100 img-premium" alt="Community Event 1">
+                                <img src="assets/images/sliders/slider1.webp" class="d-block w-100 img-premium"
+                                    alt="Community Event 1">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/images/sliders/slider2.webp" class="d-block w-100 img-premium" alt="Community Event 2">
+                                <img src="assets/images/sliders/slider2.webp" class="d-block w-100 img-premium"
+                                    alt="Community Event 2">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/images/sliders/slider3.webp" class="d-block w-100 img-premium" alt="Community Event 3">
+                                <img src="assets/images/sliders/slider3.webp" class="d-block w-100 img-premium"
+                                    alt="Community Event 3">
                             </div>
                             <div class="carousel-item">
-                                <img src="assets/images/sliders/slider4.webp" class="d-block w-100 img-premium" alt="Community Event 4">
+                                <img src="assets/images/sliders/slider4.webp" class="d-block w-100 img-premium"
+                                    alt="Community Event 4">
                             </div>
                         </div>
                     </div>
@@ -88,15 +95,17 @@ include 'includes/navigation.php';
                     <!-- Floating Card -->
                     <div class="m-card position-absolute d-none d-md-block shadow-lg about-floating-card">
                         <h6 class="fw-bold text-gradient mb-2"><i class="bi bi-quote me-2"></i>Our Vision</h6>
-                        <p class="small mb-0">"Proportional representation of women in tech leadership roles globally."</p>
+                        <p class="small mb-0">"Proportional representation of women in tech leadership roles globally."
+                        </p>
                     </div>
-                  </div>
+                </div>
             </div>
             <div class="col-lg-6 ps-lg-5 fade-up-trigger">
                 <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Building the Ecosystem</h6>
                 <h2 class="display-4 fw-bold mb-4">Empowering Women in Mumbai's Tech Scene</h2>
                 <p class="mb-4 fs-5 about-desc">
-                    We provide the infrastructure and community support women need to move from coding enthusiasts to technical leaders.
+                    We provide the infrastructure and community support women need to move from coding enthusiasts to
+                    technical leaders.
                 </p>
                 <div class="row g-4 mb-5">
                     <div class="col-sm-6 text-center text-sm-start">
@@ -129,7 +138,8 @@ include 'includes/navigation.php';
                 <h2 class="display-4 fw-bold text-white">How We Empower Women in Technology</h2>
             </header>
             <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
-                Mumbai Women Coders provides a comprehensive ecosystem for female developers and technical leaders to excel through specialized programs in engineering, leadership, and hands-on innovation.
+                Mumbai Women Coders provides a comprehensive ecosystem for female developers and technical leaders to
+                excel through specialized programs in engineering, leadership, and hands-on innovation.
             </p>
         </div>
 
@@ -142,7 +152,8 @@ include 'includes/navigation.php';
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Tech Events & Meetups</h3>
                     <p class="text-white-50 small mb-0">
-                        Join our monthly technical meetups, hackathons, and flagship conferences in Mumbai designed to foster collaboration and showcase female technical excellence.
+                        Join our monthly technical meetups, hackathons, and flagship conferences in Mumbai designed to
+                        foster collaboration and showcase female technical excellence.
                     </p>
                 </div>
             </article>
@@ -155,7 +166,8 @@ include 'includes/navigation.php';
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Hands-on Technical Learning</h3>
                     <p class="text-white-50 small mb-0">
-                        Accelerate your skills with peer-led study groups, code-alongs, and technical deep-dives into Full-Stack Development, Data Science, and Artificial Intelligence.
+                        Accelerate your skills with peer-led study groups, code-alongs, and technical deep-dives into
+                        Full-Stack Development, Data Science, and Artificial Intelligence.
                     </p>
                 </div>
             </article>
@@ -168,7 +180,8 @@ include 'includes/navigation.php';
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Professional Networking</h3>
                     <p class="text-white-50 small mb-0">
-                        Build meaningful connections within a safe, inclusive space. Access mentorship from industry veterans and grow your network within Mumbai's tech ecosystem.
+                        Build meaningful connections within a safe, inclusive space. Access mentorship from industry
+                        veterans and grow your network within Mumbai's tech ecosystem.
                     </p>
                 </div>
             </article>
@@ -181,7 +194,8 @@ include 'includes/navigation.php';
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Career Growth Opportunities</h3>
                     <p class="text-white-50 small mb-0">
-                        Unlock high-impact career pathways through exclusive job boards, resume-building workshops, and direct referrals to top-tier technology partners.
+                        Unlock high-impact career pathways through exclusive job boards, resume-building workshops, and
+                        direct referrals to top-tier technology partners.
                     </p>
                 </div>
             </article>
@@ -203,7 +217,8 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Save the Date</h6>
             <h2 class="display-4 fw-bold">Upcoming Community Events</h2>
             <p class="lead text-muted mx-auto" style="max-width: 700px;">
-                Secure your spot in our upcoming sessions and accelerate your technical journey with the Mumbai tech community.
+                Secure your spot in our upcoming sessions and accelerate your technical journey with the Mumbai tech
+                community.
             </p>
         </div>
 
@@ -214,7 +229,8 @@ include 'includes/navigation.php';
                     <!-- Image Column -->
                     <div class="col-md-3">
                         <div class="event-img-container">
-                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800" class="event-preview-img" alt="Cloud Workshop">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
+                                class="event-preview-img" alt="Cloud Workshop">
                             <div class="event-img-overlay"></div>
                         </div>
                     </div>
@@ -230,11 +246,14 @@ include 'includes/navigation.php';
                             <div class="col-md-10 ps-md-4">
                                 <div class="row align-items-center">
                                     <div class="col-lg-7 text-center text-md-start">
-                                        <h3 class="h4 fw-800 mb-1 text-gradient">Cloud Native & Kubernetes Deep Dive</h3>
-                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i> 91springboard, Andheri West</div>
+                                        <h3 class="h4 fw-800 mb-1 text-gradient">Cloud Native & Kubernetes Deep Dive
+                                        </h3>
+                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
+                                            91springboard, Andheri West</div>
                                     </div>
                                     <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
-                                        <div class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
+                                        <div
+                                            class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
                                             Technical Workshop
                                         </div>
                                         <div class="text-muted small d-block">
@@ -242,7 +261,9 @@ include 'includes/navigation.php';
                                         </div>
                                     </div>
                                     <div class="col-12 mt-3 text-center text-md-start">
-                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" class="btn btn-premium-sm">Register Now <i class="bi bi-arrow-right"></i></a>
+                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
+                                            class="btn btn-premium-sm">Register Now <i
+                                                class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +278,8 @@ include 'includes/navigation.php';
                     <!-- Image Column -->
                     <div class="col-md-3">
                         <div class="event-img-container">
-                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" class="event-preview-img" alt="Leadership Series">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
+                                class="event-preview-img" alt="Leadership Series">
                             <div class="event-img-overlay"></div>
                         </div>
                     </div>
@@ -274,10 +296,12 @@ include 'includes/navigation.php';
                                 <div class="row align-items-center">
                                     <div class="col-lg-7 text-center text-md-start">
                                         <h3 class="h4 fw-800 mb-1 text-gradient">Women in Tech: Leadership Series</h3>
-                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i> Microsoft Reactor, Mumbai</div>
+                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
+                                            Microsoft Reactor, Mumbai</div>
                                     </div>
                                     <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
-                                        <div class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
+                                        <div
+                                            class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
                                             Community Event
                                         </div>
                                         <div class="text-muted small d-block">
@@ -285,7 +309,9 @@ include 'includes/navigation.php';
                                         </div>
                                     </div>
                                     <div class="col-12 mt-3 text-center text-md-start">
-                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" class="btn btn-premium-sm">Register Now <i class="bi bi-arrow-right"></i></a>
+                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
+                                            class="btn btn-premium-sm">Register Now <i
+                                                class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -308,7 +334,8 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Community Impact</h6>
             <h2 class="display-4 fw-bold text-white">Member Success Stories</h2>
             <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
-                Witness the transformative journeys of our members who have leveraged the Mumbai Women Coders ecosystem to reach new heights in their technical careers.
+                Witness the transformative journeys of our members who have leveraged the Mumbai Women Coders ecosystem
+                to reach new heights in their technical careers.
             </p>
         </div>
 
@@ -318,12 +345,15 @@ include 'includes/navigation.php';
                 <div class="story-card h-100">
                     <i class="bi bi-quote story-quote-icon"></i>
                     <div class="member-avatar-ring">
-                        <img src="https://ui-avatars.com/api/?name=Shruti+Deshmukh&background=9d4edd&color=fff&size=128" alt="Shruti Deshmukh">
+                        <img src="https://ui-avatars.com/api/?name=Shruti+Deshmukh&background=9d4edd&color=fff&size=128"
+                            alt="Shruti Deshmukh">
                     </div>
                     <h3 class="h4 fw-bold text-white mb-2">Shruti Deshmukh</h3>
                     <p class="text-gradient small fw-bold text-uppercase mb-3">Tech Lead @ Google</p>
                     <p class="text-white-50 mb-0">
-                        "Joining this community was a turning point. The mentorship I received during the Open Source workshops directly helped me land my first engineering role. Today, I'm proud to lead teams and give back to the next generation."
+                        "Joining this community was a turning point. The mentorship I received during the Open Source
+                        workshops directly helped me land my first engineering role. Today, I'm proud to lead teams and
+                        give back to the next generation."
                     </p>
                 </div>
             </div>
@@ -332,12 +362,15 @@ include 'includes/navigation.php';
                 <div class="story-card h-100">
                     <i class="bi bi-quote story-quote-icon"></i>
                     <div class="member-avatar-ring">
-                        <img src="https://ui-avatars.com/api/?name=Sneha+Rao&background=7b2cbf&color=fff&size=128" alt="Sneha Rao">
+                        <img src="https://ui-avatars.com/api/?name=Sneha+Rao&background=7b2cbf&color=fff&size=128"
+                            alt="Sneha Rao">
                     </div>
                     <h3 class="h4 fw-bold text-white mb-2">Sneha Rao</h3>
                     <p class="text-gradient small fw-bold text-uppercase mb-3">Data Scientist @ Microsoft</p>
                     <p class="text-white-50 mb-0">
-                        "I was struggling to switch from QA to Data Science. The study groups here provided the structure and support I needed. The hands-on projects we did together became the highlight of my portfolio."
+                        "I was struggling to switch from QA to Data Science. The study groups here provided the
+                        structure and support I needed. The hands-on projects we did together became the highlight of my
+                        portfolio."
                     </p>
                 </div>
             </div>
@@ -352,7 +385,8 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Expert Insights</h6>
             <h2 class="display-4 fw-bold">Recent Speaker Profiles</h2>
             <p class="lead text-muted mx-auto" style="max-width: 700px;">
-                Learn from industry veterans and researchers who share their knowledge at our flagship tech talks and leadership summits.
+                Learn from industry veterans and researchers who share their knowledge at our flagship tech talks and
+                leadership summits.
             </p>
         </div>
 
@@ -366,12 +400,13 @@ include 'includes/navigation.php';
                             <div class="speaker-img-glow"></div>
                             <img src="assets/images/speakers/ramyashree-shetty.webp" alt="Ramyashree Shetty">
                         </div>
-                       
+
                         <h4>Ramyashree Shetty</h4>
                         <p class="text-muted small mb-0">Data Engineer @ Radix</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                            
+                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -382,12 +417,13 @@ include 'includes/navigation.php';
                             <div class="speaker-img-glow"></div>
                             <img src="assets/images/speakers/taazeen-ansari.webp" alt="Taazeen Ansari">
                         </div>
-                      
+
                         <h4>Taazeen Ansari</h4>
                         <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                            
+                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -396,14 +432,16 @@ include 'includes/navigation.php';
                     <div class="speaker-card">
                         <div class="speaker-img-wrapper">
                             <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200" alt="Nikita Goswami">
+                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
+                                alt="Nikita Goswami">
                         </div>
-                       
+
                         <h4>Nikita Goswami</h4>
                         <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                            
+                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -417,7 +455,8 @@ include 'includes/navigation.php';
                         <h4>Ramyashree Shetty</h4>
                         <p class="text-muted small mb-0">Data Engineer @ Radix</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -431,7 +470,8 @@ include 'includes/navigation.php';
                         <h4>Taazeen Ansari</h4>
                         <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -440,12 +480,14 @@ include 'includes/navigation.php';
                     <div class="speaker-card">
                         <div class="speaker-img-wrapper">
                             <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200" alt="Nikita Goswami">
+                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
+                                alt="Nikita Goswami">
                         </div>
                         <h4>Nikita Goswami</h4>
                         <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -459,7 +501,8 @@ include 'includes/navigation.php';
                         <h4>Ramyashree Shetty</h4>
                         <p class="text-muted small mb-0">Data Engineer @ Radix</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -473,7 +516,8 @@ include 'includes/navigation.php';
                         <h4>Taazeen Ansari</h4>
                         <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -482,12 +526,14 @@ include 'includes/navigation.php';
                     <div class="speaker-card">
                         <div class="speaker-img-wrapper">
                             <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200" alt="Nikita Goswami">
+                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
+                                alt="Nikita Goswami">
                         </div>
                         <h4>Nikita Goswami</h4>
                         <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
                         <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
+                                    class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
@@ -507,7 +553,8 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Path to Leadership</h6>
             <h2 class="display-4 fw-bold text-white">Chapter Lead Journeys</h2>
             <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
-                Our community is powered by leaders who started exactly where you are. Explore how they grew from members to driving impact at scale.
+                Our community is powered by leaders who started exactly where you are. Explore how they grew from
+                members to driving impact at scale.
             </p>
         </div>
 
@@ -519,7 +566,8 @@ include 'includes/navigation.php';
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 1: Active Contribution</h4>
                         <p class="text-white-50 mb-0 small">
-                            Megha joined as a volunteer for the Mumbai Tech Summit. By managing logistics and supporting attendees, she learned the core values of MWC.
+                            Megha joined as a volunteer for the Mumbai Tech Summit. By managing logistics and supporting
+                            attendees, she learned the core values of MWC.
                         </p>
                     </div>
                 </div>
@@ -529,7 +577,8 @@ include 'includes/navigation.php';
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 2: Mentorship & Growth</h4>
                         <p class="text-white-50 mb-0 small">
-                            She moved into a Content Curator role, where she started leading study groups for Python and Cloud Computing, impacting 100+ members.
+                            She moved into a Content Curator role, where she started leading study groups for Python and
+                            Cloud Computing, impacting 100+ members.
                         </p>
                     </div>
                 </div>
@@ -539,7 +588,8 @@ include 'includes/navigation.php';
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 3: Chapter Leadership</h4>
                         <p class="text-white-50 mb-0 small">
-                            Today, Megha leads the Navi Mumbai chapter, overseeing events, partnerships, and a core team of 15 volunteers.
+                            Today, Megha leads the Navi Mumbai chapter, overseeing events, partnerships, and a core team
+                            of 15 volunteers.
                         </p>
                     </div>
                 </div>
@@ -559,7 +609,8 @@ include 'includes/navigation.php';
         <div class="mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Trusted Partners</h6>
             <h2 class="display-5 fw-bold mb-4">Empowering <span class="text-gradient">Together</span></h2>
-            <div class="mx-auto" style="width: 80px; height: 4px; background: var(--grad-lavender); border-radius: 2px;"></div>
+            <div class="mx-auto"
+                style="width: 80px; height: 4px; background: var(--grad-lavender); border-radius: 2px;"></div>
         </div>
 
         <div class="partners-grid fade-up-trigger">
@@ -582,7 +633,8 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Got Questions?</h6>
             <h2 class="display-4 fw-bold">Frequently Asked Questions</h2>
             <p class="lead text-muted mx-auto" style="max-width: 700px;">
-                Everything you need to know about joining and growing with the Mumbai Women Coders community. Can't find an answer? Feel free to reach out!
+                Everything you need to know about joining and growing with the Mumbai Women Coders community. Can't find
+                an answer? Feel free to reach out!
             </p>
         </div>
 
@@ -595,7 +647,9 @@ include 'includes/navigation.php';
                 </div>
                 <div class="faq-answer">
                     <p>
-                        We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome all women who are passionate about coding, leadership, and professional growth in the Mumbai tech ecosystem.
+                        We are a dedicated community focused on empowering and supporting women in the technology
+                        sector. We welcome all women who are passionate about coding, leadership, and professional
+                        growth in the Mumbai tech ecosystem.
                     </p>
                 </div>
             </div>
@@ -608,7 +662,8 @@ include 'includes/navigation.php';
                 </div>
                 <div class="faq-answer">
                     <p>
-                        No, joining Mumbai Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge.
+                        No, joining Mumbai Women Coders is completely free! Our core technical meetups, study groups,
+                        and community platforms are accessible to everyone without any charge.
                     </p>
                 </div>
             </div>
@@ -621,7 +676,9 @@ include 'includes/navigation.php';
                 </div>
                 <div class="faq-answer">
                     <p>
-                        We're always looking for fresh perspectives! You can apply to speak by filling out our "Call for Speakers" form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups.
+                        We're always looking for fresh perspectives! You can apply to speak by filling out our "Call for
+                        Speakers" form available on our events page, or by reaching out to our chapter leads during any
+                        of our monthly meetups.
                     </p>
                 </div>
             </div>
@@ -634,7 +691,9 @@ include 'includes/navigation.php';
                 </div>
                 <div class="faq-answer">
                     <p>
-                        We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and Salary Negotiation.
+                        We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud
+                        Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and
+                        Salary Negotiation.
                     </p>
                 </div>
             </div>
@@ -647,7 +706,9 @@ include 'includes/navigation.php';
                 </div>
                 <div class="faq-answer">
                     <p>
-                        You can start by joining our Slack/Discord channels and checking the #volunteers-needed channel. We have various roles from event management and social media to technical mentoring and content creation.
+                        You can start by joining our Slack/Discord channels and checking the #volunteers-needed channel.
+                        We have various roles from event management and social media to technical mentoring and content
+                        creation.
                     </p>
                 </div>
             </div>
@@ -656,22 +717,22 @@ include 'includes/navigation.php';
 </section>
 
 <script>
-document.querySelectorAll('.faq-question').forEach(question => {
-    question.addEventListener('click', () => {
-        const item = question.parentElement;
-        const isActive = item.classList.contains('active');
-        
-        // Close all other items
-        document.querySelectorAll('.faq-item').forEach(otherItem => {
-            otherItem.classList.remove('active');
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const item = question.parentElement;
+            const isActive = item.classList.contains('active');
+
+            // Close all other items
+            document.querySelectorAll('.faq-item').forEach(otherItem => {
+                otherItem.classList.remove('active');
+            });
+
+            // Toggle current item
+            if (!isActive) {
+                item.classList.add('active');
+            }
         });
-        
-        // Toggle current item
-        if (!isActive) {
-            item.classList.add('active');
-        }
     });
-});
 </script>
 
 <?php include 'includes/footer.php'; ?>

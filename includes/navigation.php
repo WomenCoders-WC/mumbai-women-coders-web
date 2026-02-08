@@ -1,6 +1,7 @@
 <?php
 // helpers to simple active state
-function isActive($page) {
+function isActive($page)
+{
     echo strpos($_SERVER['PHP_SELF'], $page) !== false ? 'active' : '';
 }
 ?>
@@ -15,19 +16,28 @@ function isActive($page) {
         <div class="collapse navbar-collapse show" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link <?php isActive('index.php'); ?>" href="<?php echo $root ?? ''; ?>index.php">Home</a>
+                    <a class="nav-link <?php isActive('index.php'); ?>"
+                        href="<?php echo $root ?? ''; ?>index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php isActive('about.php'); ?>" href="<?php echo $root ?? ''; ?>about.php">About</a>
+                    <a class="nav-link <?php isActive('about.php'); ?>"
+                        href="<?php echo $root ?? ''; ?>about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php isActive('events'); ?>" href="<?php echo $root ?? ''; ?>events/">Events</a>
+                    <a class="nav-link <?php isActive('events.php'); ?>"
+                        href="<?php echo $root ?? ''; ?>events.php">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php isActive('chapters'); ?>" href="<?php echo $root ?? ''; ?>chapters/">Chapters</a>
+                    <a class="nav-link <?php isActive('chapters'); ?>"
+                        href="<?php echo $root ?? ''; ?>chapters/">Chapters</a>
                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link <?php isActive('contact'); ?>" href="<?php echo $root ?? ''; ?>contact.php">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link text-nowrap <?php isActive('support-us.php'); ?>"
+                        href="<?php echo $root ?? ''; ?>support-us.php">Support Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?php isActive('contact.php'); ?>"
+                        href="<?php echo $root ?? ''; ?>contact.php">Contact</a>
                 </li>
             </ul>
         </div>
@@ -45,11 +55,14 @@ function isActive($page) {
     <ul class="mobile-nav-links list-unstyled text-center">
         <li><a href="<?php echo $root ?? ''; ?>index.php" class="<?php isActive('index.php'); ?>">Home</a></li>
         <li><a href="<?php echo $root ?? ''; ?>about.php" class="<?php isActive('about.php'); ?>">About</a></li>
-        <li><a href="<?php echo $root ?? ''; ?>events/" class="<?php isActive('events'); ?>">Events</a></li>
+        <li><a href="<?php echo $root ?? ''; ?>events.php" class="<?php isActive('events.php'); ?>">Events</a></li>
         <li><a href="<?php echo $root ?? ''; ?>chapters/" class="<?php isActive('chapters'); ?>">Chapters</a></li>
-        <li><a href="<?php echo $root ?? ''; ?>contact.php" class="<?php isActive('contact'); ?>">Contact</a></li>
+        <li><a href="<?php echo $root ?? ''; ?>support-us.php" class="<?php isActive('support-us.php'); ?>">Support
+                Us</a></li>
+        <li><a href="<?php echo $root ?? ''; ?>contact.php" class="<?php isActive('contact.php'); ?>">Contact</a></li>
     </ul>
     <div class="mt-5 text-center px-4">
-        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" class="btn btn-premium w-100">Join Community</a>
+        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" class="btn btn-premium w-100">Join
+            Community</a>
     </div>
 </div>
