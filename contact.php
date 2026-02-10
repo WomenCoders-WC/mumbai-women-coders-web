@@ -5,7 +5,7 @@ include 'includes/navigation.php';
 ?>
 
 <!-- Contact Hero Section -->
-<header class="hero-section d-flex align-items-center">
+<header class="hero-section contact-header d-flex align-items-center">
     <div class="hero-bg-1"></div>
     <div class="hero-bg-2"></div>
 
@@ -44,12 +44,12 @@ include 'includes/navigation.php';
         <div class="row g-4 justify-content-center">
 
             <!-- General Inquiries -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
-                <div class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4"
-                    style="border-radius: 20px; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
+            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-1">
+                <div
+                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <div class="icon-box mb-4 rounded-circle bg-soft-primary d-flex align-items-center justify-content-center"
-                            style="width: 80px; height: 80px;">
+                        <div
+                            class="icon-box mb-4 rounded-circle bg-soft-primary d-flex align-items-center justify-content-center icon-80">
                             <i class="bi bi-chat-dots text-primary fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2">General Inquiries</h4>
@@ -69,12 +69,12 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Partnerships -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
-                <div class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 bg-dark-premium text-white theme-gradient-border"
-                    style="border-radius: 20px;">
+            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-2">
+                <div
+                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 bg-dark-premium text-white theme-gradient-border rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <div class="icon-box mb-4 rounded-circle bg-white bg-opacity-10 d-flex align-items-center justify-content-center"
-                            style="width: 80px; height: 80px;">
+                        <div
+                            class="icon-box mb-4 rounded-circle bg-white bg-opacity-10 d-flex align-items-center justify-content-center icon-80">
                             <i class="bi bi-briefcase text-gradient fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2 text-white">Partnerships</h4>
@@ -94,12 +94,12 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Chapter Support -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">
-                <div class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4"
-                    style="border-radius: 20px; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
+            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-3">
+                <div
+                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <div class="icon-box mb-4 rounded-circle bg-soft-info d-flex align-items-center justify-content-center"
-                            style="width: 80px; height: 80px;">
+                        <div
+                            class="icon-box mb-4 rounded-circle bg-soft-info d-flex align-items-center justify-content-center icon-80">
                             <i class="bi bi-people text-info fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2">Chapter Support</h4>
@@ -119,12 +119,12 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Media & Press -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
-                <div class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4"
-                    style="border-radius: 20px; background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px);">
+            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-4">
+                <div
+                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <div class="icon-box mb-4 rounded-circle bg-soft-danger d-flex align-items-center justify-content-center"
-                            style="width: 80px; height: 80px;">
+                        <div
+                            class="icon-box mb-4 rounded-circle bg-soft-danger d-flex align-items-center justify-content-center icon-80">
                             <i class="bi bi-newspaper text-danger fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2">Media & Press</h4>
@@ -188,34 +188,29 @@ include 'includes/navigation.php';
     </div>
 </section>
 
-<!-- Additional "Fancy" Image Section as requested -->
+<!-- Follow Journey Section -->
 <section class="py-5 bg-deep-space position-relative">
-    <div class="container text-center text-white position-relative" style="z-index: 2;">
+    <div class="container text-center text-white position-relative z-2">
         <h3 class="mb-4 text-white">Follow Our Journey</h3>
         <div class="row g-3 justify-content-center">
-            <!-- Using placeholders for grid if sliders aren't perfectly square, adapting to 4 cols -->
             <div class="col-6 col-md-3">
                 <div class="rounded-3 overflow-hidden shadow-sm hover-zoom text-center">
-                    <img src="assets/images/sliders/slider1.webp" class="img-fluid" alt="Event Moment 1"
-                        style="object-fit: cover; height: 200px; width: 100%;">
+                    <img src="assets/images/sliders/slider1.webp" class="img-fluid h-200-cover" alt="Event Moment 1">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="rounded-3 overflow-hidden shadow-sm hover-zoom text-center">
-                    <img src="assets/images/sliders/slider2.webp" class="img-fluid" alt="Event Moment 2"
-                        style="object-fit: cover; height: 200px; width: 100%;">
+                    <img src="assets/images/sliders/slider2.webp" class="img-fluid h-200-cover" alt="Event Moment 2">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="rounded-3 overflow-hidden shadow-sm hover-zoom text-center">
-                    <img src="assets/images/sliders/slider3.webp" class="img-fluid" alt="Event Moment 3"
-                        style="object-fit: cover; height: 200px; width: 100%;">
+                    <img src="assets/images/sliders/slider3.webp" class="img-fluid h-200-cover" alt="Event Moment 3">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="rounded-3 overflow-hidden shadow-sm hover-zoom text-center">
-                    <img src="assets/images/sliders/slider4.webp" class="img-fluid" alt="Event Moment 4"
-                        style="object-fit: cover; height: 200px; width: 100%;">
+                    <img src="assets/images/sliders/slider4.webp" class="img-fluid h-200-cover" alt="Event Moment 4">
                 </div>
             </div>
         </div>
@@ -226,81 +221,5 @@ include 'includes/navigation.php';
         </div>
     </div>
 </section>
-
-<style>
-    /* Custom Styles for Contact Page items */
-    .contact-header {
-        padding-top: 180px !important;
-        padding-bottom: 80px !important;
-    }
-
-    @media (max-width: 991px) {
-        .contact-header {
-            padding-top: 140px !important;
-            padding-bottom: 60px !important;
-        }
-    }
-
-    .hover-lift {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .hover-lift:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
-    }
-
-    .bg-soft-primary {
-        background-color: rgba(13, 110, 253, 0.1);
-    }
-
-    .bg-soft-info {
-        background-color: rgba(13, 202, 240, 0.1);
-    }
-
-    .bg-soft-danger {
-        background-color: rgba(220, 53, 69, 0.1);
-    }
-
-    .fs-7 {
-        font-size: 0.85rem;
-    }
-
-    .theme-gradient-border {
-        position: relative;
-        z-index: 1;
-    }
-
-    .theme-gradient-border::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 20px;
-        padding: 2px;
-        background: linear-gradient(45deg, #6246ea, #ec4899);
-        -webkit-mask:
-            linear-gradient(#fff 0 0) content-box,
-            linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        z-index: -1;
-    }
-
-    .hover-zoom img {
-        transition: transform 0.5s ease;
-    }
-
-    .hover-zoom:hover img {
-        transform: scale(1.1);
-    }
-
-    .transition-icon {
-        transition: transform 0.3s ease;
-    }
-
-    .group-hover-btn:hover .transition-icon {
-        transform: translateX(5px);
-    }
-</style>
 
 <?php include 'includes/footer.php'; ?>

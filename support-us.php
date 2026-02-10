@@ -45,7 +45,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">The Mission</h6>
             <h2 class="display-4 fw-bold">Why Support Women Coders?</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 800px;">
+            <p class="lead text-muted mx-auto mx-w-800">
                 Bridging the gender gap in technology requires collective action. Your support enables us to provide the
                 resources, mentorship, and opportunities women need to excel.
             </p>
@@ -91,7 +91,7 @@ include 'includes/navigation.php';
 
 <!-- Impact Metrics Section -->
 <section id="impact-stats" class="bg-cosmic-theme py-5 position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.05;"></div>
+    <div class="hero-bg-1 opacity-5"></div>
     <div class="container py-5 position-relative z-2">
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Community Impact</h6>
@@ -124,7 +124,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Engagement</h6>
             <h2 class="display-4 fw-bold">Ways to Support</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
+            <p class="lead text-muted mx-auto mx-w-700">
                 Choose a partnership model that aligns with your organization's goals and values.
             </p>
         </div>
@@ -142,19 +142,18 @@ include 'includes/navigation.php';
                 </div>
             </div>
             <!-- Partnerships -->
-            <div class="col-lg-3 col-md-6 fade-up-trigger" style="animation-delay: 0.1s;">
+            <div class="col-lg-3 col-md-6 fade-up-trigger delay-1">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-hand-thumbs-up"></i>
                     </div>
-                    <h4 class="fw-bold mb-3">Partnerships</h4>
                     <h4 class="fw-bold mb-3">Partnerships</h4>
                     <p class="text-muted small mb-0">Long-term collaboration on strategic initiatives, curriculum
                         development, and co-branded events.</p>
                 </div>
             </div>
             <!-- Grants -->
-            <div class="col-lg-3 col-md-6 fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="col-lg-3 col-md-6 fade-up-trigger delay-2">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-bank"></i>
@@ -165,7 +164,7 @@ include 'includes/navigation.php';
                 </div>
             </div>
             <!-- In-kind -->
-            <div class="col-lg-3 col-md-6 fade-up-trigger" style="animation-delay: 0.3s;">
+            <div class="col-lg-3 col-md-6 fade-up-trigger delay-3">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-box-seam"></i>
@@ -224,7 +223,7 @@ include 'includes/navigation.php';
             <div class="col-lg-3 fade-up-trigger order-lg-2 order-1 mb-4 mb-lg-0">
                 <div class="img-organic shadow-lg">
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=600"
-                        class="w-100" style="height: 400px; object-fit: cover;"
+                        class="w-100 h-400-cover"
                         alt="A professional team of women discussing strategic technology partnerships around a table">
                 </div>
             </div>
@@ -260,12 +259,11 @@ include 'includes/navigation.php';
             <div class="col-lg-10 mx-auto fade-up-trigger">
                 <div class="story-card text-center p-5 position-relative overflow-hidden">
                     <!-- Background Decoration -->
-                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-lavender-subtle opacity-25"
-                        style="z-index: -1;"></div>
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-lavender-subtle opacity-25 z-n1"></div>
 
                     <div class="row align-items-center">
                         <div class="col-md-2 d-none d-md-block">
-                            <i class="bi bi-quote text-gradient" style="font-size: 5rem; opacity: 0.3;"></i>
+                            <i class="bi bi-quote text-gradient opacity-25" style="font-size: 5rem;"></i>
                         </div>
                         <div class="col-md-10 text-md-start">
                             <p class="fs-4 italic mb-4 lh-base">
@@ -276,8 +274,7 @@ include 'includes/navigation.php';
                                 network this year alone."
                             </p>
                             <div class="d-flex align-items-center mt-4">
-                                <div class="me-3 shadow"
-                                    style="width: 70px; height: 70px; position: relative; z-index: 1;">
+                                <div class="me-3 shadow position-relative z-1" style="width: 70px; height: 70px;">
                                     <img src="https://ui-avatars.com/api/?name=David+Chen&background=7b2cbf&color=fff&size=100"
                                         alt="David Chen, CTO of HyperTech Solutions"
                                         class="w-100 h-100 object-fit-cover rounded-pill border border-3 border-white">
@@ -299,10 +296,13 @@ include 'includes/navigation.php';
 <!-- Inquiry Form Section -->
 <section id="contact" class="bg-deep-space position-relative overflow-hidden py-6">
     <!-- Animated Decorative Background Shapes -->
-    <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden pointer-none" style="z-index: 1;">
-        <div class="position-absolute bg-primary rounded-circle opacity-10 animate-pulse" style="width: 400px; height: 400px; top: -100px; left: -100px; filter: blur(80px);"></div>
-        <div class="position-absolute bg-secondary rounded-circle opacity-10 animate-pulse" style="width: 300px; height: 300px; bottom: -50px; right: 10%; filter: blur(60px); animation-delay: 2s;"></div>
-        <div class="position-absolute bg-lavender rounded-circle opacity-5" style="width: 200px; height: 200px; top: 40%; right: -50px; filter: blur(40px);"></div>
+    <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden pointer-none z-1">
+        <div class="position-absolute bg-primary rounded-circle opacity-10 animate-pulse blur-80"
+            style="width: 400px; height: 400px; top: -100px; left: -100px;"></div>
+        <div class="position-absolute bg-secondary rounded-circle opacity-10 animate-pulse blur-60"
+            style="width: 300px; height: 300px; bottom: -50px; right: 10%; animation-delay: 2s;"></div>
+        <div class="position-absolute bg-lavender rounded-circle opacity-5 blur-40"
+            style="width: 200px; height: 200px; top: 40%; right: -50px;"></div>
     </div>
 
     <div class="container position-relative z-2">
@@ -310,13 +310,16 @@ include 'includes/navigation.php';
             <div class="col-lg-11">
                 <div class="m-card shadow-2xl overflow-hidden p-0 border-0 bg-white shadow-premium">
                     <div class="row g-0">
-                        <div class="col-md-5 bg-gradient-cosmic p-5 d-flex flex-column justify-content-center position-relative overflow-hidden text-center text-md-start">
+                        <div
+                            class="col-md-5 bg-gradient-cosmic p-5 d-flex flex-column justify-content-center position-relative overflow-hidden text-center text-md-start">
                             <!-- Background Shapes for Left Panel -->
-                            <div class="position-absolute top-0 start-0 w-100 h-100 opacity-20" style="background: radial-gradient(circle at 10% 20%, #9d4edd 0%, transparent 50%);"></div>
-                            <div class="position-absolute bottom-0 end-0 w-100 h-100 opacity-20" style="background: radial-gradient(circle at 90% 80%, #7b2cbf 0%, transparent 50%);"></div>
-                            
+                            <div class="position-absolute top-0 start-0 w-100 h-100 opacity-20 radial-top-left"></div>
+                            <div class="position-absolute bottom-0 end-0 w-100 h-100 opacity-20 radial-bottom-right">
+                            </div>
+
                             <div class="mb-4 position-relative z-1">
-                                <img src="assets/images/logo.png" alt="MWC Logo" class="img-fluid mb-3" style="max-height: 70px; filter: drop-shadow(0 0 15px rgba(255,255,255,0.4));">
+                                <img src="assets/images/logo.png" alt="MWC Logo"
+                                    class="img-fluid mb-3 max-h-70 drop-shadow-glow">
                             </div>
                             <h2 class="display-5 fw-bold text-white mb-4 position-relative z-1">Start a Legacy.</h2>
                             <p class="text-white-50 mb-4 position-relative z-1 fs-5">
@@ -337,31 +340,43 @@ include 'includes/navigation.php';
                         <div class="col-md-7 p-5 bg-white">
                             <h4 class="fw-bold mb-4 text-dark position-relative d-inline-block">
                                 Partnership Inquiry
-                                <span class="position-absolute bottom-0 start-0 w-50 bg-primary" style="height: 3px; border-radius: 2px; margin-bottom: -8px;"></span>
+                                <span class="position-absolute bottom-0 start-0 w-50 bg-primary"
+                                    style="height: 3px; border-radius: 2px; margin-bottom: -8px;"></span>
                             </h4>
                             <form action="#" method="POST" class="mt-4">
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="mb-3">
-                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Full Name</label>
-                                            <input type="text" class="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="Jane Doe" required>
+                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Full
+                                                Name</label>
+                                            <input type="text"
+                                                class="form-control rounded-pill px-4 py-3 border-light shadow-sm"
+                                                placeholder="Jane Doe" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="mb-3">
-                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Work Email</label>
-                                            <input type="email" class="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="jane@company.com" required>
+                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Work
+                                                Email</label>
+                                            <input type="email"
+                                                class="form-control rounded-pill px-4 py-3 border-light shadow-sm"
+                                                placeholder="jane@company.com" required>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Organization</label>
-                                            <input type="text" class="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="Company Name" required>
+                                            <label
+                                                class="form-label small fw-bold text-uppercase ls-1 text-muted">Organization</label>
+                                            <input type="text"
+                                                class="form-control rounded-pill px-4 py-3 border-light shadow-sm"
+                                                placeholder="Company Name" required>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Support Interest</label>
+                                            <label
+                                                class="form-label small fw-bold text-uppercase ls-1 text-muted">Support
+                                                Interest</label>
                                             <select class="form-select rounded-pill px-4 py-3 border-light shadow-sm">
                                                 <option selected>Select an option</option>
                                                 <option value="sponsorship">Sponsorship</option>
@@ -373,12 +388,15 @@ include 'includes/navigation.php';
                                     </div>
                                     <div class="col-md-12">
                                         <div class="mb-3">
-                                            <label class="form-label small fw-bold text-uppercase ls-1 text-muted">Message</label>
-                                            <textarea class="form-control rounded-4 px-4 py-3 border-light shadow-sm" rows="4" placeholder="How can we collaborate?"></textarea>
+                                            <label
+                                                class="form-label small fw-bold text-uppercase ls-1 text-muted">Message</label>
+                                            <textarea class="form-control rounded-4 px-4 py-3 border-light shadow-sm"
+                                                rows="4" placeholder="How can we collaborate?"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-end mt-4">
-                                        <button type="submit" class="btn btn-premium btn-lg w-100 py-3 shadow-lg">Send Inquiry <i class="bi bi-send ms-2"></i></button>
+                                        <button type="submit" class="btn btn-premium btn-lg w-100 py-3 shadow-lg">Send
+                                            Inquiry <i class="bi bi-send ms-2"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -389,29 +407,6 @@ include 'includes/navigation.php';
         </div>
     </div>
 </section>
-
-<style>
-.pointer-none { pointer-events: none; }
-.shadow-premium { box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.5) !important; }
-.icon-circle-m {
-    width: 35px;
-    height: 35px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255,255,255,0.2);
-}
-.icon-circle-m i { font-size: 0.9rem; }
-.animate-pulse {
-    animation: pulse 8s infinite alternate ease-in-out;
-}
-@keyframes pulse {
-    0% { transform: scale(1) translate(0, 0); opacity: 0.1; }
-    100% { transform: scale(1.1) translate(20px, 20px); opacity: 0.15; }
-}
-</style>
 
 <script>
     // Fade-up animation on scroll

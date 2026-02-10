@@ -43,5 +43,17 @@ $(document).ready(function () {
         $('body').css('overflow', 'auto');
     });
 
+    // Mobile Dropdown Toggle
+    $('.mobile-dropdown-toggle').on('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const $this = $(this);
+        const $menu = $this.parent().next('.mobile-dropdown-menu');
+
+        $this.toggleClass('expanded');
+        $menu.slideToggle(300);
+    });
+
     $(window).trigger('scroll');
 });

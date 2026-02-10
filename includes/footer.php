@@ -113,31 +113,31 @@
             centeredSlides: true,
             slidesPerView: 'auto',
             coverflowEffect: {
-                rotate: 0,
+                rotate: 5,
                 stretch: 0,
-                depth: 50,
-                modifier: 1,
+                depth: 100,
+                modifier: 2,
                 slideShadows: false,
             },
             loop: true,
-            loopedSlides: 10,
             autoplay: {
-                delay: 3000,
+                delay: 3500,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
             },
-            speed: 900,
+            speed: 1000,
+            mousewheel: {
+                invert: false,
+                forceToAxis: true,
+            },
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
+                dynamicBullets: true,
             },
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
-            breakpoints: {
-                320: { slidesPerView: 'auto', spaceBetween: 30 },
-                768: { slidesPerView: 'auto', spaceBetween: 50 },
-                1024: { slidesPerView: 'auto', spaceBetween: 70 },
             }
         });
     });

@@ -137,7 +137,7 @@ include 'includes/navigation.php';
                 </div>
                 <h2 class="display-4 fw-bold text-white">How We Empower Women in Technology</h2>
             </header>
-            <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
+            <p class="lead text-white-50 mx-auto mx-w-750">
                 Mumbai Women Coders provides a comprehensive ecosystem for female developers and technical leaders to
                 excel through specialized programs in engineering, leadership, and hands-on innovation.
             </p>
@@ -212,11 +212,11 @@ include 'includes/navigation.php';
         <div class="floating-particle particle-2"></div>
         <div class="floating-particle particle-3"></div>
     </div>
-    <div class="container py-5 position-relative" style="z-index: 2;">
+    <div class="container py-5 position-relative z-2">
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Save the Date</h6>
             <h2 class="display-4 fw-bold">Upcoming Community Events</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
+            <p class="lead text-muted mx-auto mx-w-700">
                 Secure your spot in our upcoming sessions and accelerate your technical journey with the Mumbai tech
                 community.
             </p>
@@ -224,7 +224,7 @@ include 'includes/navigation.php';
 
         <div class="events-list">
             <!-- Event 1 -->
-            <div class="event-card-row mb-5 animate-fade-up fade-up-trigger">
+            <div class="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
                 <div class="row g-0">
                     <!-- Image Column -->
                     <div class="col-md-3">
@@ -245,7 +245,7 @@ include 'includes/navigation.php';
                             </div>
                             <div class="col-md-10 ps-md-4">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-7 text-center text-md-start">
+                                    <div class="col-lg-7">
                                         <h3 class="h4 fw-800 mb-1 text-gradient">Cloud Native & Kubernetes Deep Dive
                                         </h3>
                                         <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
@@ -260,7 +260,7 @@ include 'includes/navigation.php';
                                             <i class="bi bi-laptop me-1"></i> In-Person & Online
                                         </div>
                                     </div>
-                                    <div class="col-12 mt-3 text-center text-md-start">
+                                    <div class="col-12 mt-3">
                                         <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
                                             class="btn btn-premium-sm">Register Now <i
                                                 class="bi bi-arrow-right"></i></a>
@@ -273,7 +273,7 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Event 2 -->
-            <div class="event-card-row mb-5 animate-fade-up fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="event-card-row mb-5 animate-fade-up fade-up-trigger delay-2 text-center text-md-start">
                 <div class="row g-0">
                     <!-- Image Column -->
                     <div class="col-md-3">
@@ -294,7 +294,7 @@ include 'includes/navigation.php';
                             </div>
                             <div class="col-md-10 ps-md-4">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-7 text-center text-md-start">
+                                    <div class="col-lg-7">
                                         <h3 class="h4 fw-800 mb-1 text-gradient">Women in Tech: Leadership Series</h3>
                                         <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
                                             Microsoft Reactor, Mumbai</div>
@@ -308,7 +308,7 @@ include 'includes/navigation.php';
                                             <i class="bi bi-people-fill me-1"></i> In-Person Only
                                         </div>
                                     </div>
-                                    <div class="col-12 mt-3 text-center text-md-start">
+                                    <div class="col-12 mt-3">
                                         <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
                                             class="btn btn-premium-sm">Register Now <i
                                                 class="bi bi-arrow-right"></i></a>
@@ -333,7 +333,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Community Impact</h6>
             <h2 class="display-4 fw-bold text-white">Member Success Stories</h2>
-            <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
+            <p class="lead text-white-50 mx-auto mx-w-750">
                 Witness the transformative journeys of our members who have leveraged the Mumbai Women Coders ecosystem
                 to reach new heights in their technical careers.
             </p>
@@ -358,7 +358,7 @@ include 'includes/navigation.php';
                 </div>
             </div>
             <!-- Story 2 -->
-            <div class="col-lg-6 fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="col-lg-6 fade-up-trigger delay-2">
                 <div class="story-card h-100">
                     <i class="bi bi-quote story-quote-icon"></i>
                     <div class="member-avatar-ring">
@@ -384,7 +384,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Expert Insights</h6>
             <h2 class="display-4 fw-bold">Recent Speaker Profiles</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
+            <p class="lead text-muted mx-auto mx-w-700">
                 Learn from industry veterans and researchers who share their knowledge at our flagship tech talks and
                 leadership summits.
             </p>
@@ -393,150 +393,48 @@ include 'includes/navigation.php';
         <!-- Speaker Slider -->
         <div class="swiper speaker-swiper fade-up-trigger">
             <div class="swiper-wrapper">
-                <!-- Speaker 1 -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/ramyashree-shetty.webp" alt="Ramyashree Shetty">
-                        </div>
+                <?php
+                $speakers = [
+                    [
+                        'name' => 'Ramyashree Shetty',
+                        'role' => 'Data Engineer @ Radix',
+                        'img' => 'assets/images/speakers/ramyashree-shetty.webp',
+                        'link' => 'https://www.linkedin.com/in/ramyashree-shetty/'
+                    ],
+                    [
+                        'name' => 'Taazeen Ansari',
+                        'role' => 'Computer Engineering Student @ SIES',
+                        'img' => 'assets/images/speakers/taazeen-ansari.webp',
+                        'link' => 'https://www.linkedin.com/in/taazeenansari/'
+                    ],
+                    [
+                        'name' => 'Nikita Goswami',
+                        'role' => 'AI/ML Research Intern @ Monash University',
+                        'img' => 'assets/images/speakers/nikita-goswami.webp',
+                        'link' => 'https://www.linkedin.com/in/nikitagoswami3/'
+                    ]
+                ];
 
-                        <h4>Ramyashree Shetty</h4>
-                        <p class="text-muted small mb-0">Data Engineer @ Radix</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-
+                // Render twice to ensure Swiper has enough slides for a seamless infinite loop
+                foreach (array_merge($speakers, $speakers) as $s): ?>
+                    <div class="swiper-slide">
+                        <div class="speaker-card">
+                            <div class="speaker-img-wrapper">
+                                <div class="speaker-img-glow"></div>
+                                <img src="<?= $s['img'] ?>" alt="<?= $s['name'] ?>">
+                            </div>
+                            <h4><?= $s['name'] ?></h4>
+                            <span class="speaker-designation">Featured Speaker</span>
+                            <p class="text-muted small">
+                                <?= $s['role'] ?>
+                            </p>
+                            <div class="speaker-socials">
+                                <a href="<?= $s['link'] ?>" target="_blank" title="LinkedIn"><i
+                                        class="bi bi-linkedin"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Speaker 2 -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/taazeen-ansari.webp" alt="Taazeen Ansari">
-                        </div>
-
-                        <h4>Taazeen Ansari</h4>
-                        <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 3 -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
-                                alt="Nikita Goswami">
-                        </div>
-
-                        <h4>Nikita Goswami</h4>
-                        <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 4 (Loop Duplicate) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/ramyashree-shetty.webp" alt="Ramyashree Shetty">
-                        </div>
-                        <h4>Ramyashree Shetty</h4>
-                        <p class="text-muted small mb-0">Data Engineer @ Radix</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 5 (Loop Duplicate) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/taazeen-ansari.webp" alt="Taazeen Ansari">
-                        </div>
-                        <h4>Taazeen Ansari</h4>
-                        <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 6 (Loop Duplicate) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
-                                alt="Nikita Goswami">
-                        </div>
-                        <h4>Nikita Goswami</h4>
-                        <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 7 (Extra Clones for Loop) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/ramyashree-shetty.webp" alt="Ramyashree Shetty">
-                        </div>
-                        <h4>Ramyashree Shetty</h4>
-                        <p class="text-muted small mb-0">Data Engineer @ Radix</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/ramyashree-shetty/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 8 (Extra Clones for Loop) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="assets/images/speakers/taazeen-ansari.webp" alt="Taazeen Ansari">
-                        </div>
-                        <h4>Taazeen Ansari</h4>
-                        <p class="text-muted small mb-0">Computer Engineering Student @ SIES</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/taazeenansari/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Speaker 9 (Extra Clones for Loop) -->
-                <div class="swiper-slide">
-                    <div class="speaker-card">
-                        <div class="speaker-img-wrapper">
-                            <div class="speaker-img-glow"></div>
-                            <img src="https://ui-avatars.com/api/?name=Nikita+Goswami&background=5a189a&color=fff&size=200"
-                                alt="Nikita Goswami">
-                        </div>
-                        <h4>Nikita Goswami</h4>
-                        <p class="text-muted small mb-0">AI/ML Research Intern @ Monash University</p>
-                        <div class="speaker-socials">
-                            <a href="https://www.linkedin.com/in/nikitagoswami3/" target="_blank"><i
-                                    class="bi bi-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
             <!-- Navigation & Pagination -->
             <div class="swiper-pagination"></div>
@@ -552,7 +450,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Path to Leadership</h6>
             <h2 class="display-4 fw-bold text-white">Chapter Lead Journeys</h2>
-            <p class="lead text-white-50 mx-auto" style="max-width: 750px;">
+            <p class="lead text-white-50 mx-auto mx-w-750">
                 Our community is powered by leaders who started exactly where you are. Explore how they grew from
                 members to driving impact at scale.
             </p>
@@ -572,7 +470,7 @@ include 'includes/navigation.php';
                     </div>
                 </div>
                 <!-- Journey Node 2 -->
-                <div class="journey-segment fade-up-trigger" style="animation-delay: 0.1s;">
+                <div class="journey-segment fade-up-trigger delay-1">
                     <div class="journey-node"><i class="bi bi-lightning-charge"></i></div>
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 2: Mentorship & Growth</h4>
@@ -583,7 +481,7 @@ include 'includes/navigation.php';
                     </div>
                 </div>
                 <!-- Journey Node 3 -->
-                <div class="journey-segment fade-up-trigger" style="animation-delay: 0.2s;">
+                <div class="journey-segment fade-up-trigger delay-2">
                     <div class="journey-node"><i class="bi bi-rocket-takeoff"></i></div>
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 3: Chapter Leadership</h4>
@@ -609,8 +507,7 @@ include 'includes/navigation.php';
         <div class="mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Trusted Partners</h6>
             <h2 class="display-5 fw-bold mb-4">Empowering <span class="text-gradient">Together</span></h2>
-            <div class="mx-auto"
-                style="width: 80px; height: 4px; background: var(--grad-lavender); border-radius: 2px;"></div>
+            <div class="mx-auto divider-accent"></div>
         </div>
 
         <div class="partners-grid fade-up-trigger">
@@ -632,7 +529,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Got Questions?</h6>
             <h2 class="display-4 fw-bold">Frequently Asked Questions</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
+            <p class="lead text-muted mx-auto mx-w-700">
                 Everything you need to know about joining and growing with the Mumbai Women Coders community. Can't find
                 an answer? Feel free to reach out!
             </p>

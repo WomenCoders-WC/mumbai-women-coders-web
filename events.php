@@ -84,7 +84,7 @@ include 'includes/navigation.php';
                         </div>
                     </div>
                     <!-- Event 2 -->
-                    <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.1s;">
+                    <div class="col-lg-4 col-md-6 fade-up-trigger delay-1">
                         <div class="event-card-modern h-100">
                             <div class="event-card-img-wrapper">
                                 <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
@@ -123,7 +123,7 @@ include 'includes/navigation.php';
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Local Communities</h6>
             <h2 class="display-4 fw-bold">Explore Our Chapters</h2>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
+            <p class="lead text-muted mx-auto mx-w-700">
                 Connect with your local tech ecosystem. Each chapter runs its own unique events, meetups, and workshops.
             </p>
         </div>
@@ -143,7 +143,7 @@ include 'includes/navigation.php';
             </div>
 
             <!-- London Chapter -->
-            <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="col-lg-4 col-md-6 fade-up-trigger delay-2">
                 <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/london.png');">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
@@ -156,7 +156,7 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Berlin Chapter -->
-            <div class="col-lg-4 col-md-6 fade-up-trigger" style="animation-delay: 0.4s;">
+            <div class="col-lg-4 col-md-6 fade-up-trigger delay-4">
                 <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/berlin.png');">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
@@ -233,14 +233,14 @@ include 'includes/navigation.php';
                     class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Coding Session" />
             </div>
 
-            <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger delay-2">
                 <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600"
                     class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Workshop" />
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600"
                     class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Team Meeting" />
             </div>
 
-            <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger" style="animation-delay: 0.4s;">
+            <div class="col-md-4 mb-3 mb-lg-0 fade-up-trigger delay-4">
                 <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=600"
                     class="w-100 shadow-1-strong rounded mb-4 gallery-item" alt="Conference" />
                 <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=600"

@@ -71,12 +71,17 @@ function isActive($page)
         <li><a href="<?php echo $root ?? ''; ?>index.php" class="<?php isActive('index.php'); ?>">Home</a></li>
         <li><a href="<?php echo $root ?? ''; ?>about.php" class="<?php isActive('about.php'); ?>">About</a></li>
         <li><a href="<?php echo $root ?? ''; ?>events.php" class="<?php isActive('events.php'); ?>">Events</a></li>
-        <li class="mobile-dropdown">
-            <a href="<?php echo $root ?? ''; ?>chapters/" class="<?php isActive('chapters'); ?>">Chapters</a>
-            <ul class="list-unstyled small mt-2">
-                <li><a href="<?php echo $root ?? ''; ?>chapters/mumbai" class="py-2">Mumbai</a></li>
-                <li><a href="#" class="py-2 opacity-50">London (Coming Soon)</a></li>
-                <li><a href="#" class="py-2 opacity-50">Berlin (Coming Soon)</a></li>
+        <li class="mobile-dropdown mb-4">
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="<?php echo $root ?? ''; ?>chapters/" class="<?php isActive('chapters'); ?> mb-0">Chapters</a>
+                <button class="mobile-dropdown-toggle" type="button" aria-label="Toggle Submenu">
+                    <i class="bi bi-chevron-down"></i>
+                </button>
+            </div>
+            <ul class="mobile-dropdown-menu list-unstyled small mt-2">
+                <li><a href="<?php echo $root ?? ''; ?>chapters/mumbai" class="py-2 d-block">Mumbai</a></li>
+                <li><a href="#" class="py-2 opacity-50 d-block">London (Coming Soon)</a></li>
+                <li><a href="#" class="py-2 opacity-50 d-block">Berlin (Coming Soon)</a></li>
             </ul>
         </li>
         <li><a href="<?php echo $root ?? ''; ?>support-us.php" class="<?php isActive('support-us.php'); ?>">Support

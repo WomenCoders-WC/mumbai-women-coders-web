@@ -6,7 +6,7 @@ include '../includes/navigation.php';
 ?>
 
 <!-- Hero Section -->
-<section class="hero-section text-center">
+<section class="hero-section d-flex align-items-center text-center">
     <div class="hero-bg-1"></div>
     <div class="hero-bg-2"></div>
     <div class="container position-relative z-3">
@@ -22,9 +22,9 @@ include '../includes/navigation.php';
                     </ol>
                 </nav>
             </div>
-            <span class="badge hero-badge px-3 py-2 mb-4 animate__animated animate__pulse animate__infinite">
+            <div class="d-inline-flex align-items-center mb-4 px-4 py-2 rounded-pill shadow-sm hero-badge">
                 <small class="text-uppercase fw-bold ls-1">Global Community</small>
-            </span>
+            </div>
             <h1 class="display-1 fw-bold mb-4 text-gradient-light">Our Chapters</h1>
             <p class="lead hero-desc mb-5">
                 Join our growing global network of tech-passionate women. Find a community near you and start your
@@ -70,7 +70,7 @@ include '../includes/navigation.php';
             <!-- Mumbai Chapter -->
             <div class="col-md-4 animate-fade-up">
                 <div class="glass-card-premium h-100">
-                    <div class="position-relative overflow-hidden" style="height: 250px;">
+                    <div class="position-relative overflow-hidden h-250">
                         <img src="../assets/images/chapters/backgrounds/mumbai.webp"
                             class="w-100 h-100 object-fit-cover" alt="Mumbai">
                         <div class="position-absolute top-0 end-0 p-3">
@@ -88,9 +88,9 @@ include '../includes/navigation.php';
             </div>
 
             <!-- London Chapter -->
-            <div class="col-md-4 animate-fade-up" style="animation-delay: 0.2s;">
+            <div class="col-md-4 animate-fade-up delay-2">
                 <div class="glass-card-premium h-100 grayscale-filter">
-                    <div class="position-relative overflow-hidden" style="height: 250px;">
+                    <div class="position-relative overflow-hidden h-250">
                         <img src="../assets/images/chapters/backgrounds/london.webp"
                             class="w-100 h-100 object-fit-cover" alt="London">
                         <div class="position-absolute top-0 end-0 p-3">
@@ -112,9 +112,9 @@ include '../includes/navigation.php';
             </div>
 
             <!-- Berlin Chapter -->
-            <div class="col-md-4 animate-fade-up" style="animation-delay: 0.4s;">
+            <div class="col-md-4 animate-fade-up delay-4">
                 <div class="glass-card-premium h-100 grayscale-filter">
-                    <div class="position-relative overflow-hidden" style="height: 250px;">
+                    <div class="position-relative overflow-hidden h-250">
                         <img src="../assets/images/chapters/backgrounds/berlin.webp"
                             class="w-100 h-100 object-fit-cover" alt="Berlin">
                         <div class="position-absolute top-0 end-0 p-3">
@@ -140,7 +140,7 @@ include '../includes/navigation.php';
 
 <!-- Call to Action -->
 <section class="py-5 bg-chapter-cosmic position-relative overflow-hidden">
-    <div class="hero-bg-2" style="opacity: 0.05;"></div>
+    <div class="hero-bg-2 opacity-5"></div>
     <div class="container py-4 text-center">
         <div class="cta-box-refined animate-fade-up">
             <h2 class="display-5 fw-bold mb-4">Don't see your city?</h2>
@@ -154,24 +154,5 @@ include '../includes/navigation.php';
         </div>
     </div>
 </section>
-
-<style>
-    .grayscale-filter {
-        transition: all 0.5s ease;
-    }
-
-    .grayscale-filter:hover {
-        filter: none !important;
-    }
-
-    .grayscale-filter .object-fit-cover {
-        filter: grayscale(80%);
-        transition: all 0.5s ease;
-    }
-
-    .grayscale-filter:hover .object-fit-cover {
-        filter: grayscale(0%);
-    }
-</style>
 
 <?php include '../includes/footer.php'; ?>
