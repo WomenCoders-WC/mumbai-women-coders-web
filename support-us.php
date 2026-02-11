@@ -80,8 +80,7 @@ include 'includes/navigation.php';
             </div>
             <div class="col-lg-6 fade-up-trigger">
                 <div class="img-premium-container shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1573161158524-4a44d88c6430?auto=format&fit=crop&q=80&w=1000"
-                        class="img-premium w-100"
+                    <img src="<?php echo $root ?? ''; ?>assets/images/support-us.webp" class="img-premium w-100"
                         alt="Group of diverse women working together on tech projects in a collaborative workspace">
                 </div>
             </div>
