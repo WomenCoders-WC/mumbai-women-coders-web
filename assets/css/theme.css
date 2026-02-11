@@ -1,4 +1,8 @@
 :root {
+    /* Fonts */
+    --font-heading: 'Archivo Black', sans-serif;
+    --font-body: 'Albert Sans', sans-serif;
+
     /* Full Palette from color-pallete.txt */
     --p-dark-1: #10002b;
     --p-dark-2: #240046;

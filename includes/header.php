@@ -28,23 +28,24 @@
         content="<?php echo $metaDescription ?? 'Empowering women in technology through community, mentorship, and events. Join Mumbai Women Coders today.'; ?>">
     <meta property="twitter:image" content="https://womencoders.org/assets/images/women-coding-community.png">
 
-    <!-- Google Fonts: Outfit -->
+    <!-- Custom Fonts: Albert Sans & Archivo Black -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Archivo+Black&display=swap"
         rel="stylesheet">
 
     <!-- Bootstrap 5 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $root ?? ''; ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-
     <!-- Animate.css for scroll animations -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/animate.min.css" />
 
     <!-- Swiper.js for modern sliders -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/swiper-bundle.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/theme.css">
