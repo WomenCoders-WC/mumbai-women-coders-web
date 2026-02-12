@@ -173,6 +173,59 @@ include 'includes/navigation.php';
     </div>
 </section>
 
+<!-- Community Audience (Dark Gradient Update) -->
+<section id="audience" class="bg-cosmic-theme py-5">
+    <div class="container-fluid px-lg-5">
+        <div class="row g-0 rounded-4 overflow-hidden shadow-2xl border border-white border-opacity-25">
+            <!-- Visual Side (Left) -->
+            <div class="col-lg-6 d-none d-lg-block position-relative">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200"
+                    class="w-100 h-100 object-fit-cover" alt="Community Interaction">
+                <div class="position-absolute inset-0 bg-dark-amethyst opacity-50"></div>
+                <div class="position-absolute bottom-0 start-0 p-5">
+                    <div
+                        class="glass-morphism p-4 rounded-4 border border-white border-opacity-20 text-white backdrop-blur">
+                        <h4 class="fw-bold mb-1">Inclusive by Design</h4>
+                        <p class="small mb-0 opacity-75">Join 2500+ members in Mumbai's most vibrant tech circle.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Content Side (Right) -->
+            <div class="col-lg-6 p-5 p-md-5 d-flex flex-column justify-content-center">
+                <h6 class="text-white-50 fw-bold text-uppercase ls-2 mb-3">Who Can Join?</h6>
+                <h2 class="display-4 fw-bold text-white mb-4">A Community for Everyone.</h2>
+                <p class="text-white-50 fs-5 mb-5 opacity-75">
+                    We believe real change happens when everyone is part of the conversation. Our doors are open to
+                    those who support our mission.
+                </p>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div
+                            class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
+                            <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
+                                <i class="bi bi-person-fill text-mauve"></i> Women
+                            </h5>
+                            <p class="text-white-50 small mb-0">Access exclusive mentorship, leadership tracks, and a
+                                safe learning environment.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
+                            <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
+                                <i class="bi bi-people-fill text-mauve"></i> Allies (Men)
+                            </h5>
+                            <p class="text-white-50 small mb-0">Attend open meetups, share technical expertise, and
+                                advocate for gender equity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Values Section (Staggered Cards) -->
 <section id="values" class="bg-body py-5 overflow-hidden">
     <div class="container">
@@ -223,55 +276,108 @@ include 'includes/navigation.php';
     </div>
 </section>
 
-<!-- Community Audience (Dark Gradient Update) -->
-<section id="audience" class="bg-cosmic-theme py-5">
-    <div class="container-fluid px-lg-5">
-        <div class="row g-0 rounded-4 overflow-hidden shadow-2xl border border-white border-opacity-25">
-            <!-- Visual Side (Left) -->
-            <div class="col-lg-6 d-none d-lg-block position-relative">
-                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200"
-                    class="w-100 h-100 object-fit-cover" alt="Community Interaction">
-                <div class="position-absolute inset-0 bg-dark-amethyst opacity-50"></div>
-                <div class="position-absolute bottom-0 start-0 p-5">
-                    <div
-                        class="glass-morphism p-4 rounded-4 border border-white border-opacity-20 text-white backdrop-blur">
-                        <h4 class="fw-bold mb-1">Inclusive by Design</h4>
-                        <p class="small mb-0 opacity-75">Join 2500+ members in Mumbai's most vibrant tech circle.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Content Side (Right) -->
-            <div class="col-lg-6 p-5 p-md-5 d-flex flex-column justify-content-center">
-                <h6 class="text-white-50 fw-bold text-uppercase ls-2 mb-3">Who Can Join?</h6>
-                <h2 class="display-4 fw-bold text-white mb-4">A Community for Everyone.</h2>
-                <p class="text-white-50 fs-5 mb-5 opacity-75">
-                    We believe real change happens when everyone is part of the conversation. Our doors are open to
-                    those who support our mission.
-                </p>
 
-                <div class="row g-4">
-                    <div class="col-md-6">
-                        <div
-                            class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
-                            <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
-                                <i class="bi bi-person-fill text-mauve"></i> Women
-                            </h5>
-                            <p class="text-white-50 small mb-0">Access exclusive mentorship, leadership tracks, and a
-                                safe learning environment.</p>
+
+<!-- Community Organizers Section -->
+<section id="organizers" class="bg-cosmic-theme py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5 fade-up-trigger">
+            <h6 class="text-white-50 fw-bold text-uppercase ls-2 mb-3">The Core Team</h6>
+            <h2 class="display-4 fw-bold text-white">Our Team</h2>
+            <p class="lead text-white-50 mx-auto mx-w-700 opacity-75">
+                Meet the passionate individuals driving the Mumbai Women Coders community forward.
+            </p>
+        </div>
+
+        <!-- Leadership Section -->
+        <div class="row g-4 justify-content-center mt-5">
+            <?php
+            $leadership = [
+                [
+                    'name' => 'Manjula Dube',
+                    'role' => 'Manager @ Vanguard',
+                    'designation' => 'Founder',
+                    'img' => 'assets/images/organizers/manjula-dube.jpg',
+                    'link' => 'https://www.linkedin.com/in/manjula-dube-9b5b3550/'
+                ],
+                [
+                    'name' => 'Nandini Singh',
+                    'role' => 'Software Developer, AI Enthusiast, Freelancer',
+                    'designation' => 'Organizer',
+                    'img' => 'assets/images/organizers/nandini-singh.jpg',
+                    'link' => 'https://www.linkedin.com/in/nandinisingh18/'
+                ],
+                [
+                    'name' => 'Khusheeta Attarde',
+                    'role' => 'ASE @ QAD INDIA',
+                    'designation' => 'Organizer',
+                    'img' => 'assets/images/organizers/khusheeta-attrde.jpg',
+                    'link' => 'https://www.linkedin.com/in/khusheeta-attarde-69a60a215/'
+                ]
+            ];
+
+            foreach ($leadership as $o): ?>
+                <div class="col-lg-4 col-md-6 fade-up-trigger">
+                    <div
+                        class="h-100 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 d-flex flex-column transition-all hover-opacity-100 text-center p-4 pt-5 mt-5">
+                        <div class="speaker-img-wrapper">
+                            <div class="speaker-img-glow"></div>
+                            <img src="<?= $o['img'] ?>" alt="<?= $o['name'] ?>">
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div
-                            class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
-                            <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
-                                <i class="bi bi-people-fill text-mauve"></i> Allies (Men)
-                            </h5>
-                            <p class="text-white-50 small mb-0">Attend open meetups, share technical expertise, and
-                                advocate for gender equity.</p>
+                        <h4 class="text-white"><?= $o['name'] ?></h4>
+                        <span
+                            class="speaker-designation text-white opacity-75 border-0 bg-transparent"><?= $o['designation'] ?></span>
+                        <p class="text-white-50 small mb-4">
+                            <?= $o['role'] ?>
+                        </p>
+                        <div class="speaker-socials mt-auto">
+                            <a href="<?= $o['link'] ?>" target="_blank" title="LinkedIn"
+                                class="text-white border-0 bg-transparent fs-4"><i class="bi bi-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php endforeach; ?>
+        </div>
+
+        <!-- Core Team Section -->
+        <div class="text-center mt-5 pt-5 mb-5 fade-up-trigger">
+            <h2 class="display-5 fw-bold text-white mb-5">Core Team</h2>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <?php
+            $coreTeam = [
+
+                [
+                    'name' => 'Taazeen Ansari',
+                    'role' => 'Student @ SIES',
+                    'designation' => 'Core Team',
+                    'img' => 'assets/images/organizers/taazeen-ansari.webp',
+                    'link' => 'https://www.linkedin.com/in/taazeenansari/'
+                ],
+
+            ];
+
+            foreach ($coreTeam as $o): ?>
+                <div class="col-lg-4 col-md-6 fade-up-trigger">
+                    <div
+                        class="h-100 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 d-flex flex-column transition-all hover-opacity-100 text-center p-4 pt-5 mt-5">
+                        <div class="speaker-img-wrapper">
+                            <div class="speaker-img-glow"></div>
+                            <img src="<?= $o['img'] ?>" alt="<?= $o['name'] ?>">
+                        </div>
+                        <h4 class="text-white"><?= $o['name'] ?></h4>
+                        <span
+                            class="speaker-designation text-white opacity-75 border-0 bg-transparent"><?= $o['designation'] ?></span>
+                        <p class="text-white-50 small mb-4">
+                            <?= $o['role'] ?>
+                        </p>
+                        <div class="speaker-socials mt-auto">
+                            <a href="<?= $o['link'] ?>" target="_blank" title="LinkedIn"
+                                class="text-white border-0 bg-transparent fs-4"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>
