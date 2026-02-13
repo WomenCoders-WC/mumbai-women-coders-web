@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Mumbai Chapter";
+$metaDescription = "The founding hub of Mumbai Women Coders. Join our vibrant community in Mumbai for technical workshops, mentorship, and networking events.";
 $root = '../';
 include '../includes/header.php';
 include '../includes/navigation.php';

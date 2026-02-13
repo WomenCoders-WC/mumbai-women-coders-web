@@ -1,5 +1,6 @@
 <?php
-$pageTitle = "Events";
+$pageTitle = "Upcoming Tech Events";
+$metaDescription = "Stay updated with our technical workshops, meetups, and conferences. Join our upcoming events to learn and grow with the Mumbai tech community.";
 $root = '';
 include 'includes/header.php';
 include 'includes/navigation.php';

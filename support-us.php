@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Support Us";
-$metaDescription = "Support Women Coders and help us bridge the gender gap in tech. Explore sponsorship, partnerships, and grant opportunities to empower the next generation of female technical leaders.";
+$pageTitle = "Support Our Mission";
+$metaDescription = "Help Mumbai Women Coders empower more women in technology. Explore sponsorship opportunities and ways to give back to the community.";
 $root = '';
 include 'includes/header.php';
 include 'includes/navigation.php';

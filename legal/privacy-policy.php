@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Privacy Policy";
+$metaDescription = "Privacy Policy for Mumbai Women Coders. Learn how we handle your data and protect your privacy within our community.";
 $root = '../';
 include '../includes/header.php';
 include '../includes/navigation.php';

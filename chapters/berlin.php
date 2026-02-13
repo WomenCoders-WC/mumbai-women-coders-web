@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Berlin Chapter | Women Coders Germany";
+$pageTitle = "Berlin Chapter";
 $metaDescription = "Women Coders is coming to Berlin. A community for women in technology in Germany's capital. Join us for networking, AI workshops, and leadership training. Launching soon.";
 $root = '../';
 include '../includes/header.php';

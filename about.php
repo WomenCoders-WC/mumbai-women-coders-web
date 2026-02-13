@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "About Our Community";
+$metaDescription = "Our mission is to increase the representation of women in tech leadership. Learn about our story, vision, and the values that drive our community.";
 $root = '';
 include 'includes/header.php';
 include 'includes/navigation.php';

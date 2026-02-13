@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Code of Conduct";
-$metaDescription = "Women Coders Code of Conduct. Our commitment to providing a harassment-free experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion.";
+$metaDescription = "Mumbai Women Coders Code of Conduct. Our commitment to providing a friendly, safe, and welcoming environment for everyone in our community.";
 $root = '../';
 include '../includes/header.php';
 include '../includes/navigation.php';

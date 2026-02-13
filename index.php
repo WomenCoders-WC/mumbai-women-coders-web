@@ -1,5 +1,6 @@
 <?php
-$pageTitle = "Home";
+$pageTitle = "Empowering Women in Tech";
+$metaDescription = "Join Mumbai Women Coders, a community dedicated to inspiring and empowering women to excel in technology through mentorship, workshops, and networking.";
 include 'includes/header.php';
 include 'includes/navigation.php';
 ?>

@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Contact Us";
+$metaDescription = "Have questions? Reach out to Mumbai Women Coders for partnership inquiries, event information, or community support.";
 include 'includes/header.php';
 include 'includes/navigation.php';
 ?>

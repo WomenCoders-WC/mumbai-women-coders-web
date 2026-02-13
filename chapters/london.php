@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "London Chapter | Women Coders UK";
-$metaDescription = "Join the Women Coders London chapter. Empowering women in tech through networking, workshops, and mentorship in the heart of the UK's tech hub. Coming soon in 2026.";
+$pageTitle = "London Chapter";
+$metaDescription = "Connecting tech-passionate women in the heart of the UK. Join the Mumbai Women Coders London chapter for networking, workshops, and mentorship. Coming soon in 2026.";
 $root = '../';
 include '../includes/header.php';
 include '../includes/navigation.php';

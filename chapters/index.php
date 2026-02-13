@@ -1,5 +1,6 @@
 <?php
-$pageTitle = "Chapters";
+$pageTitle = "Our Chapters";
+$metaDescription = "Explore Mumbai Women Coders chapters across different locations. Connect with your local community and start your journey in tech.";
 $root = '../';
 include '../includes/header.php';
 include '../includes/navigation.php';

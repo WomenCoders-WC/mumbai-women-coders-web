@@ -6,27 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo isset($pageTitle) ? $pageTitle . ' | ' : ''; ?>Mumbai Women Coders</title>
 
-    <!-- Meta Descriptions -->
+    <!-- SEO Meta Tags -->
     <meta name="description"
         content="<?php echo $metaDescription ?? 'Empowering women in technology through community, mentorship, and events. Join Mumbai Women Coders today.'; ?>">
     <meta name="author" content="Mumbai Women Coders">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="canonical" href="<?php
+    $protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http");
+    $host = $_SERVER['HTTP_HOST'];
+    $request_uri = $_SERVER['REQUEST_URI'];
+    // Clean URL by removing .php and index
+    $clean_uri = str_replace(['.php', 'index'], '', $request_uri);
+    echo $protocol . "://" . $host . $clean_uri;
+    ?>">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://womencoders.org/<?php echo basename($_SERVER['PHP_SELF']); ?>">
+    <meta property="og:url" content="https://womencoders.org<?php echo $_SERVER['REQUEST_URI']; ?>">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle . ' | ' : ''; ?>Mumbai Women Coders">
     <meta property="og:description"
         content="<?php echo $metaDescription ?? 'Empowering women in technology through community, mentorship, and events. Join Mumbai Women Coders today.'; ?>">
-    <meta property="og:image" content="https://womencoders.org/assets/images/women-coding-community.png">
+    <meta property="og:image"
+        content="<?php echo $ogImage ?? 'https://womencoders.org/assets/images/women-coding-community.png'; ?>">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://womencoders.org/<?php echo basename($_SERVER['PHP_SELF']); ?>">
+    <meta property="twitter:url" content="https://womencoders.org<?php echo $_SERVER['REQUEST_URI']; ?>">
     <meta property="twitter:title"
         content="<?php echo isset($pageTitle) ? $pageTitle . ' | ' : ''; ?>Mumbai Women Coders">
     <meta property="twitter:description"
         content="<?php echo $metaDescription ?? 'Empowering women in technology through community, mentorship, and events. Join Mumbai Women Coders today.'; ?>">
-    <meta property="twitter:image" content="https://womencoders.org/assets/images/women-coding-community.png">
+    <meta property="twitter:image"
+        content="<?php echo $ogImage ?? 'https://womencoders.org/assets/images/women-coding-community.png'; ?>">
 
     <!-- Custom Fonts: Albert Sans & Archivo Black -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
