@@ -7,8 +7,8 @@ include '../includes/navigation.php';
 ?>
 
 <!-- Chapter Hero -->
-<section class="hero-section text-center"
-    style="background: linear-gradient(rgba(15, 5, 41, 0.9), rgba(15, 5, 41, 0.95)), url('../assets/images/chapters/backgrounds/mumbai.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+<section class="hero-section text-center hero-fixed-bg"
+    style="background: linear-gradient(rgba(15, 5, 41, 0.9), rgba(15, 5, 41, 0.95)), url('../assets/images/chapters/backgrounds/mumbai.webp');">
     <div class="container position-relative z-3">
         <div class="animate__animated animate__fadeInDown">
             <!-- Fancy Breadcrumb -->
@@ -74,13 +74,16 @@ include '../includes/navigation.php';
             <div class="col-lg-6 animate-fade-up">
                 <h2 class="display-5 fw-bold mb-4">About the <span class="text-royal-violet">Mumbai Chapter</span></h2>
                 <p class="lead text-muted mb-4">
-                    Established in 2023, the Mumbai chapter has grown into a vibrant ecosystem for women in tech. We
-                    focus on bridging the gap between education and industry through hands-on workshops and networking.
+                    Mumbai Women Coders is a vibrant tech community in Mumbai for women & men in technology and their
+                    allies, creating lasting change in the tech ecosystem. <br><br>
+                    Our community welcomes everyone: students, professionals, experienced developers, and allies
+                    committed to inclusive tech spaces. <br><br>
+                    We are open, inclusive, and focused on individual and collective growth.
                 </p>
                 <div class="row g-4 mt-2">
                     <div class="col-sm-6">
                         <div class="d-flex align-items-center gap-3">
-                            <div class="icon-box-glow mb-0" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                            <div class="icon-box-glow mb-0 icon-box-md">
                                 <i class="bi bi-people"></i>
                             </div>
                             <div>
@@ -91,7 +94,7 @@ include '../includes/navigation.php';
                     </div>
                     <div class="col-sm-6">
                         <div class="d-flex align-items-center gap-3">
-                            <div class="icon-box-glow mb-0" style="width: 50px; height: 50px; font-size: 1.2rem;">
+                            <div class="icon-box-glow mb-0 icon-box-md">
                                 <i class="bi bi-calendar-event"></i>
                             </div>
                             <div>
@@ -108,7 +111,7 @@ include '../includes/navigation.php';
 
 <!-- Chapter Leads -->
 <section class="bg-chapter-premium text-white position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.05;"></div>
+    <div class="hero-bg-1 opacity-5"></div>
     <div class="container py-5 text-center">
         <h2 class="display-5 fw-bold mb-5">Chapter <span class="text-gradient-light">Leads</span></h2>
         <div class="row justify-content-center g-4">
@@ -116,8 +119,7 @@ include '../includes/navigation.php';
                 <div class="m-card-dark text-center">
                     <div class="mb-4">
                         <img src="../assets/images/speakers/ramyashree-shetty.webp" alt="Lead"
-                            class="rounded-circle border border-3 border-lavender"
-                            style="width: 150px; height: 150px; object-fit: cover;">
+                            class="rounded-circle border border-3 border-lavender img-avatar-lg">
                     </div>
                     <h4 class="fw-bold">Ramyashree Shetty</h4>
                     <p class="text-lavender-light mb-3">Founder & Lead</p>
@@ -127,12 +129,11 @@ include '../includes/navigation.php';
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 animate-fade-up" style="animation-delay: 0.2s;">
+            <div class="col-md-4 animate-fade-up delay-0-2">
                 <div class="m-card-dark text-center">
                     <div class="mb-4">
                         <img src="../assets/images/speakers/taazeen-ansari.webp" alt="Lead"
-                            class="rounded-circle border border-3 border-lavender"
-                            style="width: 150px; height: 150px; object-fit: cover;">
+                            class="rounded-circle border border-3 border-lavender img-avatar-lg">
                     </div>
                     <h4 class="fw-bold">Taazeen Ansari</h4>
                     <p class="text-lavender-light mb-3">Chapter Co-Lead</p>
@@ -174,7 +175,7 @@ include '../includes/navigation.php';
             </div>
 
             <!-- Past Event -->
-            <div class="col-lg-6 animate-fade-up" style="animation-delay: 0.2s;">
+            <div class="col-lg-6 animate-fade-up delay-0-2">
                 <div class="glass-card-premium p-4 opacity-75">
                     <div class="badge bg-secondary mb-3">Past</div>
                     <h3 class="fw-bold h4 mb-3">Women in Tech Networking Mixer</h3>
@@ -193,7 +194,7 @@ include '../includes/navigation.php';
 
 <!-- Community Links -->
 <section class="bg-chapter-cosmic text-white py-5 position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.03;"></div>
+    <div class="hero-bg-1 opacity-3"></div>
     <div class="container py-4">
         <div class="glass-card-premium p-5 text-center bg-transparent border-white-50">
             <h2 class="fw-bold mb-4">Connect with Mumbai</h2>

@@ -201,7 +201,7 @@ include 'includes/navigation.php';
                 </div>
             </div>
             <!-- Highlight 2 -->
-            <div class="col-md-6 col-lg-8 fade-up-trigger" style="animation-delay: 0.2s;">
+            <div class="col-md-6 col-lg-8 fade-up-trigger delay-0-2">
                 <div class="highlight-card">
                     <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1000"
                         class="highlight-img" alt="Hackathon 2024">

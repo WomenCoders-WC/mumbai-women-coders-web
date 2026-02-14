@@ -262,7 +262,7 @@ include 'includes/navigation.php';
 
                     <div class="row align-items-center">
                         <div class="col-md-2 d-none d-md-block">
-                            <i class="bi bi-quote text-gradient opacity-25" style="font-size: 5rem;"></i>
+                            <i class="bi bi-quote text-gradient opacity-25 quote-icon-lg"></i>
                         </div>
                         <div class="col-md-10 text-md-start">
                             <p class="fs-4 italic mb-4 lh-base">
@@ -273,7 +273,7 @@ include 'includes/navigation.php';
                                 network this year alone."
                             </p>
                             <div class="d-flex align-items-center mt-4">
-                                <div class="me-3 shadow position-relative z-1" style="width: 70px; height: 70px;">
+                                <div class="me-3 shadow position-relative z-1 avatar-medium">
                                     <img src="https://ui-avatars.com/api/?name=David+Chen&background=7b2cbf&color=fff&size=100"
                                         alt="David Chen, CTO of HyperTech Solutions"
                                         class="w-100 h-100 object-fit-cover rounded-pill border border-3 border-white">
@@ -296,12 +296,10 @@ include 'includes/navigation.php';
 <section id="contact" class="bg-deep-space position-relative overflow-hidden py-6">
     <!-- Animated Decorative Background Shapes -->
     <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden pointer-none z-1">
-        <div class="position-absolute bg-primary rounded-circle opacity-10 animate-pulse blur-80"
-            style="width: 400px; height: 400px; top: -100px; left: -100px;"></div>
-        <div class="position-absolute bg-secondary rounded-circle opacity-10 animate-pulse blur-60"
-            style="width: 300px; height: 300px; bottom: -50px; right: 10%; animation-delay: 2s;"></div>
-        <div class="position-absolute bg-lavender rounded-circle opacity-5 blur-40"
-            style="width: 200px; height: 200px; top: 40%; right: -50px;"></div>
+        <div class="position-absolute bg-primary rounded-circle opacity-10 animate-pulse blur-80 blob-support-1"></div>
+        <div class="position-absolute bg-secondary rounded-circle opacity-10 animate-pulse blur-60 blob-support-2">
+        </div>
+        <div class="position-absolute bg-lavender rounded-circle opacity-5 blur-40 blob-support-3"></div>
     </div>
 
     <div class="container position-relative z-2">
@@ -339,8 +337,8 @@ include 'includes/navigation.php';
                         <div class="col-md-7 p-5 bg-white">
                             <h4 class="fw-bold mb-4 text-dark position-relative d-inline-block">
                                 Partnership Inquiry
-                                <span class="position-absolute bottom-0 start-0 w-50 bg-primary"
-                                    style="height: 3px; border-radius: 2px; margin-bottom: -8px;"></span>
+                                <span
+                                    class="position-absolute bottom-0 start-0 w-50 bg-primary title-underline-m"></span>
                             </h4>
                             <form action="#" method="POST" class="mt-4">
                                 <div class="row g-3">

@@ -156,10 +156,12 @@ include 'includes/navigation.php';
                     <img src="assets/images/women-coding-community.png" alt="Community Interaction"
                         class="img-fluid rounded-4 shadow-lg position-relative z-1">
                     <!-- Decorative elements behind image -->
-                    <div class="position-absolute top-0 start-0 translate-middle bg-primary rounded-circle opacity-10"
-                        style="width: 200px; height: 200px; z-index: 0;"></div>
-                    <div class="position-absolute bottom-0 end-0 translate-middle bg-secondary rounded-circle opacity-10"
-                        style="width: 150px; height: 150px; z-index: 0;"></div>
+                    <div
+                        class="position-absolute top-0 start-0 translate-middle bg-primary rounded-circle opacity-10 blob-contact-1">
+                    </div>
+                    <div
+                        class="position-absolute bottom-0 end-0 translate-middle bg-secondary rounded-circle opacity-10 blob-contact-2">
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1 animate__animated animate__fadeInLeft">
@@ -184,6 +186,132 @@ include 'includes/navigation.php';
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Speaker CFP Section -->
+<section id="speaker-cfp" class="py-6 bg-gradient-cosmic position-relative overflow-hidden">
+    <!-- Animated background elements (Cosmic Theme) -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 overflow-hidden pointer-none z-1">
+        <div class="position-absolute bg-primary rounded-circle opacity-10 animate-pulse blur-80 blob-speaker-1"></div>
+        <div class="position-absolute bg-secondary rounded-circle opacity-10 animate-pulse blur-60 blob-speaker-2">
+        </div>
+    </div>
+
+    <div class="container position-relative z-2">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 fade-up-trigger">
+                <div class="speaker-illustration position-relative">
+                    <div class="card p-5 rounded-4 shadow-premium">
+                        <div class="d-flex align-items-center gap-4 mb-4">
+                            <div
+                                class="icon-box-speaker mb-0 rounded-circle d-flex align-items-center justify-content-center icon-80 flex-shrink-0 shadow-sm">
+                                <i class="bi bi-mic text-gradient fs-1"></i>
+                            </div>
+                            <div>
+                                <h3 class="mb-0">Become a <br><span class="text-gradient">Speaker</span>
+                                </h3>
+                                <p class="mb-0 text-lavender-speaker">Share your expertise</p>
+                            </div>
+                        </div>
+                        <p class="mb-4 fs-5 speaker-desc">
+                            We are always looking for passionate speakers to share their knowledge with our community.
+                            Whether you're a seasoned pro or a first-time speaker, we provide a supportive platform for
+                            your voice.
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center gap-2 speaker-feature">
+                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <span>Technical Workshops</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center gap-2 speaker-feature">
+                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <span>Career Talks</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center gap-2 speaker-feature">
+                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <span>Panel Discussions</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center gap-2 speaker-feature">
+                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <span>Lightning Talks</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 fade-up-trigger delay-1">
+                <div class="ps-lg-5">
+                    <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Call for Proposals</h6>
+                    <h2 class="display-4 fw-bold text-white mb-4">Your Voice <br><span
+                            class="text-gradient">Matters</span>
+                    </h2>
+                    <p class="lead text-white-50 mb-5">
+                        Inspire the next generation of women in tech. Submit your proposal today and help us build a
+                        more diverse and knowledgeable community.
+                    </p>
+                    <div class="d-flex flex-column flex-sm-row gap-3">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRTcS2iWIo0bYL8GLdoczm5Baf6vEHvxe_ZwuvAxBP-6oRDg/viewform"
+                            target="_blank" class="btn btn-premium btn-lg">
+                            Submit Proposal <i class="bi bi-send ms-2"></i>
+                        </a>
+                        <a href="events.php" class="btn btn-m-outline btn-lg">View Past Events</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Join as Volunteer Section -->
+<section id="join-volunteer" class="py-6 bg-white position-relative overflow-hidden">
+    <div class="container position-relative z-2">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-lg-2 animate__animated animate__fadeInRight">
+                <div class="position-relative">
+                    <img src="assets/images/volunteer.png" alt="MWC Volunteers Team"
+                        class="img-fluid rounded-4 shadow-lg position-relative z-1 hover-lift volunteer-img-rotate">
+                    <!-- Creative Shapes -->
+                    <div class="position-absolute top-0 end-0 translate-middle bg-warning rounded-circle opacity-10 blur-80 blob-volunteer-1"></div>
+                    <div class="position-absolute bottom-0 start-0 translate-middle bg-info rounded-circle opacity-10 blur-60 blob-volunteer-2"></div>
+                    <div class="position-absolute top-50 start-50 translate-middle border border-primary opacity-10 rounded-circle volunteer-circle-border"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-lg-1 animate__animated animate__fadeInLeft">
+                <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Community First</h6>
+                <h2 class="display-4 fw-bold mb-4">Join as a <span class="text-gradient">Volunteer</span></h2>
+                <p class="lead text-muted mb-4">
+                    Be the heartbeat of our events. Whether it's managing registration, guiding attendees, or helping
+                    with logistics, your contribution makes a massive difference in creating inclusive tech spaces.
+                </p>
+                <ul class="list-unstyled mb-5">
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <span>Gain exclusive behind-the-scenes access</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <span>Network with industry leaders and speakers</span>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <span>Get cool swag and community recognition</span>
+                    </li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScfkHDuCeWdmgsrlACmILNx41LhS47eNKHMaOAX2LKkSQL54g/viewform/"
+                    target="_blank" class="btn btn-premium btn-lg hover-lift">
+                    Apply to Volunteer <i class="bi bi-arrow-right ms-2 transition-icon"></i>
+                </a>
             </div>
         </div>
     </div>

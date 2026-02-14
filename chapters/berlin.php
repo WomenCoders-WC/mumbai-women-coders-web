@@ -7,8 +7,8 @@ include '../includes/navigation.php';
 ?>
 
 <!-- Chapter Hero -->
-<section class="hero-section text-center"
-    style="background: linear-gradient(rgba(15, 5, 41, 0.85), rgba(15, 5, 41, 0.95)), url('../assets/images/chapters/backgrounds/berlin.webp'); background-size: cover; background-position: center; background-attachment: fixed;">
+<section class="hero-section text-center hero-fixed-bg"
+    style="background: linear-gradient(rgba(15, 5, 41, 0.85), rgba(15, 5, 41, 0.95)), url('../assets/images/chapters/backgrounds/berlin.webp');">
     <div class="container position-relative z-3">
         <div class="animate__animated animate__fadeInDown">
             <!-- Breadcrumb Section -->
@@ -24,7 +24,7 @@ include '../includes/navigation.php';
                     </ol>
                 </nav>
             </div>
-            <span class="badge bg-warning text-dark px-3 py-2 mb-4 animate__animated animate__pulse animate__infinite">
+            <span class="badge bg-warning text-dark px-3 py-2 mb-4">
                 <small class="text-uppercase fw-bold ls-1">Launching Soon in Berlin 🇩🇪</small>
             </span>
             <h1 class="display-1 fw-bold mb-4 text-gradient-light">Berlin Chapter</h1>
@@ -47,7 +47,7 @@ include '../includes/navigation.php';
             <div class="col-lg-6 order-lg-2 animate-fade-up">
                 <div class="img-premium-container grayscale-filter">
                     <img src="../assets/images/chapters/backgrounds/berlin.webp" alt="Berlin Startup Scene"
-                        class="img-fluid img-premium w-100" style="object-fit: cover; filter: grayscale(50%);">
+                        class="img-fluid img-premium w-100 img-grayscale-50">
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <div class="glass-card p-4 text-center">
                             <h2 class="fw-bold mb-0">Coming</h2>
@@ -90,7 +90,7 @@ include '../includes/navigation.php';
 
 <!-- Waitlist Section -->
 <section id="waitlist" class="bg-chapter-cosmic py-5 position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.05;"></div>
+    <div class="hero-bg-1 opacity-5"></div>
     <div class="container py-4 text-center">
         <div class="cta-box-refined animate-fade-up">
             <h2 class="display-5 fw-bold mb-4">Berlin Waitlist</h2>

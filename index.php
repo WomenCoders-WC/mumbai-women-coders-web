@@ -105,8 +105,11 @@ include 'includes/navigation.php';
                 <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Building the Ecosystem</h6>
                 <h2 class="display-4 fw-bold mb-4">Empowering Women in Mumbai's Tech Scene</h2>
                 <p class="mb-4 fs-5 about-desc">
-                    We provide the infrastructure and community support women need to move from coding enthusiasts to
-                    technical leaders.
+                    Mumbai Women Coders is a vibrant tech community in Mumbai for women & men in technology and their
+                    allies, creating lasting change in the tech ecosystem. <br>
+                    Our community welcomes everyone: students, professionals, experienced developers, and allies
+                    committed to inclusive tech spaces. <br>
+                    We are open, inclusive, and focused on individual and collective growth.
                 </p>
                 <div class="row g-4 mb-5">
                     <div class="col-sm-6 text-center text-sm-start">
@@ -631,6 +634,50 @@ include 'includes/navigation.php';
             }
         });
     });
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Who can join Mumbai Women Coders?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome all women who are passionate about coding, leadership, and professional growth in the Mumbai tech ecosystem."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is there a membership fee?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No, joining Mumbai Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How can I become a speaker at an MWC event?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We're always looking for fresh perspectives! You can apply to speak by filling out our 'Call for Speakers' form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What kind of technical topics do you cover?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and Salary Negotiation."
+    }
+  }, {
+    "@type": "Question",
+    "name": "How do I volunteer for MWC?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can start by joining our Slack/Discord channels and checking the #volunteers-needed channel. We have various roles from event management and social media to technical mentoring and content creation."
+    }
+  }]
+}
 </script>
 
 <?php include 'includes/footer.php'; ?>

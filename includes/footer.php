@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="newsletter-fancy shadow-lg">
-                    <h6 class="mb-3 fw-bold">Newsletter</h6>
+                    <h6 class="mb-3 fw-bold text-white">Newsletter</h6>
                     <form class="newsletter-form">
                         <div class="input-glass-group">
                             <input type="email" placeholder="Your email..." required>

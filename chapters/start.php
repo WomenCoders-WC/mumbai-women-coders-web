@@ -53,7 +53,7 @@ include '../includes/navigation.php';
                 </p>
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex gap-3 align-items-start">
-                        <div class="icon-box-glow mb-0" style="width: 30px; height: 30px; font-size: 0.9rem;">
+                        <div class="icon-box-glow mb-0 icon-box-sm">
                             <i class="bi bi-check-lg"></i>
                         </div>
                         <div>
@@ -63,7 +63,7 @@ include '../includes/navigation.php';
                         </div>
                     </li>
                     <li class="mb-3 d-flex gap-3 align-items-start">
-                        <div class="icon-box-glow mb-0" style="width: 30px; height: 30px; font-size: 0.9rem;">
+                        <div class="icon-box-glow mb-0 icon-box-sm">
                             <i class="bi bi-check-lg"></i>
                         </div>
                         <div>
@@ -73,7 +73,7 @@ include '../includes/navigation.php';
                         </div>
                     </li>
                     <li class="mb-3 d-flex gap-3 align-items-start">
-                        <div class="icon-box-glow mb-0" style="width: 30px; height: 30px; font-size: 0.9rem;">
+                        <div class="icon-box-glow mb-0 icon-box-sm">
                             <i class="bi bi-check-lg"></i>
                         </div>
                         <div>
@@ -111,7 +111,7 @@ include '../includes/navigation.php';
 
 <!-- What We Provide -->
 <section class="bg-chapter-premium text-white py-5 position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.05;"></div>
+    <div class="hero-bg-1 opacity-5"></div>
     <div class="container py-4">
         <div class="text-center mb-5 animate-fade-up">
             <h2 class="display-5 fw-bold">What <span class="text-gradient-light">Women Coders Provides</span></h2>
@@ -128,7 +128,7 @@ include '../includes/navigation.php';
                         community tools.</p>
                 </div>
             </div>
-            <div class="col-md-3 animate-fade-up" style="animation-delay: 0.1s;">
+            <div class="col-md-3 animate-fade-up delay-0-1">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-stars"></i>
@@ -137,7 +137,7 @@ include '../includes/navigation.php';
                     <p class="small text-muted">Immediate credibility by being part of a recognized global movement.</p>
                 </div>
             </div>
-            <div class="col-md-3 animate-fade-up" style="animation-delay: 0.2s;">
+            <div class="col-md-3 animate-fade-up delay-0-2">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-megaphone"></i>
@@ -147,7 +147,7 @@ include '../includes/navigation.php';
                         local base.</p>
                 </div>
             </div>
-            <div class="col-md-3 animate-fade-up" style="animation-delay: 0.3s;">
+            <div class="col-md-3 animate-fade-up delay-0-3">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
                         <i class="bi bi-people-fill"></i>
@@ -167,8 +167,8 @@ include '../includes/navigation.php';
         <div class="row">
             <!-- Sticky Header (Desktop) -->
             <div class="col-lg-5 mb-5 mb-lg-0">
-                <div class="sticky-top fade-up-trigger d-flex flex-column justify-content-center"
-                    style="top: 50vh; transform: translateY(-50%); z-index: 10; min-height: 50vh;">
+                <div
+                    class="sticky-top fade-up-trigger d-flex flex-column justify-content-center sticky-vertical-center">
                     <h2 class="display-4 fw-bold mb-4">Step-by-Step <span class="text-royal-violet">Process</span></h2>
                     <p class="lead text-muted mb-4">
                         Your journey from applicant to chapter lead is designed to be smooth, supportive, and
@@ -262,11 +262,11 @@ include '../includes/navigation.php';
 
 <!-- Application Form -->
 <section id="apply" class="bg-chapter-cosmic py-5 position-relative overflow-hidden">
-    <div class="hero-bg-1" style="opacity: 0.05;"></div>
+    <div class="hero-bg-1 opacity-5"></div>
     <div class="container py-4">
         <div class="cta-box-refined animate-fade-up">
             <h2 class="display-5 fw-bold mb-4 text-dark">Ready to Lead?</h2>
-            <p class="lead mb-5" style="color: var(--text-main) !important;">Fill out the application form below and
+            <p class="lead mb-5 text-main">Fill out the application form below and
                 we'll be in touch.</p>
 
             <form action="#" method="POST" class="text-start">
