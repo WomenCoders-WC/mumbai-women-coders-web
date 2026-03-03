@@ -1,0 +1,671 @@
+[
+  {
+    "id": "259384468",
+    "title": "Special March Meetup!!",
+    "eventUrl": "https://www.meetup.com/mumbai-women-coders/events/259384468/",
+    "description": "As March is here, we are ready with our speakers!!\nWe hope you all had lovely Women's Day Celebration and if not don't worry, we are coming up with power pack, empowering event. The main aim of this meetup along with knowledge sharing will be pampering each other, lifting each other up and yes lots of fun. And if you want to add something more please share your ideas as well.\nWe really want to thanks Women Techmaker for sponsoring the food and goodies!!\nSo let'us begin with our amazing stack of speakers,\n1. Zeel Mehta\nTopic: Give it back! We will start with NPM first ;)\nTwitter: https://twitter.com/Zeel52086084\n\n2. Sanchita Mishra\nTopic: TDD\nTwitter: https://twitter.com/sanchim12\n\n3. Tanvi Sawant\nTopic: Move out of your Daily routine\n\n4. Disha Mourya, Preeti Wadhawani , Dipti Gandhi\nTopic: Rewinding!!\nTwitter: Disha - https://twitter.com/disha4mourya\nPreeti - https://twitter.com/pwadhwani2592\nDipti - https://twitter.com/mellowdipti",
+    "isSaved": false,
+    "group": {
+      "id": "23001237",
+      "name": "Mumbai Women Coders",
+      "timezone": "Asia/Kolkata",
+      "keyGroupPhoto": {
+        "id": "469144119",
+        "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+        "highResUrl": "https://secure.meetupstatic.com/photos/event/1/0/1/7/highres_469144119.jpeg",
+        "__typename": "PhotoInfo"
+      },
+      "__typename": "Group"
+    },
+    "creatorMember": {
+      "id": "104075672",
+      "__typename": "Member"
+    },
+    "eventHosts": [
+      {
+        "memberId": "225209321",
+        "__typename": "EventHost"
+      },
+      {
+        "memberId": "161221962",
+        "__typename": "EventHost"
+      }
+    ],
+    "feeSettings": null,
+    "venue": {
+      "id": "26101510",
+      "name": "Paytm Insider",
+      "address": "Senapati Bapat Marg",
+      "city": "Mumbai",
+      "state": "Ma",
+      "country": "in",
+      "__typename": "Venue"
+    },
+    "dateTime": "2019-03-30T11:00:00+05:30",
+    "createdTime": "2019-03-01T01:26:23-05:00",
+    "endTime": "2019-03-30T14:30:00+05:30",
+    "going": {
+      "totalCount": 63,
+      "__typename": "GoingRsvpConnection"
+    },
+    "isAttending": false,
+    "isOnline": false,
+    "eventType": "PHYSICAL",
+    "status": "PAST",
+    "series": null,
+    "featuredEventPhoto": {
+      "id": "479088555",
+      "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+      "highResUrl": "https://secure.meetupstatic.com/photos/event/b/d/a/b/highres_479088555.jpeg",
+      "__typename": "PhotoInfo"
+    },
+    "rsvpState": "PAST",
+    "rsvps": {
+      "totalCount": 63,
+      "edges": [
+        {
+          "node": {
+            "id": "1774425404",
+            "member": {
+              "id": "225209321",
+              "name": "Disha Mourya",
+              "memberPhoto": {
+                "id": "313954405",
+                "source": "https://secure.meetupstatic.com/photos/member/8/6/6/5/highres_313954405.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1774425405",
+            "member": {
+              "id": "161221962",
+              "name": "Manjula Dube",
+              "memberPhoto": {
+                "id": "270936577",
+                "source": "https://secure.meetupstatic.com/photos/member/8/e/e/1/highres_270936577.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1774425406",
+            "member": {
+              "id": "104075672",
+              "name": "Dipti Gandhi",
+              "memberPhoto": {
+                "id": "274690161",
+                "source": "https://secure.meetupstatic.com/photos/member/2/7/b/1/highres_274690161.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1774425407",
+            "member": {
+              "id": "184566590",
+              "name": "Preeti Wadhwani",
+              "memberPhoto": {
+                "id": "315850803",
+                "source": "https://secure.meetupstatic.com/photos/member/2/a/3/3/highres_315850803.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1774425408",
+            "member": {
+              "id": "227237828",
+              "name": "Arwa",
+              "memberPhoto": {
+                "id": "275335910",
+                "source": "https://secure.meetupstatic.com/photos/member/d/a/6/6/highres_275335910.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        }
+      ],
+      "__typename": "RsvpConnection"
+    },
+    "maxTickets": 0,
+    "actions": [],
+    "rsvpSettings": {
+      "rsvpsClosed": false,
+      "__typename": "RsvpOpenSettings"
+    },
+    "isNetworkEvent": false,
+    "networkEvent": null,
+    "socialLabels": [],
+    "socialProofInsights": null,
+    "__typename": "Event"
+  },
+  {
+    "id": "258288383",
+    "title": "Mumbai Women Coder - February Meetup",
+    "eventUrl": "https://www.meetup.com/mumbai-women-coders/events/258288383/",
+    "description": "Hello Dear Members,\n\nWe are so glad to announce our that we are ready to organize the February meetup with our amazing set of speakers, who are very excited to share there knowlegde on our plarform. So come join us and make this event super exciting by being there. So our Speakers are\n1. Nikita Gandhi :- Deep dive into Flutter\nTwitter:@nikkitagandhi\n2. Priyanka Sabhagani :- Are you a mobile dev? Confused between react native, flutter or native? You're at the right place!!!\nTwitter : @PSabhagani\n3. Rashi Desai :- Design for Business: Sales Prediction by UX Usability\nTwitter: @rpdesai24\n4. Pranita Khaire :- Intro to Data Science!!\nTwitter :@PranitaKhaire\n\nSo please fill out the form for the march meetup!!\nhttps://goo.gl/forms/2Pqhc6E9oSPfiOPI3",
+    "isSaved": false,
+    "group": {
+      "id": "23001237",
+      "name": "Mumbai Women Coders",
+      "timezone": "Asia/Kolkata",
+      "keyGroupPhoto": {
+        "id": "469144119",
+        "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+        "highResUrl": "https://secure.meetupstatic.com/photos/event/1/0/1/7/highres_469144119.jpeg",
+        "__typename": "PhotoInfo"
+      },
+      "__typename": "Group"
+    },
+    "creatorMember": {
+      "id": "104075672",
+      "__typename": "Member"
+    },
+    "eventHosts": [
+      {
+        "memberId": "161221962",
+        "__typename": "EventHost"
+      }
+    ],
+    "feeSettings": null,
+    "venue": {
+      "id": "26175631",
+      "name": "91springboard Ackruti Trade Centre,",
+      "address": "B wing, 7th floor Cafe, Ackruti Trade Centre, MIDC, Andheri-East, Googlemap-link, https://goo.gl/maps/CKaMBLi9bvs",
+      "city": "Mumbai",
+      "state": "in",
+      "country": "in",
+      "__typename": "Venue"
+    },
+    "dateTime": "2019-02-16T10:30:00+05:30",
+    "createdTime": "2019-01-22T02:49:21-05:00",
+    "endTime": "2019-02-16T13:30:00+05:30",
+    "going": {
+      "totalCount": 54,
+      "__typename": "GoingRsvpConnection"
+    },
+    "isAttending": false,
+    "isOnline": false,
+    "eventType": "PHYSICAL",
+    "status": "PAST",
+    "series": null,
+    "featuredEventPhoto": {
+      "id": "478403092",
+      "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+      "highResUrl": "https://secure.meetupstatic.com/photos/event/5/a/3/4/highres_478403092.jpeg",
+      "__typename": "PhotoInfo"
+    },
+    "rsvpState": "PAST",
+    "rsvps": {
+      "totalCount": 54,
+      "edges": [
+        {
+          "node": {
+            "id": "1767877541",
+            "member": {
+              "id": "227237828",
+              "name": "Arwa",
+              "memberPhoto": {
+                "id": "275335910",
+                "source": "https://secure.meetupstatic.com/photos/member/d/a/6/6/highres_275335910.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1767877542",
+            "member": {
+              "id": "104075672",
+              "name": "Dipti Gandhi",
+              "memberPhoto": {
+                "id": "274690161",
+                "source": "https://secure.meetupstatic.com/photos/member/2/7/b/1/highres_274690161.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1767877543",
+            "member": {
+              "id": "161221962",
+              "name": "Manjula Dube",
+              "memberPhoto": {
+                "id": "270936577",
+                "source": "https://secure.meetupstatic.com/photos/member/8/e/e/1/highres_270936577.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1767877546",
+            "member": {
+              "id": "184566590",
+              "name": "Preeti Wadhwani",
+              "memberPhoto": {
+                "id": "315850803",
+                "source": "https://secure.meetupstatic.com/photos/member/2/a/3/3/highres_315850803.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1767877663",
+            "member": {
+              "id": "185703959",
+              "name": "Sheneille Patil",
+              "memberPhoto": {
+                "id": "275468742",
+                "source": "https://secure.meetupstatic.com/photos/member/2/2/2/6/highres_275468742.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        }
+      ],
+      "__typename": "RsvpConnection"
+    },
+    "maxTickets": 0,
+    "actions": [],
+    "rsvpSettings": {
+      "rsvpsClosed": false,
+      "__typename": "RsvpOpenSettings"
+    },
+    "isNetworkEvent": false,
+    "networkEvent": null,
+    "socialLabels": [],
+    "socialProofInsights": null,
+    "__typename": "Event"
+  },
+  {
+    "id": "257614441",
+    "title": "Tech Meetup for January, for an awesome start to 2019",
+    "eventUrl": "https://www.meetup.com/mumbai-women-coders/events/257614441/",
+    "description": "What's better way to welcome the new year than meeting amazing like minded people in tech. Having said that, Mumbai Women Coders are back again with an awesome tech meetup which will be held on 5th January, 2019. Hope to meet all you awesome folks there!!\n\nVenue - Bandra Candies https://goo.gl/maps/Bty4JQzwUT32\nSpeakers - you all along with Manjula, Arwa and Dipti",
+    "isSaved": false,
+    "group": {
+      "id": "23001237",
+      "name": "Mumbai Women Coders",
+      "timezone": "Asia/Kolkata",
+      "keyGroupPhoto": {
+        "id": "469144119",
+        "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+        "highResUrl": "https://secure.meetupstatic.com/photos/event/1/0/1/7/highres_469144119.jpeg",
+        "__typename": "PhotoInfo"
+      },
+      "__typename": "Group"
+    },
+    "creatorMember": {
+      "id": "227237828",
+      "__typename": "Member"
+    },
+    "eventHosts": [
+      {
+        "memberId": "161221962",
+        "__typename": "EventHost"
+      }
+    ],
+    "feeSettings": null,
+    "venue": {
+      "id": "26040425",
+      "name": "Candies Bandra",
+      "address": "5AA Pali Hill, Next to Learners Academy School, Bandra(W), https://goo.gl/maps/Bty4JQzwUT32",
+      "city": "Mumbai",
+      "state": "in",
+      "country": "in",
+      "__typename": "Venue"
+    },
+    "dateTime": "2019-01-05T10:00:00+05:30",
+    "createdTime": "2018-12-29T09:28:01-05:00",
+    "endTime": "2019-01-05T13:00:00+05:30",
+    "going": {
+      "totalCount": 29,
+      "__typename": "GoingRsvpConnection"
+    },
+    "isAttending": false,
+    "isOnline": false,
+    "eventType": "PHYSICAL",
+    "status": "PAST",
+    "series": null,
+    "featuredEventPhoto": null,
+    "rsvpState": "PAST",
+    "rsvps": {
+      "totalCount": 29,
+      "edges": [
+        {
+          "node": {
+            "id": "1763699829",
+            "member": {
+              "id": "161221962",
+              "name": "Manjula Dube",
+              "memberPhoto": {
+                "id": "270936577",
+                "source": "https://secure.meetupstatic.com/photos/member/8/e/e/1/highres_270936577.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1763699830",
+            "member": {
+              "id": "104075672",
+              "name": "Dipti Gandhi",
+              "memberPhoto": {
+                "id": "274690161",
+                "source": "https://secure.meetupstatic.com/photos/member/2/7/b/1/highres_274690161.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1763699831",
+            "member": {
+              "id": "184566590",
+              "name": "Preeti Wadhwani",
+              "memberPhoto": {
+                "id": "315850803",
+                "source": "https://secure.meetupstatic.com/photos/member/2/a/3/3/highres_315850803.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1763699832",
+            "member": {
+              "id": "227237828",
+              "name": "Arwa",
+              "memberPhoto": {
+                "id": "275335910",
+                "source": "https://secure.meetupstatic.com/photos/member/d/a/6/6/highres_275335910.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1763706963",
+            "member": {
+              "id": "227142649",
+              "name": "Nisha Morade",
+              "memberPhoto": {
+                "id": "266714358",
+                "source": "https://secure.meetupstatic.com/photos/member/3/8/1/6/highres_266714358.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        }
+      ],
+      "__typename": "RsvpConnection"
+    },
+    "maxTickets": 50,
+    "actions": [],
+    "rsvpSettings": {
+      "rsvpsClosed": false,
+      "__typename": "RsvpOpenSettings"
+    },
+    "isNetworkEvent": false,
+    "networkEvent": null,
+    "socialLabels": [],
+    "socialProofInsights": null,
+    "__typename": "Event"
+  },
+  {
+    "id": "253335581",
+    "title": "Workshop for August!!",
+    "eventUrl": "https://www.meetup.com/mumbai-women-coders/events/253335581/",
+    "description": "Want to get hands on React Native with passionate people building multi-platform products?\nPreeti is here to save the day! A experienced dev, who has handled complete dev cycles with a previous expertise in Android, is now here to guide you on React Native with a workshop! Also this workshop wouldn't be possible without our venue partner 91Springboard Mumbai!!!\nSign up to learn how to build beautiful apps for both Android and iOS.\nWe'll be covering the following:\n1. Basics: Props, state, components, JSX, images, debugging\n2. Layouts with Flexbox, listviews\n3. Async operations like network calls\n4. Protips and gotchas",
+    "isSaved": false,
+    "group": {
+      "id": "23001237",
+      "name": "Mumbai Women Coders",
+      "timezone": "Asia/Kolkata",
+      "keyGroupPhoto": {
+        "id": "469144119",
+        "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+        "highResUrl": "https://secure.meetupstatic.com/photos/event/1/0/1/7/highres_469144119.jpeg",
+        "__typename": "PhotoInfo"
+      },
+      "__typename": "Group"
+    },
+    "creatorMember": {
+      "id": "104075672",
+      "__typename": "Member"
+    },
+    "eventHosts": [
+      {
+        "memberId": "161221962",
+        "__typename": "EventHost"
+      }
+    ],
+    "feeSettings": null,
+    "venue": {
+      "id": "25900673",
+      "name": "91springboard Ackruti Trade Centre, Andheri East",
+      "address": "B wing, 6th floor Cafe, Ackruti Trade Centre,, MIDC, Andheri",
+      "city": "Mumbai",
+      "state": "",
+      "country": "in",
+      "__typename": "Venue"
+    },
+    "dateTime": "2018-08-11T11:00:00+05:30",
+    "createdTime": "2018-07-31T08:43:44-04:00",
+    "endTime": "2018-08-11T15:00:00+05:30",
+    "going": {
+      "totalCount": 57,
+      "__typename": "GoingRsvpConnection"
+    },
+    "isAttending": false,
+    "isOnline": false,
+    "eventType": "PHYSICAL",
+    "status": "PAST",
+    "series": null,
+    "featuredEventPhoto": {
+      "id": "473558985",
+      "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+      "highResUrl": "https://secure.meetupstatic.com/photos/event/9/8/4/9/highres_473558985.jpeg",
+      "__typename": "PhotoInfo"
+    },
+    "rsvpState": "PAST",
+    "rsvps": {
+      "totalCount": 57,
+      "edges": [
+        {
+          "node": {
+            "id": "1740711477",
+            "member": {
+              "id": "227237828",
+              "name": "Arwa",
+              "memberPhoto": {
+                "id": "275335910",
+                "source": "https://secure.meetupstatic.com/photos/member/d/a/6/6/highres_275335910.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1740711478",
+            "member": {
+              "id": "104075672",
+              "name": "Dipti Gandhi",
+              "memberPhoto": {
+                "id": "274690161",
+                "source": "https://secure.meetupstatic.com/photos/member/2/7/b/1/highres_274690161.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1740711479",
+            "member": {
+              "id": "161221962",
+              "name": "Manjula Dube",
+              "memberPhoto": {
+                "id": "270936577",
+                "source": "https://secure.meetupstatic.com/photos/member/8/e/e/1/highres_270936577.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1740711480",
+            "member": {
+              "id": "184566590",
+              "name": "Preeti Wadhwani",
+              "memberPhoto": {
+                "id": "315850803",
+                "source": "https://secure.meetupstatic.com/photos/member/2/a/3/3/highres_315850803.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        },
+        {
+          "node": {
+            "id": "1740713676",
+            "member": {
+              "id": "232563458",
+              "name": "sarfaraz kasmani",
+              "memberPhoto": {
+                "id": "269095877",
+                "source": "https://secure.meetupstatic.com/photos/member/d/a/4/5/highres_269095877.jpeg",
+                "__typename": "PhotoInfo"
+              },
+              "__typename": "Member"
+            },
+            "__typename": "Rsvp"
+          },
+          "__typename": "RsvpEdge"
+        }
+      ],
+      "__typename": "RsvpConnection"
+    },
+    "maxTickets": 70,
+    "actions": [],
+    "rsvpSettings": {
+      "rsvpsClosed": false,
+      "__typename": "RsvpOpenSettings"
+    },
+    "isNetworkEvent": false,
+    "networkEvent": null,
+    "socialLabels": [],
+    "socialProofInsights": null,
+    "__typename": "Event"
+  },
+  {
+    "id": "252197989",
+    "title": "Mumbai Women Coder Meetup",
+    "eventUrl": "https://www.meetup.com/mumbai-women-coders/events/252197989/",
+    "description": "There is no better way to make this beautiful weather in Mumbai more exciting, than to come together and discuss amazing ideas, learn something new, meet amazing people and in turn grow our community.\n\nWith that said, Mumbai Women Coders is back again with an exciting meetup in the month of July. The meetup is never possible without someone igniting and sharing their idea, so here we announce the speakers and there topics\n\n1. Sayalee Pote : CoreML in iOS\n\nTalk will start with a very brief explanation of what machine learning actually is.This will be followed by an introduction to CoreML, which is Apple\u2019s Machine Learning framework for iOS. This is will be a detailed explanation of functioning of CoreML, where does CoreML fit in the iOS App structure and various libraries in CoreML (Vision, Natural Language Processing, GameplayKit). The talk will proceed to show what it takes to integrate CoreML in your iOS app. This includes system setup and various ways in which you can feed a trained model to the iOS app to work with.\n\n2. Arwa Lokhandwala : Lets make your javascript journey easy\n\nThis talk aims at giving you some very handy tips and few coding practices to make your javascript programming fun and interesting. At the same time it would help you to improve your code quality.\n\n3. Avinash : Painless refactoring with selectors\n\nSelectors are the way of computing derived data from redux stores.\n\n4. Interactive session with Attendees : How did you get started with coding?\n\nIts an interactive session, where we would like you to share what is the best coding practice that helped you, don't worry if you are beginners, share your coding ideas so that we can all get better!!\n\nRequirement : As our meetup is open to all kinds of tech, please come with an open mind :)",
+    "isSaved": false,
+    "group": {
+      "id": "23001237",
+      "name": "Mumbai Women Coders",
+      "timezone": "Asia/Kolkata",
+      "keyGroupPhoto": {
+        "id": "469144119",
+        "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+        "highResUrl": "https://secure.meetupstatic.com/photos/event/1/0/1/7/highres_469144119.jpeg",
+        "__typename": "PhotoInfo"
+      },
+      "__typename": "Group"
+    },
+    "creatorMember": {
+      "id": "104075672",
+      "__typename": "Member"
+    },
+    "eventHosts": [
+      {
+        "memberId": "161221962",
+        "__typename": "EventHost"
+      }
+    ],
+    "feeSettings": null,
+    "venue": {
+      "id": "25263646"
