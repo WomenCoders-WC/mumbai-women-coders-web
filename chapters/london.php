@@ -69,12 +69,12 @@ include '../includes/navigation.php';
                     chapter leads and venue partners.
                 </p>
                 <div class="glass-card-premium p-4">
-                    <h5 class="fw-bold mb-3"><i class="bi bi-info-circle text-royal-violet me-2"></i> What to expect:
+                    <h5 class="fw-bold mb-3"><i class="fa-solid fa-circle-info text-royal-violet me-2"></i> What to expect:
                     </h5>
                     <ul class="list-unstyled mb-0">
-                        <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Monthly Technical Workshops</li>
-                        <li class="mb-2"><i class="bi bi-check2 text-success me-2"></i> Industry Mentor Matchmaking</li>
-                        <li><i class="bi bi-check2 text-success me-2"></i> Exclusive Career Opportunities</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Monthly Technical Workshops</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i> Industry Mentor Matchmaking</li>
+                        <li><i class="fa-solid fa-check text-success me-2"></i> Exclusive Career Opportunities</li>
                     </ul>
                 </div>
             </div>

@@ -25,9 +25,9 @@ include '../includes/navigation.php';
                     </ol>
                 </nav>
             </div>
-            <span class="badge hero-badge px-3 py-2 mb-4 animate__animated animate__pulse animate__infinite">
-                <small class="text-uppercase fw-bold ls-1">Join the Movement</small>
-            </span>
+            <div class="d-inline-flex align-items-center mb-4 px-4 py-2 rounded-pill shadow-sm hero-badge">
+                <small class="fw-bold text-gradient text-uppercase ls-2">Join the Movement</small>
+            </div>
             <h1 class="display-1 fw-bold mb-4 text-gradient-light">Start a Chapter</h1>
             <p class="lead hero-desc mb-5">
                 Bring the Women Coders community to your city. Empower local talent, build a network, and lead the
@@ -54,7 +54,7 @@ include '../includes/navigation.php';
                 <ul class="list-unstyled">
                     <li class="mb-3 d-flex gap-3 align-items-start">
                         <div class="icon-box-glow mb-0 icon-box-sm">
-                            <i class="bi bi-check-lg"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Tech Enthusiasts</h6>
@@ -64,7 +64,7 @@ include '../includes/navigation.php';
                     </li>
                     <li class="mb-3 d-flex gap-3 align-items-start">
                         <div class="icon-box-glow mb-0 icon-box-sm">
-                            <i class="bi bi-check-lg"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Community Builders</h6>
@@ -74,7 +74,7 @@ include '../includes/navigation.php';
                     </li>
                     <li class="mb-3 d-flex gap-3 align-items-start">
                         <div class="icon-box-glow mb-0 icon-box-sm">
-                            <i class="bi bi-check-lg"></i>
+                            <i class="fa-solid fa-check"></i>
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Leaders</h6>
@@ -88,17 +88,19 @@ include '../includes/navigation.php';
                 <div class="glass-card-premium p-5">
                     <h3 class="fw-bold mb-4">Eligibility & Expectations</h3>
                     <div class="mb-4">
-                        <h6 class="fw-bold"><i class="bi bi-shield-check text-royal-violet me-2"></i> Commitment</h6>
+                        <h6 class="fw-bold"><i class="fa-solid fa-shield-halved text-royal-violet me-2"></i> Commitment
+                        </h6>
                         <p class="small text-muted">Able to commit at least 5-10 hours per month for chapter activities
                             and events.</p>
                     </div>
                     <div class="mb-4">
-                        <h6 class="fw-bold"><i class="bi bi-shield-check text-royal-violet me-2"></i> Values</h6>
+                        <h6 class="fw-bold"><i class="fa-solid fa-shield-halved text-royal-violet me-2"></i> Values</h6>
                         <p class="small text-muted">Strong alignment with our Code of Conduct and inclusivity mission.
                         </p>
                     </div>
                     <div>
-                        <h6 class="fw-bold"><i class="bi bi-shield-check text-royal-violet me-2"></i> Local Presence
+                        <h6 class="fw-bold"><i class="fa-solid fa-shield-halved text-royal-violet me-2"></i> Local
+                            Presence
                         </h6>
                         <p class="small text-muted">Currently living in the city where you want to start the chapter.
                         </p>
@@ -121,7 +123,7 @@ include '../includes/navigation.php';
             <div class="col-md-3 animate-fade-up">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-briefcase"></i>
+                        <i class="fa-solid fa-briefcase"></i>
                     </div>
                     <h5 class="fw-bold">Resources & Playbooks</h5>
                     <p class="small text-muted">Access to our event planning guides, sponsorship templates, and
@@ -131,7 +133,7 @@ include '../includes/navigation.php';
             <div class="col-md-3 animate-fade-up delay-0-1">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-stars"></i>
+                        <i class="fa-solid fa-star"></i>
                     </div>
                     <h5 class="fw-bold">Global Brand</h5>
                     <p class="small text-muted">Immediate credibility by being part of a recognized global movement.</p>
@@ -140,7 +142,7 @@ include '../includes/navigation.php';
             <div class="col-md-3 animate-fade-up delay-0-2">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-megaphone"></i>
+                        <i class="fa-solid fa-bullhorn"></i>
                     </div>
                     <h5 class="fw-bold">Visibility</h5>
                     <p class="small text-muted">Featured on our website and social media channels to help grow your
@@ -150,7 +152,7 @@ include '../includes/navigation.php';
             <div class="col-md-3 animate-fade-up delay-0-3">
                 <div class="m-card-dark text-center h-100">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-people-fill"></i>
+                        <i class="fa-solid fa-users"></i>
                     </div>
                     <h5 class="fw-bold">Mentor Network</h5>
                     <p class="small text-muted">Connect with other chapter leads and access our pool of industrial
@@ -176,7 +178,7 @@ include '../includes/navigation.php';
                     </p>
                     <div class="d-none d-lg-block">
                         <a href="#apply" class="btn btn-premium px-4">Start Application <i
-                                class="bi bi-arrow-down ms-2"></i></a>
+                                class="fa-solid fa-arrow-down ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -195,7 +197,7 @@ include '../includes/navigation.php';
                             </div>
                             <div class="glass-card-premium p-4 w-100 border-0 bg-white shadow-sm">
                                 <div class="mb-3">
-                                    <i class="bi bi-file-earmark-text text-royal-violet fs-2"></i>
+                                    <i class="fa-regular fa-file-lines text-royal-violet fs-2"></i>
                                 </div>
                                 <h4 class="fw-bold mb-2">Application</h4>
                                 <p class="text-muted mb-0">Submit your details and share your vision. Tell us why you
@@ -212,7 +214,7 @@ include '../includes/navigation.php';
                             </div>
                             <div class="glass-card-premium p-4 w-100 border-0 bg-white shadow-sm">
                                 <div class="mb-3">
-                                    <i class="bi bi-camera-video text-royal-violet fs-2"></i>
+                                    <i class="fa-solid fa-video text-royal-violet fs-2"></i>
                                 </div>
                                 <h4 class="fw-bold mb-2">Interview</h4>
                                 <p class="text-muted mb-0">A casual 30-minute chat with our global leads. We discuss
@@ -229,7 +231,7 @@ include '../includes/navigation.php';
                             </div>
                             <div class="glass-card-premium p-4 w-100 border-0 bg-white shadow-sm">
                                 <div class="mb-3">
-                                    <i class="bi bi-box-seam text-royal-violet fs-2"></i>
+                                    <i class="fa-solid fa-box text-royal-violet fs-2"></i>
                                 </div>
                                 <h4 class="fw-bold mb-2">Onboarding</h4>
                                 <p class="text-muted mb-0">Receive your Chapter Starter Kit: branding assets, event
@@ -246,7 +248,7 @@ include '../includes/navigation.php';
                             </div>
                             <div class="glass-card-premium p-4 w-100 border-0 bg-white shadow-sm">
                                 <div class="mb-3">
-                                    <i class="bi bi-rocket-takeoff text-royal-violet fs-2"></i>
+                                    <i class="fa-solid fa-rocket text-royal-violet fs-2"></i>
                                 </div>
                                 <h4 class="fw-bold mb-2">Launch</h4>
                                 <p class="text-muted mb-0">Announce your chapter! We'll help promote your first meetup

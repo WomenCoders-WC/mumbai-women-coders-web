@@ -38,85 +38,271 @@ include 'includes/navigation.php';
 </header>
 
 <!-- Upcoming Events Section -->
-<section id="upcoming" class="bg-surface-variant position-relative overflow-hidden">
-    <div class="container position-relative z-2">
+<section id="upcoming" class="bg-white position-relative py-5">
+    <div class="events-dot-pattern opacity-5"></div>
+    <div class="container py-5 position-relative z-2">
         <div class="text-center mb-5 fade-up-trigger">
-            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Calendar</h6>
-            <h2 class="display-4 fw-bold">Upcoming Events</h2>
+            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Save the Date</h6>
+            <h2 class="display-4 fw-bold">Our Community Events</h2>
+            <p class="lead text-muted mx-auto mx-w-700">
+                Secure your spot in our upcoming sessions and accelerate your technical journey with the tech
+                community.
+            </p>
         </div>
 
-        <!-- Global vs Chapter Tabs -->
         <ul class="nav nav-pills justify-content-center mb-5 fade-up-trigger" id="eventsTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active rounded-pill px-4 fw-bold" id="global-tab" data-bs-toggle="pill"
-                    data-bs-target="#global" type="button" role="tab" aria-controls="global" aria-selected="true">Global
-                    / Online</button>
+                <button class="nav-link active rounded-pill px-4 py-2 fw-bold" id="upcoming-tab" data-bs-toggle="pill"
+                    data-bs-target="#upcoming-events-pane" type="button" role="tab" aria-controls="upcoming-events-pane"
+                    aria-selected="true">Upcoming Events</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link rounded-pill px-4 fw-bold" id="chapters-tab" data-bs-toggle="pill"
-                    data-bs-target="#chapters-list" type="button" role="tab" aria-controls="chapters-list"
-                    aria-selected="false">Chapter Events</button>
+                <button class="nav-link rounded-pill px-4 py-2 fw-bold ms-3" id="past-tab" data-bs-toggle="pill"
+                    data-bs-target="#past-events-pane" type="button" role="tab" aria-controls="past-events-pane"
+                    aria-selected="false">Past Events</button>
             </li>
         </ul>
 
         <div class="tab-content" id="eventsTabContent">
-            <!-- Global Events -->
-            <div class="tab-pane fade show active" id="global" role="tabpanel" aria-labelledby="global-tab">
-                <div class="row g-4 justify-content-center">
+            <!-- Upcoming Events Pane -->
+            <div class="tab-pane fade show active" id="upcoming-events-pane" role="tabpanel"
+                aria-labelledby="upcoming-tab">
+                <div class="events-list">
                     <!-- Event 1 -->
-                    <div class="col-lg-4 col-md-6 fade-up-trigger">
-                        <div class="event-card-modern h-100">
-                            <div class="event-card-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800"
-                                    alt="Global Webinar">
-                                <div class="event-date-badge">
-                                    <span class="d-block fw-bold h4 mb-0">20</span>
-                                    <small class="text-uppercase">APR</small>
+                    <div class="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
+                        <div class="row g-0">
+                            <!-- Image Column -->
+                            <div class="col-md-3">
+                                <div class="event-img-container position-relative">
+                                    <span
+                                        class="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay">Mumbai
+                                        Chapter</span>
+                                    <img src="assets/images/events/mwc-8-3-26.jpg" class="event-preview-img"
+                                        alt="International Women's Day">
+                                    <div class="event-img-overlay"></div>
                                 </div>
                             </div>
-                            <div class="event-card-body p-4">
-                                <span class="badge bg-lavender-subtle text-primary mb-3">Webinar</span>
-                                <h4 class="fw-bold mb-2">Future of AI in Healthcare</h4>
-                                <p class="text-muted small mb-3"><i class="bi bi-clock me-2"></i>18:00 - 19:30 UTC</p>
-                                <p class="text-secondary mb-4 small">Join top researchers discussing the ethical
-                                    implications and advancements of AI in medical fields.</p>
-                                <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold">Register Now</a>
+                            <!-- Content Column -->
+                            <div class="col-md-9">
+                                <div class="row align-items-center g-0 p-4 h-100">
+                                    <div class="col-md-2 text-center">
+                                        <div class="event-date-box mx-auto mb-3 mb-md-0">
+                                            <span class="d-block h2 fw-800 mb-0">8</span>
+                                            <span class="text-uppercase fw-bold ls-1 small">MARCH</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 ps-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-7">
+                                                <h3 class="h4 fw-800 mb-1 text-gradient">International Women's Day
+                                                    Celebration
+                                                </h3>
+                                                <div class="text-muted small"><i
+                                                        class="fa-solid fa-location-dot text-primary"></i>
+                                                    Mumbai</div>
+                                            </div>
+                                            <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
+                                                <div
+                                                    class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
+                                                    Community Event
+                                                </div>
+                                                <div class="text-muted small d-block">
+                                                    <i class="fa-solid fa-laptop me-1"></i> In-Person
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <a href="https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website"
+                                                    target="_blank" class="btn btn-premium-sm">Register Now <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Event 2 -->
-                    <div class="col-lg-4 col-md-6 fade-up-trigger delay-1">
-                        <div class="event-card-modern h-100">
-                            <div class="event-card-img-wrapper">
-                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
-                                    alt="Networking">
-                                <div class="event-date-badge">
-                                    <span class="d-block fw-bold h4 mb-0">05</span>
-                                    <small class="text-uppercase">MAY</small>
-                                </div>
-                            </div>
-                            <div class="event-card-body p-4">
-                                <span class="badge bg-lavender-subtle text-primary mb-3">Networking</span>
-                                <h4 class="fw-bold mb-2">Global Virtual Coffee</h4>
-                                <p class="text-muted small mb-3"><i class="bi bi-clock me-2"></i>10:00 - 11:00 UTC</p>
-                                <p class="text-secondary mb-4 small">Casual networking session to meet fellow women in
-                                    tech from around the world. Bring your coffee!</p>
-                                <a href="#" class="btn btn-outline-primary rounded-pill w-100 fw-bold">Join Waitlist</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- Chapter Events List (Placeholder/Mixed) -->
-            <div class="tab-pane fade" id="chapters-list" role="tabpanel" aria-labelledby="chapters-tab">
-                <div class="text-center py-5">
-                    <p class="lead text-muted">Select a chapter below to see specific local events.</p>
-                </div>
-            </div>
-        </div>
+
+                    <!-- Event 2 -->
+
+                    <div class="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
+                        <div class="row g-0">
+                            <!-- Image Column -->
+                            <div class="col-md-3">
+                                <div class="event-img-container position-relative">
+                                    <span
+                                        class="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay">Mumbai
+                                        Chapter</span>
+                                    <img src="assets/images/events/mwc-8-3-26.jpg" class="event-preview-img"
+                                        alt="International Women's Day">
+                                    <div class="event-img-overlay"></div>
+                                </div>
+                            </div>
+                            <!-- Content Column -->
+                            <div class="col-md-9">
+                                <div class="row align-items-center g-0 p-4 h-100">
+                                    <div class="col-md-2 text-center">
+                                        <div class="event-date-box mx-auto mb-3 mb-md-0">
+                                            <span class="d-block h2 fw-800 mb-0">8</span>
+                                            <span class="text-uppercase fw-bold ls-1 small">MARCH</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 ps-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-7">
+                                                <h3 class="h4 fw-800 mb-1 text-gradient">International Women's Day
+                                                    Celebration
+                                                </h3>
+                                                <div class="text-muted small"><i
+                                                        class="fa-solid fa-location-dot text-primary"></i>
+                                                    Mumbai</div>
+                                            </div>
+                                            <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
+                                                <div
+                                                    class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
+                                                    Community Event
+                                                </div>
+                                                <div class="text-muted small d-block">
+                                                    <i class="fa-solid fa-laptop me-1"></i> In-Person
+                                                </div>
+                                            </div>
+                                            <div class="col-12 mt-3">
+                                                <a href="https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website"
+                                                    target="_blank" class="btn btn-premium-sm">Register Now <i
+                                                        class="fa-solid fa-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- /events-list -->
+            </div> <!-- /tab-pane upcoming -->
+
+            <!-- Past Events Pane -->
+            <div class="tab-pane fade" id="past-events-pane" role="tabpanel" aria-labelledby="past-tab">
+                <div class="events-list" id="past-events-container">
+                    <?php
+                    $pastEventsData = @file_get_contents(__DIR__ . '/past-events.json');
+                    $pastEventsArr = json_decode($pastEventsData, true);
+                    if (!$pastEventsArr)
+                        $pastEventsArr = [];
+                    foreach ($pastEventsArr as $index => $event):
+                        $dateTime = strtotime($event['dateTime']);
+                        $day = date('d', $dateTime);
+                        $month = date('M', $dateTime);
+                        $title = htmlspecialchars($event['title']);
+                        $venueName = htmlspecialchars($event['venue']['name'] ?? 'Online event');
+                        $eventType = $event['eventType'] === 'ONLINE' ? 'Online' : 'In-Person';
+                        $eventIcon = $event['eventType'] === 'ONLINE' ? 'bi-laptop' : 'bi-people-fill';
+                        $eventUrl = htmlspecialchars($event['eventUrl']);
+                        $isMumbai = isset($event['venue']['city']) && strtolower($event['venue']['city']) === 'mumbai';
+                        $locationBadge = $isMumbai ? 'Mumbai Chapter' : 'Global / Online';
+
+                        $imgSrc = 'https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&q=80&w=800';
+                        if (isset($event['featuredEventPhoto']['highResUrl'])) {
+                            $imgSrc = $event['featuredEventPhoto']['highResUrl'];
+                        } elseif (isset($event['featuredEventPhoto']['baseUrl'])) {
+                            $imgSrc = $event['featuredEventPhoto']['baseUrl'];
+                        }
+
+                        $displayStyle = $index >= 4 ? 'd-none' : '';
+                        $eventClasses = $index >= 4 ? 'past-event-item hidden' : 'past-event-item';
+                        ?>
+                        <div
+                            class="event-card-row mb-5 fade-up-trigger animate-fade-up text-center text-md-start <?php echo $eventClasses; ?> <?php echo $displayStyle; ?>">
+                            <div class=" row g-0">
+                                <div class="col-md-3">
+                                    <div class="event-img-container position-relative">
+                                        <span
+                                            class="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay"><?php echo $locationBadge; ?></span>
+                                        <img src="<?php echo htmlspecialchars($imgSrc); ?>"
+                                            class="event-preview-img event-preview-img-custom" alt="Event Image">
+                                        <div class="event-img-overlay"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="row align-items-center g-0 p-4 h-100">
+                                        <div class="col-md-2 text-center">
+                                            <div class="event-date-box mx-auto mb-3 mb-md-0">
+                                                <span class="d-block h2 fw-800 mb-0"><?php echo $day; ?></span>
+                                                <span class="text-uppercase fw-bold ls-1 small"><?php echo $month; ?></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10 ps-md-4">
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-7">
+                                                    <h3 class="h4 fw-800 mb-1 text-gradient"><?php echo $title; ?></h3>
+                                                    <div class="text-muted small"><i
+                                                            class="fa-solid fa-location-dot text-primary"></i>
+                                                        <?php echo $venueName; ?></div>
+                                                </div>
+                                                <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
+                                                    <div
+                                                        class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
+                                                        Community Event
+                                                    </div>
+                                                    <div class="text-muted small d-block">
+                                                        <i class="bi <?php echo $eventIcon; ?> me-1"></i>
+                                                        <?php echo $eventType; ?>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mt-3">
+                                                    <a href="<?php echo $eventUrl; ?>" target="_blank"
+                                                        class="btn btn-premium-sm">View Details <i
+                                                            class="fa-solid fa-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+
+                    <?php if (empty($pastEventsArr)): ?>
+                        <div class="text-center text-muted p-5">
+                            <p>No past events found.</p>
+                        </div>
+                    <?php endif; ?>
+                </div> <!-- /past-events-container -->
+
+                <?php if (count($pastEventsArr) > 4): ?>
+                    <div class="text-center mt-2 mb-4">
+                        <button id="load-more-btn" class="btn btn-m-outline load-more-btn rounded-pill px-4 py-2">Load More
+                            <i class="fa-solid fa-chevron-down ms-1"></i></button>
+                    </div>
+                <?php endif; ?>
+            </div> <!-- /tab-pane past -->
+        </div> <!-- /tab-content -->
+
     </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const loadMoreBtn = document.getElementById('load-more-btn');
+        if (loadMoreBtn) {
+            loadMoreBtn.addEventListener('click', function () {
+                const hiddenEvents = document.querySelectorAll('.past-event-item.hidden');
+                let count = 0;
+                hiddenEvents.forEach(function (eventCard) {
+                    if (count < 4) {
+                        eventCard.classList.remove('hidden');
+                        eventCard.classList.remove('d-none');
+                        count++;
+                    }
+                });
+
+                if (document.querySelectorAll('.past-event-item.hidden').length === 0) {
+                    loadMoreBtn.style.display = 'none';
+                }
+            });
+        }
+    });
+</script>
 
 <!-- Featured Chapters Section -->
 <section id="our-chapters" class="py-5 bg-white">
@@ -132,7 +318,7 @@ include 'includes/navigation.php';
         <div class="row g-4 justify-content-center">
             <!-- Mumbai Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger">
-                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/mumbai.png');">
+                <div class="chapter-card-fancy chapter-card-mumbai">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">Mumbai</div>
@@ -145,7 +331,7 @@ include 'includes/navigation.php';
 
             <!-- London Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger delay-2">
-                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/london.png');">
+                <div class="chapter-card-fancy chapter-card-london">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">London</div>
@@ -158,7 +344,7 @@ include 'includes/navigation.php';
 
             <!-- Berlin Chapter -->
             <div class="col-lg-4 col-md-6 fade-up-trigger delay-4">
-                <div class="chapter-card-fancy" style="background-image: url('assets/images/chapters/berlin.png');">
+                <div class="chapter-card-fancy chapter-card-berlin">
                     <div class="chapter-overlay"></div>
                     <div class="chapter-content">
                         <div class="chapter-badge">Berlin</div>

@@ -44,48 +44,24 @@ include 'includes/navigation.php';
     <div class="container">
         <div class="row g-4 justify-content-center">
 
-            <!-- General Inquiries -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-1">
-                <div
-                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
-                    <div class="card-body d-flex flex-column align-items-center">
-                        <div
-                            class="icon-box mb-4 rounded-circle bg-soft-primary d-flex align-items-center justify-content-center icon-80">
-                            <i class="bi bi-chat-dots text-primary fs-1"></i>
-                        </div>
-                        <h4 class="fw-bold mb-2">General Inquiries</h4>
-                        <p class="text-muted small mb-4 flex-grow-1">
-                            Have questions about our mission, events, or community guidelines? We're here to answer
-                            them.
-                        </p>
-                        <a href="https://docs.google.com/forms/" target="_blank"
-                            class="btn btn-outline-primary rounded-pill px-4 w-100 fw-bold group-hover-btn">
-                            Fill Form <i class="bi bi-arrow-right ms-2 transition-icon"></i>
-                        </a>
-                    </div>
-                    <div class="card-footer bg-transparent border-0 pt-0 pb-4">
-                        <small class="text-muted fs-7">Response time: ~24 hours</small>
-                    </div>
-                </div>
-            </div>
 
             <!-- Partnerships -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-2">
+            <div class="col-md-6 col-lg-6 animate__animated animate__fadeInUp delay-2">
                 <div
                     class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 bg-dark-premium text-white theme-gradient-border rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
                         <div
                             class="icon-box mb-4 rounded-circle bg-white bg-opacity-10 d-flex align-items-center justify-content-center icon-80">
-                            <i class="bi bi-briefcase text-gradient fs-1"></i>
+                            <i class="fa-solid fa-briefcase text-gradient fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2 text-white">Partnerships</h4>
                         <p class="text-white-50 small mb-4 flex-grow-1">
                             Interested in sponsoring an event or collaborating on a workshop? Let's build something
                             together.
                         </p>
-                        <a href="https://docs.google.com/forms/" target="_blank"
+                        <a href="https://forms.gle/te5xWA5ZcHABkr3A9" target="_blank"
                             class="btn btn-light rounded-pill px-4 w-100 fw-bold border-0 text-primary">
-                            Partner With Us <i class="bi bi-arrow-right ms-2 transition-icon"></i>
+                            Partner With Us <i class="fa-solid fa-arrow-right ms-2 transition-icon"></i>
                         </a>
                     </div>
                     <div class="card-footer bg-transparent border-0 pt-0 pb-4">
@@ -95,13 +71,13 @@ include 'includes/navigation.php';
             </div>
 
             <!-- Chapter Support -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-3">
+            <div class="col-md-6 col-lg-6 animate__animated animate__fadeInUp delay-3">
                 <div
                     class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
                     <div class="card-body d-flex flex-column align-items-center">
                         <div
                             class="icon-box mb-4 rounded-circle bg-soft-info d-flex align-items-center justify-content-center icon-80">
-                            <i class="bi bi-people text-info fs-1"></i>
+                            <i class="fa-solid fa-user-group text-info fs-1"></i>
                         </div>
                         <h4 class="fw-bold mb-2">Chapter Support</h4>
                         <p class="text-muted small mb-4 flex-grow-1">
@@ -110,7 +86,7 @@ include 'includes/navigation.php';
                         </p>
                         <a href="https://docs.google.com/forms/" target="_blank"
                             class="btn btn-outline-info rounded-pill px-4 w-100 fw-bold">
-                            Get Support <i class="bi bi-arrow-right ms-2 transition-icon"></i>
+                            Get Support <i class="fa-solid fa-arrow-right ms-2 transition-icon"></i>
                         </a>
                     </div>
                     <div class="card-footer bg-transparent border-0 pt-0 pb-4">
@@ -119,29 +95,6 @@ include 'includes/navigation.php';
                 </div>
             </div>
 
-            <!-- Media & Press -->
-            <div class="col-md-6 col-lg-3 animate__animated animate__fadeInUp delay-4">
-                <div
-                    class="card border-0 shadow-lg h-100 hover-lift overflow-hidden text-center p-4 backdrop-blur rounded-4">
-                    <div class="card-body d-flex flex-column align-items-center">
-                        <div
-                            class="icon-box mb-4 rounded-circle bg-soft-danger d-flex align-items-center justify-content-center icon-80">
-                            <i class="bi bi-newspaper text-danger fs-1"></i>
-                        </div>
-                        <h4 class="fw-bold mb-2">Media & Press</h4>
-                        <p class="text-muted small mb-4 flex-grow-1">
-                            For press inquiries, tough questions, interviews, or media kit requests.
-                        </p>
-                        <a href="https://docs.google.com/forms/" target="_blank"
-                            class="btn btn-outline-danger rounded-pill px-4 w-100 fw-bold">
-                            Media Contact <i class="bi bi-arrow-right ms-2 transition-icon"></i>
-                        </a>
-                    </div>
-                    <div class="card-footer bg-transparent border-0 pt-0 pb-4">
-                        <small class="text-muted fs-7">For journalists & bloggers</small>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -172,14 +125,14 @@ include 'includes/navigation.php';
                 </p>
                 <div class="d-flex align-items-center gap-4">
                     <div class="d-flex align-items-center text-primary">
-                        <i class="bi bi-geo-alt fs-3 me-2"></i>
+                        <i class="fa-solid fa-location-dot fs-3 me-2"></i>
                         <div>
                             <span class="d-block fw-bold text-dark">Mumbai, India</span>
                             <small class="text-muted">Headquarters</small>
                         </div>
                     </div>
                     <div class="d-flex align-items-center text-primary">
-                        <i class="bi bi-envelope fs-3 me-2"></i>
+                        <i class="fa-solid fa-envelope fs-3 me-2"></i>
                         <div>
                             <span class="d-block fw-bold text-dark">contact@mwc.org</span>
                             <small class="text-muted">Email Support</small>
@@ -208,7 +161,7 @@ include 'includes/navigation.php';
                         <div class="d-flex align-items-center gap-4 mb-4">
                             <div
                                 class="icon-box-speaker mb-0 rounded-circle d-flex align-items-center justify-content-center icon-80 flex-shrink-0 shadow-sm">
-                                <i class="bi bi-mic text-gradient fs-1"></i>
+                                <i class="fa-solid fa-microphone text-gradient-lavender fs-1"></i>
                             </div>
                             <div>
                                 <h3 class="mb-0">Become a <br><span class="text-gradient">Speaker</span>
@@ -224,25 +177,25 @@ include 'includes/navigation.php';
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center gap-2 speaker-feature">
-                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <i class="fa-solid fa-circle-check text-gradient-lavender fs-5"></i>
                                     <span>Technical Workshops</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center gap-2 speaker-feature">
-                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <i class="fa-solid fa-circle-check text-gradient-lavender fs-5"></i>
                                     <span>Career Talks</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center gap-2 speaker-feature">
-                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <i class="fa-solid fa-circle-check text-gradient-lavender fs-5"></i>
                                     <span>Panel Discussions</span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center gap-2 speaker-feature">
-                                    <i class="bi bi-check2-circle text-gradient fs-5"></i>
+                                    <i class="fa-solid fa-circle-check text-gradient-lavender fs-5"></i>
                                     <span>Lightning Talks</span>
                                 </div>
                             </div>
@@ -261,9 +214,8 @@ include 'includes/navigation.php';
                         more diverse and knowledgeable community.
                     </p>
                     <div class="d-flex flex-column flex-sm-row gap-3">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScRTcS2iWIo0bYL8GLdoczm5Baf6vEHvxe_ZwuvAxBP-6oRDg/viewform"
-                            target="_blank" class="btn btn-premium btn-lg">
-                            Submit Proposal <i class="bi bi-send ms-2"></i>
+                        <a href="https://forms.gle/681mhMw16wNvGKW59" target="_blank" class="btn btn-premium btn-lg">
+                            Submit Proposal <i class="fa-solid fa-paper-plane ms-2"></i>
                         </a>
                         <a href="events.php" class="btn btn-m-outline btn-lg">View Past Events</a>
                     </div>
@@ -282,9 +234,15 @@ include 'includes/navigation.php';
                     <img src="assets/images/volunteer.png" alt="MWC Volunteers Team"
                         class="img-fluid rounded-4 shadow-lg position-relative z-1 hover-lift volunteer-img-rotate">
                     <!-- Creative Shapes -->
-                    <div class="position-absolute top-0 end-0 translate-middle bg-warning rounded-circle opacity-10 blur-80 blob-volunteer-1"></div>
-                    <div class="position-absolute bottom-0 start-0 translate-middle bg-info rounded-circle opacity-10 blur-60 blob-volunteer-2"></div>
-                    <div class="position-absolute top-50 start-50 translate-middle border border-primary opacity-10 rounded-circle volunteer-circle-border"></div>
+                    <div
+                        class="position-absolute top-0 end-0 translate-middle bg-warning rounded-circle opacity-10 blur-80 blob-volunteer-1">
+                    </div>
+                    <div
+                        class="position-absolute bottom-0 start-0 translate-middle bg-info rounded-circle opacity-10 blur-60 blob-volunteer-2">
+                    </div>
+                    <div
+                        class="position-absolute top-50 start-50 translate-middle border border-primary opacity-10 rounded-circle volunteer-circle-border">
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6 order-lg-1 animate__animated animate__fadeInLeft">
@@ -296,21 +254,21 @@ include 'includes/navigation.php';
                 </p>
                 <ul class="list-unstyled mb-5">
                     <li class="d-flex align-items-center mb-3">
-                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <i class="fa-solid fa-circle-check text-primary me-3 fs-5"></i>
                         <span>Gain exclusive behind-the-scenes access</span>
                     </li>
                     <li class="d-flex align-items-center mb-3">
-                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <i class="fa-solid fa-circle-check text-primary me-3 fs-5"></i>
                         <span>Network with industry leaders and speakers</span>
                     </li>
                     <li class="d-flex align-items-center">
-                        <i class="bi bi-check-circle-fill text-primary me-3 fs-5"></i>
+                        <i class="fa-solid fa-circle-check text-primary me-3 fs-5"></i>
                         <span>Get cool swag and community recognition</span>
                     </li>
                 </ul>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScfkHDuCeWdmgsrlACmILNx41LhS47eNKHMaOAX2LKkSQL54g/viewform/"
                     target="_blank" class="btn btn-premium btn-lg hover-lift">
-                    Apply to Volunteer <i class="bi bi-arrow-right ms-2 transition-icon"></i>
+                    Apply to Volunteer <i class="fa-solid fa-arrow-right ms-2 transition-icon"></i>
                 </a>
             </div>
         </div>
@@ -345,7 +303,7 @@ include 'includes/navigation.php';
         </div>
         <div class="mt-4">
             <a href="https://instagram.com" target="_blank" class="btn btn-outline-light rounded-pill px-4">
-                <i class="bi bi-instagram me-2"></i> Follow @MumbaiWomenCoders
+                <i class="fa-brands fa-instagram me-2"></i> Follow @MumbaiWomenCoders
             </a>
         </div>
     </div>

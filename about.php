@@ -31,7 +31,7 @@ include 'includes/navigation.php';
                 </p>
                 <div class="d-flex gap-3 justify-content-center">
                     <a href="#story" class="btn btn-premium btn-lg shadow-lg">Learn More <i
-                            class="bi bi-arrow-down ms-2"></i></a>
+                            class="fa-solid fa-arrow-down ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -49,12 +49,12 @@ include 'includes/navigation.php';
                         <div class="position-absolute bg-lavender rounded-4 opacity-10 img-offset-bg"></div>
                         <div class="img-premium-container shadow-2xl border-0 rounded-4 overflow-hidden">
                             <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=1200"
-                                class="d-block w-100 h-480-cover" alt="Story of MWC">
+                                class="d-block w-100 h-480-cover" alt="Story of Women Coders">
                         </div>
                         <div
                             class="position-absolute bottom-0 start-0 m-3 p-3 bg-white rounded-3 shadow-sm d-flex align-items-center gap-2 border-start border-4 border-royal-violet">
-                            <i class="bi bi-stars text-royal-violet fs-4"></i>
-                            <span class="fw-bold small">Founded in 2018</span>
+                            <i class="fa-solid fa-star text-royal-violet fs-4"></i>
+                            <span class="fw-bold small">Founded in 2015</span>
                         </div>
                     </div>
                 </div>
@@ -64,19 +64,19 @@ include 'includes/navigation.php';
                 <h2 class="display-4 fw-bold mb-3">Built for Women, <br>By Women.</h2>
                 <div class="story-content">
                     <p class="mb-3 fs-5 about-desc">
-                        Mumbai Women Coders was born from a simple observation: the tech industry in Mumbai needed a
+                        Women Coders was born from a simple observation: the tech industry needed a
                         dedicated space for female talent to thrive.
                     </p>
                     <p class="mb-4 text-muted">
                         We started as a small group of engineers who wanted to share knowledge without barriers. Today,
-                        we are Mumbai's most active community for women in technology, providing the mentorship and
+                        we are the most active community for women in technology, providing the mentorship and
                         visibility needed to reach leadership roles.
                     </p>
                     <div class="row g-4 pt-2">
                         <div class="col-md-6">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="bg-lavender bg-opacity-10 rounded-circle p-2 text-royal-violet">
-                                    <i class="bi bi-check2-circle fs-5"></i>
+                                    <i class="fa-regular fa-circle-check fs-5"></i>
                                 </div>
                                 <span class="fw-bold">Tech Leadership</span>
                             </div>
@@ -84,7 +84,7 @@ include 'includes/navigation.php';
                         <div class="col-md-6">
                             <div class="d-flex align-items-center gap-3">
                                 <div class="bg-lavender bg-opacity-10 rounded-circle p-2 text-royal-violet">
-                                    <i class="bi bi-check2-circle fs-5"></i>
+                                    <i class="fa-regular fa-circle-check fs-5"></i>
                                 </div>
                                 <span class="fw-bold">Peer Mentorship</span>
                             </div>
@@ -112,7 +112,7 @@ include 'includes/navigation.php';
             <div class="col-lg-6 fade-up-trigger">
                 <div class="glass-card-premium p-5 d-flex flex-column justify-content-center h-100">
                     <div class="icon-box-glow mb-4">
-                        <i class="bi bi-eye"></i>
+                        <i class="fa-regular fa-eye"></i>
                     </div>
                     <h3 class="fw-bold mb-3">The Vision</h3>
                     <p class="text-muted fs-5 mb-4">
@@ -135,7 +135,7 @@ include 'includes/navigation.php';
                     <div class="col-md-6 fade-up-trigger delay-1">
                         <div class="glass-card-premium p-4 text-center">
                             <div class="icon-box-glow mx-auto">
-                                <i class="bi bi-mortarboard"></i>
+                                <i class="fa-solid fa-graduation-cap"></i>
                             </div>
                             <h5 class="fw-bold mb-2">Education</h5>
                             <p class="small text-muted mb-0">Bridging the gap between academia and industry.</p>
@@ -144,7 +144,7 @@ include 'includes/navigation.php';
                     <div class="col-md-6 fade-up-trigger delay-2">
                         <div class="glass-card-premium p-4 text-center">
                             <div class="icon-box-glow mx-auto">
-                                <i class="bi bi-braces"></i>
+                                <i class="fa-solid fa-code"></i>
                             </div>
                             <h5 class="fw-bold mb-2">Skill Building</h5>
                             <p class="small text-muted mb-0">Hands-on workshops in Cloud, AI, and Dev.</p>
@@ -153,7 +153,7 @@ include 'includes/navigation.php';
                     <div class="col-md-6 fade-up-trigger delay-3">
                         <div class="glass-card-premium p-4 text-center">
                             <div class="icon-box-glow mx-auto">
-                                <i class="bi bi-heart"></i>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                             <h5 class="fw-bold mb-2">Support</h5>
                             <p class="small text-muted mb-0">A safe space for questions and growth.</p>
@@ -162,7 +162,7 @@ include 'includes/navigation.php';
                     <div class="col-md-6 fade-up-trigger delay-4">
                         <div class="glass-card-premium p-4 text-center">
                             <div class="icon-box-glow mx-auto">
-                                <i class="bi bi-graph-up-arrow"></i>
+                                <i class="fa-solid fa-arrow-trend-up"></i>
                             </div>
                             <h5 class="fw-bold mb-2">Career</h5>
                             <p class="small text-muted mb-0">Referrals and mentorship for job readiness.</p>
@@ -180,16 +180,16 @@ include 'includes/navigation.php';
         <div class="row g-0 rounded-4 overflow-hidden shadow-2xl border border-white border-opacity-25">
             <!-- Visual Side (Left) -->
             <div class="col-lg-6 d-none d-lg-block position-relative">
-                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200"
-                    class="w-100 h-100 object-fit-cover" alt="Community Interaction">
+                <img src="assets/images/support-us.webp" class="w-100 h-100 object-fit-cover"
+                    alt="Community Interaction">
                 <div class="position-absolute inset-0 bg-dark-amethyst opacity-50"></div>
-                <div class="position-absolute bottom-0 start-0 p-5">
+                <!-- <div class="position-absolute bottom-0 start-0 p-5">
                     <div
-                        class="glass-morphism p-4 rounded-4 border border-white border-opacity-20 text-white backdrop-blur">
-                        <h4 class="fw-bold mb-1">Inclusive by Design</h4>
-                        <p class="small mb-0 opacity-75">Join 2500+ members in Mumbai's most vibrant tech circle.</p>
+                        class="glass-morphism p-4 rounded-4 border border-white border-opacity-20 text-white backdrop-blur bg-lavender-subtle">
+                        <h4 class="fw-bold mb-2">Inclusive by Design</h4>
+                        <h6 class="fw-normal mb-0 opacity-75">Join 2500+ members in our vibrant tech circle.</h6>
                     </div>
-                </div>
+                </div> -->
             </div>
             <!-- Content Side (Right) -->
             <div class="col-lg-6 p-5 p-md-5 d-flex flex-column justify-content-center">
@@ -205,7 +205,7 @@ include 'includes/navigation.php';
                         <div
                             class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
                             <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
-                                <i class="bi bi-person-fill text-mauve"></i> Women
+                                <i class="fa-solid fa-user text-mauve"></i> Women
                             </h5>
                             <p class="text-white-50 small mb-0">Access exclusive mentorship, leadership tracks, and a
                                 safe learning environment.</p>
@@ -215,7 +215,7 @@ include 'includes/navigation.php';
                         <div
                             class="p-3 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 h-100 hover-opacity-100 transition-all">
                             <h5 class="text-white fw-bold mb-3 d-flex align-items-center gap-2">
-                                <i class="bi bi-people-fill text-mauve"></i> Allies (Men)
+                                <i class="fa-solid fa-users text-mauve"></i> Allies (Men)
                             </h5>
                             <p class="text-white-50 small mb-0">Attend open meetups, share technical expertise, and
                                 advocate for gender equity.</p>
@@ -246,7 +246,7 @@ include 'includes/navigation.php';
             <div class="col-lg-4 fade-up-trigger">
                 <div class="m-card h-100 p-4 border-0 shadow-sm hover-shadow-lg transition-all bg-soft-lavender">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-heart-pulse"></i>
+                        <i class="fa-solid fa-heart-pulse"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Radical Inclusion</h4>
                     <p class="text-muted small">We welcome all women who code, regardless of background, seniority, or
@@ -256,7 +256,7 @@ include 'includes/navigation.php';
             <div class="col-lg-4 fade-up-trigger">
                 <div class="m-card h-100 p-4 border-0 shadow-sm hover-shadow-lg transition-all bg-soft-lavender">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-lightning-charge"></i>
+                        <i class="fa-solid fa-bolt-lightning"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Technical Rigor</h4>
                     <p class="text-muted small">We don't just talk about tech; we build it. Our culture is defined by
@@ -266,7 +266,7 @@ include 'includes/navigation.php';
             <div class="col-lg-4 fade-up-trigger">
                 <div class="m-card h-100 p-4 border-0 shadow-sm hover-shadow-lg transition-all bg-soft-lavender">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-shield-check"></i>
+                        <i class="fa-solid fa-shield-halved"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Growth Mindset</h4>
                     <p class="text-muted small">We foster a community where asking questions is encouraged and "failing
@@ -286,7 +286,7 @@ include 'includes/navigation.php';
             <h6 class="text-white-50 fw-bold text-uppercase ls-2 mb-3">The Core Team</h6>
             <h2 class="display-4 fw-bold text-white">Our Team</h2>
             <p class="lead text-white-50 mx-auto mx-w-700 opacity-75">
-                Meet the passionate individuals driving the Mumbai Women Coders community forward.
+                Meet the passionate individuals driving the Women Coders community forward.
             </p>
         </div>
 
@@ -318,7 +318,7 @@ include 'includes/navigation.php';
             ];
 
             foreach ($leadership as $o): ?>
-                <div class="col-lg-4 col-md-6 fade-up-trigger">
+                <div class="col-lg-4 col-md-6 fade-up-trigger pt-5 mt-4 pt-lg-0 mt-lg-0">
                     <div
                         class="h-100 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 d-flex flex-column transition-all hover-opacity-100 text-center p-4 pt-5 mt-5">
                         <div class="speaker-img-wrapper">
@@ -328,12 +328,12 @@ include 'includes/navigation.php';
                         <h4 class="text-white"><?= $o['name'] ?></h4>
                         <span
                             class="speaker-designation text-white opacity-75 border-0 bg-transparent"><?= $o['designation'] ?></span>
-                        <p class="text-white-50 small mb-4">
+                        <p class="text-white-50 small mb-2">
                             <?= $o['role'] ?>
                         </p>
                         <div class="speaker-socials mt-auto">
                             <a href="<?= $o['link'] ?>" target="_blank" title="LinkedIn"
-                                class="text-white border-0 bg-transparent fs-4"><i class="bi bi-linkedin"></i></a>
+                                class="text-white border-0 bg-transparent fs-4"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
@@ -341,7 +341,7 @@ include 'includes/navigation.php';
         </div>
 
         <!-- Core Team Section -->
-        <div class="text-center mt-5 pt-5 mb-5 fade-up-trigger">
+        <!-- <div class="text-center mt-5 pt-5 mb-5 fade-up-trigger">
             <h2 class="display-5 fw-bold text-white mb-5">Core Team</h2>
         </div>
         <div class="row g-4 justify-content-center">
@@ -349,17 +349,17 @@ include 'includes/navigation.php';
             $coreTeam = [
 
                 [
-                    'name' => 'Taazeen Ansari',
-                    'role' => 'Student @ SIES',
+                    'name' => '',
+                    'role' => '',
                     'designation' => 'Core Team',
-                    'img' => 'assets/images/organizers/taazeen-ansari.webp',
-                    'link' => 'https://www.linkedin.com/in/taazeenansari/'
+                    'img' => '',
+                    'link' => ''
                 ],
 
             ];
 
             foreach ($coreTeam as $o): ?>
-                <div class="col-lg-4 col-md-6 fade-up-trigger">
+                <div class="col-lg-4 col-md-6 fade-up-trigger pt-5 mt-4 pt-lg-0 mt-lg-0">
                     <div
                         class="h-100 bg-white bg-opacity-10 rounded-4 border border-white border-opacity-10 d-flex flex-column transition-all hover-opacity-100 text-center p-4 pt-5 mt-5">
                         <div class="speaker-img-wrapper">
@@ -369,17 +369,17 @@ include 'includes/navigation.php';
                         <h4 class="text-white"><?= $o['name'] ?></h4>
                         <span
                             class="speaker-designation text-white opacity-75 border-0 bg-transparent"><?= $o['designation'] ?></span>
-                        <p class="text-white-50 small mb-4">
+                        <p class="text-white-50 small mb-2">
                             <?= $o['role'] ?>
                         </p>
                         <div class="speaker-socials mt-auto">
                             <a href="<?= $o['link'] ?>" target="_blank" title="LinkedIn"
-                                class="text-white border-0 bg-transparent fs-4"><i class="bi bi-linkedin"></i></a>
+                                class="text-white border-0 bg-transparent fs-4"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
             <?php endforeach; ?>
-        </div>
+        </div> -->
     </div>
 </section>
 

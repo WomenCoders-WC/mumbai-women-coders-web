@@ -50,13 +50,16 @@
     <!-- Bootstrap 5 CSS -->
     <link href="<?php echo $root ?? ''; ?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- Animate.css for scroll animations -->
     <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/animate.min.css" />
 
     <!-- Swiper.js for modern sliders -->
     <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/swiper-bundle.min.css" />
+
+    <!-- Flag Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo $root ?? ''; ?>assets/css/theme.css">

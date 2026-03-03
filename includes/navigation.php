@@ -8,7 +8,7 @@ function isActive($page)
 
 <!-- Floating Mobile Menu Button (Only visible on mobile) -->
 <button class="mobile-nav-toggle d-lg-none" type="button" aria-label="Toggle Menu">
-    <i class="bi bi-list"></i>
+    <i class="fa-solid fa-bars"></i>
 </button>
 
 <nav class="navbar navbar-expand-lg d-none d-lg-flex">
@@ -62,10 +62,10 @@ function isActive($page)
 <!-- Mobile Full Screen Overlay Menu -->
 <div class="mobile-overlay-menu d-lg-none">
     <div class="mobile-menu-close">
-        <i class="bi bi-x-lg"></i>
+        <i class="fa-solid fa-xmark"></i>
     </div>
     <div class="text-center mb-5 mt-4">
-        <img src="<?php echo $root ?? ''; ?>assets/images/logo.png" alt="Mumbai Women Coders Logo" height="50">
+        <img src="<?php echo $root ?? ''; ?>assets/images/logo/dark/logo-main.webp" alt="Women Coders Logo" height="50">
     </div>
     <ul class="mobile-nav-links list-unstyled text-center">
         <li><a href="<?php echo $root ?? ''; ?>index.php" class="<?php isActive('index.php'); ?>">Home</a></li>
@@ -75,7 +75,7 @@ function isActive($page)
             <div class="d-flex align-items-center justify-content-center">
                 <a href="<?php echo $root ?? ''; ?>chapters/" class="<?php isActive('chapters'); ?> mb-0">Chapters</a>
                 <button class="mobile-dropdown-toggle" type="button" aria-label="Toggle Submenu">
-                    <i class="bi bi-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </button>
             </div>
             <ul class="mobile-dropdown-menu list-unstyled small mt-2">

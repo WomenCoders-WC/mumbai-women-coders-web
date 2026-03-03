@@ -57,7 +57,7 @@ include 'includes/navigation.php';
                     <div class="col-12">
                         <div class="glass-card-premium p-4">
                             <div class="icon-box-glow">
-                                <i class="bi bi-graph-up-arrow"></i>
+                                <i class="fa-solid fa-arrow-trend-up"></i>
                             </div>
                             <h4 class="fw-bold mb-3">Close the Talent Gap</h4>
                             <p class="text-muted mb-0">Diverse teams are more innovative. We help companies connect with
@@ -68,7 +68,7 @@ include 'includes/navigation.php';
                     <div class="col-12">
                         <div class="glass-card-premium p-4">
                             <div class="icon-box-glow">
-                                <i class="bi bi-person-check"></i>
+                                <i class="fa-solid fa-user-check"></i>
                             </div>
                             <h4 class="fw-bold mb-3">Mentorship at Scale</h4>
                             <p class="text-muted mb-0">Your support funds programs that connect industry veterans with
@@ -97,22 +97,19 @@ include 'includes/navigation.php';
             <h2 class="display-5 fw-bold text-white">Our Growing Reach</h2>
         </div>
         <div class="row text-center g-4 fade-up-trigger">
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold display-3 mb-1 text-gradient">5000+</h2>
+            <div class="col-6 col-md-4">
+                <h2 class="fw-bold display-3 mb-1 text-gradient">2500+</h2>
                 <p class="text-white-50 small text-uppercase fw-bolder ls-1 mb-0">Active Members</p>
             </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold display-3 mb-1 text-gradient">15+</h2>
+            <div class="col-6 col-md-4">
+                <h2 class="fw-bold display-3 mb-1 text-gradient">30+</h2>
                 <p class="text-white-50 small text-uppercase fw-bolder ls-1 mb-0">Global Chapters</p>
             </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold display-3 mb-1 text-gradient">250+</h2>
-                <p class="text-white-50 small text-uppercase fw-bolder ls-1 mb-0">Technical Workshops</p>
+            <div class="col-6 col-md-4">
+                <h2 class="fw-bold display-3 mb-1 text-gradient">50+</h2>
+                <p class="text-white-50 small text-uppercase fw-bolder ls-1 mb-0">Speakers</p>
             </div>
-            <div class="col-6 col-md-3">
-                <h2 class="fw-bold display-3 mb-1 text-gradient">100k+</h2>
-                <p class="text-white-50 small text-uppercase fw-bolder ls-1 mb-0">Monthly Reach</p>
-            </div>
+
         </div>
     </div>
 </section>
@@ -133,7 +130,7 @@ include 'includes/navigation.php';
             <div class="col-lg-3 col-md-6 fade-up-trigger">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-award"></i>
+                        <i class="fa-solid fa-award"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Sponsorship</h4>
                     <p class="text-muted small mb-0">Direct financial support for our global summits, local meetups, and
@@ -144,7 +141,7 @@ include 'includes/navigation.php';
             <div class="col-lg-3 col-md-6 fade-up-trigger delay-1">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-hand-thumbs-up"></i>
+                        <i class="fa-regular fa-thumbs-up"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Partnerships</h4>
                     <p class="text-muted small mb-0">Long-term collaboration on strategic initiatives, curriculum
@@ -155,7 +152,7 @@ include 'includes/navigation.php';
             <div class="col-lg-3 col-md-6 fade-up-trigger delay-2">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-bank"></i>
+                        <i class="fa-solid fa-building-columns"></i>
                     </div>
                     <h4 class="fw-bold mb-3">Grants</h4>
                     <p class="text-muted small mb-0">Project-specific funding for research, educational materials, and
@@ -166,7 +163,7 @@ include 'includes/navigation.php';
             <div class="col-lg-3 col-md-6 fade-up-trigger delay-3">
                 <div class="m-card text-center h-100 p-4">
                     <div class="pillar-icon-box mx-auto mb-4">
-                        <i class="bi bi-box-seam"></i>
+                        <i class="fa-solid fa-box"></i>
                     </div>
                     <h4 class="fw-bold mb-3">In-kind</h4>
                     <p class="text-muted small mb-0">Pro-bono services, software licenses, venue hosting, or technical
@@ -190,16 +187,17 @@ include 'includes/navigation.php';
                 </p>
                 <ul class="list-unstyled text-white-50">
                     <li class="mb-3 d-flex align-items-center"><i
-                            class="bi bi-check-circle-fill text-gradient me-3"></i> Direct access to a pool of 5000+
+                            class="fa-solid fa-circle-check text-gradient me-3"></i> Direct access to a pool of 5000+
                         technical women.</li>
                     <li class="mb-3 d-flex align-items-center"><i
-                            class="bi bi-check-circle-fill text-gradient me-3"></i> Brand visibility across tech summits
+                            class="fa-solid fa-circle-check text-gradient me-3"></i> Brand visibility across tech
+                        summits
                         and social media.</li>
                     <li class="mb-3 d-flex align-items-center"><i
-                            class="bi bi-check-circle-fill text-gradient me-3"></i> Recruitment opportunities at
+                            class="fa-solid fa-circle-check text-gradient me-3"></i> Recruitment opportunities at
                         exclusive job stalls.</li>
                     <li class="mb-3 d-flex align-items-center"><i
-                            class="bi bi-check-circle-fill text-gradient me-3"></i> Employee engagement through
+                            class="fa-solid fa-circle-check text-gradient me-3"></i> Employee engagement through
                         mentorship roles.</li>
                 </ul>
             </div>
@@ -231,62 +229,22 @@ include 'includes/navigation.php';
 </section>
 
 <!-- Sponsors & Testimonials Section -->
-<section class="bg-surface-variant overflow-hidden">
-    <div class="container">
-        <div class="text-center mb-5 fade-up-trigger">
-            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Network</h6>
-            <h2 class="display-5 fw-bold mb-4">Trusted by Industry Leaders</h2>
+<!-- Partners Section -->
+<section class="partners-section">
+    <div class="container text-center">
+        <div class="mb-5 fade-up-trigger">
+            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Past Collaborations</h6>
+            <h2 class="display-5 fw-bold mb-4">Empowering <span class="text-gradient">Together</span></h2>
+            <div class="mx-auto divider-accent"></div>
         </div>
 
-        <div class="partners-grid fade-up-trigger mb-5">
-            <div class="partner-card">
-                <img src="assets/images/partner/microsoft.png" alt="Microsoft" class="partner-logo">
-            </div>
-            <div class="partner-card">
-                <img src="assets/images/partner/gdg-mumbai.webp" alt="GDG Mumbai" class="partner-logo">
-            </div>
-            <!-- Placeholder logos if others don't exist -->
-            <div class="partner-card">
-                <div class="fw-bold opacity-25">GLOBAL TECH CO</div>
-            </div>
-            <div class="partner-card">
-                <div class="fw-bold opacity-25">INNOVATION LABS</div>
-            </div>
-        </div>
-
-        <div class="row mt-5 pt-4">
-            <div class="col-lg-10 mx-auto fade-up-trigger">
-                <div class="story-card text-center p-5 position-relative overflow-hidden">
-                    <!-- Background Decoration -->
-                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-lavender-subtle opacity-25 z-n1"></div>
-
-                    <div class="row align-items-center">
-                        <div class="col-md-2 d-none d-md-block">
-                            <i class="bi bi-quote text-gradient opacity-25 quote-icon-lg"></i>
-                        </div>
-                        <div class="col-md-10 text-md-start">
-                            <p class="fs-4 italic mb-4 lh-base">
-                                "Partnering with Mumbai Women Coders has been an incredible journey. The quality of
-                                talent and
-                                the vibrancy of the community are unmatched. We've hired three amazing engineers through
-                                their
-                                network this year alone."
-                            </p>
-                            <div class="d-flex align-items-center mt-4">
-                                <div class="me-3 shadow position-relative z-1 avatar-medium">
-                                    <img src="https://ui-avatars.com/api/?name=David+Chen&background=7b2cbf&color=fff&size=100"
-                                        alt="David Chen, CTO of HyperTech Solutions"
-                                        class="w-100 h-100 object-fit-cover rounded-pill border border-3 border-white">
-                                </div>
-                                <div>
-                                    <h5 class="fw-bold mb-0 text-dark">David Chen</h5>
-                                    <p class="text-gradient small fw-bold text-uppercase mb-0 ls-1">CTO, HyperTech
-                                        Solutions</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="partners-marquee fade-up-trigger">
+            <div class="marquee-content" id="partner-marquee">
+                <!-- Unique Partners Only -->
+                <div class="partner-card"><img src="assets/images/partner/microsoft.png" alt="Microsoft Logo"
+                        class="partner-logo"></div>
+                <div class="partner-card"><img src="assets/images/partner/gdg-mumbai.webp" alt="GDG Logo"
+                        class="partner-logo"></div>
             </div>
         </div>
     </div>
@@ -315,7 +273,7 @@ include 'includes/navigation.php';
                             </div>
 
                             <div class="mb-4 position-relative z-1">
-                                <img src="assets/images/logo.png" alt="MWC Logo"
+                                <img src="assets/images/logo/dark/logo-main.webp" alt="MWC Logo"
                                     class="img-fluid mb-3 max-h-70 drop-shadow-glow">
                             </div>
                             <h2 class="display-5 fw-bold text-white mb-4 position-relative z-1">Start a Legacy.</h2>
@@ -325,11 +283,11 @@ include 'includes/navigation.php';
                             </p>
                             <div class="text-white position-relative z-1">
                                 <div class="d-flex align-items-center mb-3">
-                                    <div class="icon-circle-m me-3"><i class="bi bi-envelope-fill"></i></div>
+                                    <div class="icon-circle-m me-3"><i class="fa-solid fa-envelope"></i></div>
                                     <span>partnerships@womencoders.org</span>
                                 </div>
                                 <div class="d-flex align-items-center">
-                                    <div class="icon-circle-m me-3"><i class="bi bi-geo-alt-fill"></i></div>
+                                    <div class="icon-circle-m me-3"><i class="fa-solid fa-location-dot"></i></div>
                                     <span>Mumbai | London | Berlin</span>
                                 </div>
                             </div>
@@ -393,7 +351,7 @@ include 'includes/navigation.php';
                                     </div>
                                     <div class="col-md-12 text-end mt-4">
                                         <button type="submit" class="btn btn-premium btn-lg w-100 py-3 shadow-lg">Send
-                                            Inquiry <i class="bi bi-send ms-2"></i></button>
+                                            Inquiry <i class="fa-regular fa-paper-plane ms-2"></i></button>
                                     </div>
                                 </div>
                             </form>
@@ -404,6 +362,20 @@ include 'includes/navigation.php';
         </div>
     </div>
 </section>
+
+<!-- Auto-Cloning Script for Infinite Marquee -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const marquee = document.getElementById("partner-marquee");
+        if (marquee) {
+            const items = marquee.innerHTML;
+            // Clone items enough times to fill the screen and animate smoothly
+            for (let i = 0; i < 8; i++) {
+                marquee.innerHTML += items;
+            }
+        }
+    });
+</script>
 
 <script>
     // Fade-up animation on scroll

@@ -56,7 +56,7 @@ include '../includes/navigation.php';
                 <div class="glass-card-premium p-4 d-inline-block">
                     <div class="d-flex align-items-center gap-4 text-start">
                         <div class="icon-box-glow mb-0">
-                            <i class="bi bi-globe"></i>
+                            <i class="fa-solid fa-globe"></i>
                         </div>
                         <div>
                             <h4 class="fw-bold mb-1">3 Cities</h4>
@@ -75,7 +75,7 @@ include '../includes/navigation.php';
                         <img src="../assets/images/chapters/backgrounds/mumbai.webp"
                             class="w-100 h-100 object-fit-cover" alt="Mumbai">
                         <div class="position-absolute top-0 end-0 p-3">
-                            <span class="fs-2">🇮🇳</span>
+                            <span class="fi fi-in fis fs-4 rounded shadow-sm"></span>
                         </div>
                     </div>
                     <div class="p-4">
@@ -95,7 +95,7 @@ include '../includes/navigation.php';
                         <img src="../assets/images/chapters/backgrounds/london.webp"
                             class="w-100 h-100 object-fit-cover" alt="London">
                         <div class="position-absolute top-0 end-0 p-3">
-                            <span class="fs-2">🇬🇧</span>
+                            <span class="fi fi-gb fis fs-4 rounded shadow-sm"></span>
                         </div>
                         <div class="position-absolute top-50 start-50 translate-middle">
                             <span class="badge bg-dark px-3 py-2">Coming Soon</span>
@@ -119,7 +119,7 @@ include '../includes/navigation.php';
                         <img src="../assets/images/chapters/backgrounds/berlin.webp"
                             class="w-100 h-100 object-fit-cover" alt="Berlin">
                         <div class="position-absolute top-0 end-0 p-3">
-                            <span class="fs-2">🇩🇪</span>
+                            <span class="fi fi-de fis fs-4 rounded shadow-sm"></span>
                         </div>
                         <div class="position-absolute top-50 start-50 translate-middle">
                             <span class="badge bg-dark px-3 py-2">Coming Soon</span>

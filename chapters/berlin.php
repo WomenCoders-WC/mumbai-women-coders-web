@@ -71,14 +71,14 @@ include '../includes/navigation.php';
                 <div class="row g-4 mt-2">
                     <div class="col-sm-6">
                         <div class="glass-card p-3 border-0 bg-white">
-                            <h6 class="fw-bold"><i class="bi bi-rocket-takeoff text-royal-violet me-2"></i> Startup Hub
+                            <h6 class="fw-bold"><i class="fa-solid fa-rocket text-royal-violet me-2"></i> Startup Hub
                             </h6>
                             <p class="small text-muted mb-0">Connecting with the local VC and founder ecosystem.</p>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="glass-card p-3 border-0 bg-white">
-                            <h6 class="fw-bold"><i class="bi bi-cpu text-royal-violet me-2"></i> AI & Innovation</h6>
+                            <h6 class="fw-bold"><i class="fa-solid fa-microchip text-royal-violet me-2"></i> AI & Innovation</h6>
                             <p class="small text-muted mb-0">Workshops on the latest in Deep Tech and AI Ethics.</p>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Empowering Women in Tech";
-$metaDescription = "Join Mumbai Women Coders, a community dedicated to inspiring and empowering women to excel in technology through mentorship, workshops, and networking.";
+$metaDescription = "Join Women Coders, a community dedicated to inspiring and empowering women to excel in technology through mentorship, workshops, and networking.";
 include 'includes/header.php';
 include 'includes/navigation.php';
 ?>
@@ -11,10 +11,10 @@ include 'includes/navigation.php';
         <div class="row justify-content-center text-center">
             <div class="col-lg-10 animate__animated animate__fadeIn">
                 <div class="mb-4 hero-logo-wrapper">
-                    <img src="assets/images/logo.png" alt="Mumbai Women Coders Logo" class="hero-logo">
+                    <img src="assets/images/logo/dark/logo-main.webp" alt="Women Coders Logo" class="hero-logo">
                 </div>
                 <div class="d-inline-flex align-items-center mb-4 px-4 py-2 rounded-pill shadow-sm hero-badge">
-                    <small class="fw-bold text-gradient text-uppercase ls-2">Mumbai Women Coders Community</small>
+                    <small class="fw-bold text-gradient text-uppercase ls-2">Women Coders Community</small>
                 </div>
                 <h1 class="display-1 fw-bolder mb-3 lh-1">
                     Inspiring <span class="text-gradient">Women</span> <br>
@@ -27,13 +27,13 @@ include 'includes/navigation.php';
                 <div class="d-flex gap-3 gap-md-4 flex-column flex-sm-row justify-content-center mb-4 pb-2">
                     <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
                         class="btn btn-premium btn-lg shadow-lg">
-                        Join a Chapter <i class="bi bi-people ms-2"></i>
+                        Join a Chapter <i class="fa-solid fa-user-group ms-2"></i>
                     </a>
                     <a href="chapters/" class="btn btn-m-outline btn-lg">
-                        Explore Chapters <i class="bi bi-compass ms-2"></i>
+                        Explore Chapters <i class="fa-regular fa-compass ms-2"></i>
                     </a>
                     <a href="support-us.php" class="btn btn-m-outline btn-lg">
-                        Support Us <i class="bi bi-heart ms-2"></i>
+                        Support Us <i class="fa-regular fa-heart ms-2"></i>
                     </a>
                 </div>
             </div>
@@ -50,7 +50,7 @@ include 'includes/navigation.php';
                 <p class="text-muted small text-uppercase fw-bolder ls-1 mb-0">Tech Women</p>
             </div>
             <div class="col-6 col-md-3">
-                <h2 class="fw-bold display-4 mb-1 text-gradient">150+</h2>
+                <h2 class="fw-bold display-4 mb-1 text-gradient">40+</h2>
                 <p class="text-muted small text-uppercase fw-bolder ls-1 mb-0">Meetups Held</p>
             </div>
             <div class="col-6 col-md-3">
@@ -95,7 +95,8 @@ include 'includes/navigation.php';
 
                     <!-- Floating Card -->
                     <div class="m-card position-absolute d-none d-md-block shadow-lg about-floating-card">
-                        <h6 class="fw-bold text-gradient mb-2"><i class="bi bi-quote me-2"></i>Our Vision</h6>
+                        <h6 class="fw-bold text-gradient mb-2"><i class="fa-solid fa-quote-left me-2"></i>Our Vision
+                        </h6>
                         <p class="small mb-0">"Proportional representation of women in tech leadership roles globally."
                         </p>
                     </div>
@@ -103,9 +104,9 @@ include 'includes/navigation.php';
             </div>
             <div class="col-lg-6 ps-lg-5 fade-up-trigger">
                 <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Building the Ecosystem</h6>
-                <h2 class="display-4 fw-bold mb-4">Empowering Women in Mumbai's Tech Scene</h2>
+                <h2 class="display-4 fw-bold mb-4">Empowering Women in the Tech Scene</h2>
                 <p class="mb-4 fs-5 about-desc">
-                    Mumbai Women Coders is a vibrant tech community in Mumbai for women & men in technology and their
+                    Women Coders is a vibrant tech community for women & men in technology and their
                     allies, creating lasting change in the tech ecosystem. <br>
                     Our community welcomes everyone: students, professionals, experienced developers, and allies
                     committed to inclusive tech spaces. <br>
@@ -113,12 +114,12 @@ include 'includes/navigation.php';
                 </p>
                 <div class="row g-4 mb-5">
                     <div class="col-sm-6 text-center text-sm-start">
-                        <i class="bi bi-shield-check text-gradient fs-1 mb-2 d-block"></i>
+                        <i class="fa-solid fa-shield-halved text-gradient fs-1 mb-2 d-block"></i>
                         <h5 class="fw-bold">Safe Space</h5>
                         <p class="small">Inclusive learning environment for all skill levels.</p>
                     </div>
                     <div class="col-sm-6 text-center text-sm-start">
-                        <i class="bi bi-people text-gradient fs-1 mb-2 d-block"></i>
+                        <i class="fa-solid fa-user-group text-gradient fs-1 mb-2 d-block"></i>
                         <h5 class="fw-bold">Global Network</h5>
                         <p class="small">Connect with professionals across the globe.</p>
                     </div>
@@ -142,7 +143,7 @@ include 'includes/navigation.php';
                 <h2 class="display-4 fw-bold text-white">How We Empower Women in Technology</h2>
             </header>
             <p class="lead text-white-50 mx-auto mx-w-750">
-                Mumbai Women Coders provides a comprehensive ecosystem for female developers and technical leaders to
+                Women Coders provides a comprehensive ecosystem for female developers and technical leaders to
                 excel through specialized programs in engineering, leadership, and hands-on innovation.
             </p>
         </div>
@@ -152,11 +153,11 @@ include 'includes/navigation.php';
             <article class="col-lg-3 col-md-6 fade-up-trigger">
                 <div class="m-card-dark h-100">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-calendar-event" aria-hidden="true"></i>
+                        <i class="fa-regular fa-calendar-days" aria-hidden="true"></i>
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Tech Events & Meetups</h3>
                     <p class="text-white-50 small mb-0">
-                        Join our monthly technical meetups, hackathons, and flagship conferences in Mumbai designed to
+                        Join our monthly technical meetups, hackathons, and flagship conferences designed to
                         foster collaboration and showcase female technical excellence.
                     </p>
                 </div>
@@ -166,7 +167,7 @@ include 'includes/navigation.php';
             <article class="col-lg-3 col-md-6 fade-up-trigger">
                 <div class="m-card-dark h-100">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-code-slash" aria-hidden="true"></i>
+                        <i class="fa-solid fa-code" aria-hidden="true"></i>
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Hands-on Technical Learning</h3>
                     <p class="text-white-50 small mb-0">
@@ -180,12 +181,12 @@ include 'includes/navigation.php';
             <article class="col-lg-3 col-md-6 fade-up-trigger">
                 <div class="m-card-dark h-100">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-chat-heart" aria-hidden="true"></i>
+                        <i class="fa-solid fa-comment-dots" aria-hidden="true"></i>
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Professional Networking</h3>
                     <p class="text-white-50 small mb-0">
                         Build meaningful connections within a safe, inclusive space. Access mentorship from industry
-                        veterans and grow your network within Mumbai's tech ecosystem.
+                        veterans and grow your network within the tech ecosystem.
                     </p>
                 </div>
             </article>
@@ -194,7 +195,7 @@ include 'includes/navigation.php';
             <article class="col-lg-3 col-md-6 fade-up-trigger">
                 <div class="m-card-dark h-100">
                     <div class="pillar-icon-box mb-4">
-                        <i class="bi bi-briefcase" aria-hidden="true"></i>
+                        <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
                     </div>
                     <h3 class="h4 fw-bold text-white mb-3">Career Growth Opportunities</h3>
                     <p class="text-white-50 small mb-0">
@@ -221,7 +222,7 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Save the Date</h6>
             <h2 class="display-4 fw-bold">Upcoming Community Events</h2>
             <p class="lead text-muted mx-auto mx-w-700">
-                Secure your spot in our upcoming sessions and accelerate your technical journey with the Mumbai tech
+                Secure your spot in our upcoming sessions and accelerate your technical journey with the tech
                 community.
             </p>
         </div>
@@ -233,8 +234,8 @@ include 'includes/navigation.php';
                     <!-- Image Column -->
                     <div class="col-md-3">
                         <div class="event-img-container">
-                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800"
-                                class="event-preview-img" alt="Cloud Workshop">
+                            <img src="assets/images/events/mwc-8-3-26.jpg" class="event-preview-img"
+                                alt="International Women's Day">
                             <div class="event-img-overlay"></div>
                         </div>
                     </div>
@@ -243,47 +244,43 @@ include 'includes/navigation.php';
                         <div class="row align-items-center g-0 p-4 h-100">
                             <div class="col-md-2 text-center">
                                 <div class="event-date-box mx-auto mb-3 mb-md-0">
-                                    <span class="d-block h2 fw-800 mb-0">15</span>
+                                    <span class="d-block h2 fw-800 mb-0">8</span>
                                     <span class="text-uppercase fw-bold ls-1 small">MARCH</span>
                                 </div>
                             </div>
                             <div class="col-md-10 ps-md-4">
                                 <div class="row align-items-center">
                                     <div class="col-lg-7">
-                                        <h3 class="h4 fw-800 mb-1 text-gradient">Cloud Native & Kubernetes Deep Dive
+                                        <h3 class="h4 fw-800 mb-1 text-gradient">International Women's Day
                                         </h3>
-                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
-                                            91springboard, Andheri West</div>
+                                        <div class="text-muted small"><i
+                                                class="fa-solid fa-location-dot text-primary"></i>
+                                            Mumbai</div>
                                     </div>
                                     <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
                                         <div
                                             class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
-                                            Technical Workshop
-                                        </div>
-                                        <div class="text-muted small d-block">
-                                            <i class="bi bi-laptop me-1"></i> In-Person & Online
-                                        </div>
+                                            Community Event</div>
                                     </div>
-                                    <div class="col-12 mt-3">
-                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
-                                            class="btn btn-premium-sm">Register Now <i
-                                                class="bi bi-arrow-right"></i></a>
+                                    <div class="text-muted small d-block">
+                                        <i class="fa-solid fa-laptop me-1"></i> In-Person
                                     </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <a href="https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website"
+                                        target="_blank" class="btn btn-premium-sm">Register Now <i
+                                            class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Event 2 -->
-            <div class="event-card-row mb-5 animate-fade-up fade-up-trigger delay-2 text-center text-md-start">
                 <div class="row g-0">
                     <!-- Image Column -->
                     <div class="col-md-3">
                         <div class="event-img-container">
-                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800"
-                                class="event-preview-img" alt="Leadership Series">
+                            <img src="assets/images/events/mwc-8-3/mwc-8-3-26.jpg" class="event-preview-img"
+                                alt="SheBuilds on Lovable x International Women's Day(Mumbai)">
                             <div class="event-img-overlay"></div>
                         </div>
                     </div>
@@ -292,31 +289,33 @@ include 'includes/navigation.php';
                         <div class="row align-items-center g-0 p-4 h-100">
                             <div class="col-md-2 text-center">
                                 <div class="event-date-box mx-auto mb-3 mb-md-0">
-                                    <span class="d-block h2 fw-800 mb-0">28</span>
+                                    <span class="d-block h2 fw-800 mb-0">8</span>
                                     <span class="text-uppercase fw-bold ls-1 small">MARCH</span>
                                 </div>
                             </div>
                             <div class="col-md-10 ps-md-4">
                                 <div class="row align-items-center">
                                     <div class="col-lg-7">
-                                        <h3 class="h4 fw-800 mb-1 text-gradient">Women in Tech: Leadership Series</h3>
-                                        <div class="text-muted small"><i class="bi bi-geo-alt-fill text-primary"></i>
-                                            Microsoft Reactor, Mumbai</div>
+                                        <h3 class="h4 fw-800 mb-1 text-gradient">SheBuilds on Lovable x International
+                                            Women's Day(Mumbai)
+                                        </h3>
+                                        <div class="text-muted small"><i
+                                                class="fa-solid fa-location-dot text-primary"></i>
+                                            Mumbai</div>
                                     </div>
                                     <div class="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
                                         <div
                                             class="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">
-                                            Community Event
-                                        </div>
-                                        <div class="text-muted small d-block">
-                                            <i class="bi bi-people-fill me-1"></i> In-Person Only
-                                        </div>
+                                            Bulidathon</div>
                                     </div>
-                                    <div class="col-12 mt-3">
-                                        <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank"
-                                            class="btn btn-premium-sm">Register Now <i
-                                                class="bi bi-arrow-right"></i></a>
+                                    <div class="text-muted small d-block">
+                                        <i class="fa-solid fa-laptop me-1"></i> In-Person
                                     </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <a href="https://luma.com/mxykzefr?utm_content=latest_event&utm_medium=direct&utm_source=website"
+                                        target="_blank" class="btn btn-premium-sm">Register Now <i
+                                            class="fa-solid fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -325,8 +324,51 @@ include 'includes/navigation.php';
             </div>
         </div>
 
-        <div class="text-center mt-5">
-            <a href="events/" class="btn btn-premium px-5">EXPLORE ALL EVENTS</a>
+        <!-- Event 2 -->
+
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="events/" class="btn btn-premium px-5">EXPLORE ALL EVENTS</a>
+    </div>
+    </div>
+</section>
+
+<!-- Chapters Overview -->
+<section id="explore" class="bg-mesh-light py-5">
+    <div class="container">
+        <div class="text-center mb-5 fade-up-trigger">
+            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Global Network</h6>
+            <h2 class="display-4 fw-bold mb-4">Women Coders <span class="text-royal-violet">Chapters</span></h2>
+            <p class="lead text-muted mx-auto mx-w-750">
+                Women Coders is expanding its reach. Our chapters are local communities led by passionate
+                individuals who want to bridge the gender gap in tech through mentorship, events, and a supportive
+                environment.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <!-- Mumbai Chapter -->
+            <div class="col-md-4 animate-fade-up">
+                <div class="glass-card-premium h-100">
+                    <div class="position-relative overflow-hidden h-250">
+                        <img src="assets/images/chapters/backgrounds/mumbai.webp" class="w-100 h-100 object-fit-cover"
+                            alt="Mumbai">
+                        <div class="position-absolute top-0 end-0 p-3">
+                            <span class="fi fi-in fis fs-4 rounded shadow-sm"></span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="fw-bold h4">Mumbai, India</h3>
+                        <p class="text-muted small mb-4">The heartbeat of our community, Mumbai Women Coders is where it
+                            all began. Empowering thousands of women in India's financial capital.</p>
+                        <a href="chapters/mumbai"
+                            class="btn btn-outline-primary btn-sm rounded-pill px-4 stretched-link">Visit Chapter</a>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>
@@ -338,7 +380,7 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Community Impact</h6>
             <h2 class="display-4 fw-bold text-white">Member Success Stories</h2>
             <p class="lead text-white-50 mx-auto mx-w-750">
-                Witness the transformative journeys of our members who have leveraged the Mumbai Women Coders ecosystem
+                Witness the transformative journeys of our members who have leveraged the Women Coders ecosystem
                 to reach new heights in their technical careers.
             </p>
         </div>
@@ -347,7 +389,7 @@ include 'includes/navigation.php';
             <!-- Story 1 -->
             <div class="col-lg-6 fade-up-trigger">
                 <div class="story-card h-100">
-                    <i class="bi bi-quote story-quote-icon"></i>
+                    <i class="fa-solid fa-quote-left story-quote-icon"></i>
                     <div class="member-avatar-ring">
                         <img src="https://ui-avatars.com/api/?name=Shruti+Deshmukh&background=9d4edd&color=fff&size=128"
                             alt="Shruti Deshmukh">
@@ -364,7 +406,7 @@ include 'includes/navigation.php';
             <!-- Story 2 -->
             <div class="col-lg-6 fade-up-trigger delay-2">
                 <div class="story-card h-100">
-                    <i class="bi bi-quote story-quote-icon"></i>
+                    <i class="fa-solid fa-quote-left story-quote-icon"></i>
                     <div class="member-avatar-ring">
                         <img src="https://ui-avatars.com/api/?name=Sneha+Rao&background=7b2cbf&color=fff&size=128"
                             alt="Sneha Rao">
@@ -434,7 +476,7 @@ include 'includes/navigation.php';
                             </p>
                             <div class="speaker-socials">
                                 <a href="<?= $s['link'] ?>" target="_blank" title="LinkedIn"><i
-                                        class="bi bi-linkedin"></i></a>
+                                        class="fa-brands fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -449,7 +491,7 @@ include 'includes/navigation.php';
 </section>
 
 <!-- Chapter Lead Journeys (Dark Section) -->
-<section id="lead-journeys" class="bg-cosmic-theme py-5">
+<!-- <section id="lead-journeys" class="bg-cosmic-theme py-5">
     <div class="container py-5">
         <div class="text-center mb-5 fade-up-trigger">
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Path to Leadership</h6>
@@ -462,20 +504,20 @@ include 'includes/navigation.php';
 
         <div class="row mt-5">
             <div class="col-lg-8 mx-auto">
-                <!-- Journey Node 1 -->
+               
                 <div class="journey-segment fade-up-trigger">
-                    <div class="journey-node"><i class="bi bi-stars"></i></div>
+                    <div class="journey-node"><i class="fa-solid fa-star"></i></div>
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 1: Active Contribution</h4>
                         <p class="text-white-50 mb-0 small">
-                            Megha joined as a volunteer for the Mumbai Tech Summit. By managing logistics and supporting
-                            attendees, she learned the core values of MWC.
+                            Megha joined as a volunteer for the Tech Summit. By managing logistics and supporting
+                            attendees, she learned the core values of Women Coders.
                         </p>
                     </div>
                 </div>
-                <!-- Journey Node 2 -->
+                
                 <div class="journey-segment fade-up-trigger delay-1">
-                    <div class="journey-node"><i class="bi bi-lightning-charge"></i></div>
+                    <div class="journey-node"><i class="fa-solid fa-bolt-lightning"></i></div>
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 2: Mentorship & Growth</h4>
                         <p class="text-white-50 mb-0 small">
@@ -484,13 +526,13 @@ include 'includes/navigation.php';
                         </p>
                     </div>
                 </div>
-                <!-- Journey Node 3 -->
+                
                 <div class="journey-segment fade-up-trigger delay-2">
-                    <div class="journey-node"><i class="bi bi-rocket-takeoff"></i></div>
+                    <div class="journey-node"><i class="fa-solid fa-rocket"></i></div>
                     <div class="journey-card">
                         <h4 class="text-white fw-bold mb-2">Phase 3: Chapter Leadership</h4>
                         <p class="text-white-50 mb-0 small">
-                            Today, Megha leads the Navi Mumbai chapter, overseeing events, partnerships, and a core team
+                            Today, Megha leads the chapter, overseeing events, partnerships, and a core team
                             of 15 volunteers.
                         </p>
                     </div>
@@ -503,29 +545,42 @@ include 'includes/navigation.php';
             <a href="volunteer" class="btn btn-premium px-5">VOLUNTEER WITH US</a>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Partners Section -->
 <section class="partners-section">
     <div class="container text-center">
         <div class="mb-5 fade-up-trigger">
-            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Trusted Partners</h6>
+            <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Our Past Collaborations</h6>
             <h2 class="display-5 fw-bold mb-4">Empowering <span class="text-gradient">Together</span></h2>
             <div class="mx-auto divider-accent"></div>
         </div>
 
-        <div class="partners-grid fade-up-trigger">
-            <!-- Microsoft -->
-            <div class="partner-card">
-                <img src="assets/images/partner/microsoft.png" alt="Microsoft Logo" class="partner-logo">
-            </div>
-            <!-- GDG Mumbai -->
-            <div class="partner-card">
-                <img src="assets/images/partner/gdg-mumbai.webp" alt="GDG Mumbai Logo" class="partner-logo">
+        <div class="partners-marquee fade-up-trigger">
+            <div class="marquee-content" id="partner-marquee">
+                <!-- Unique Partners Only -->
+                <div class="partner-card"><img src="assets/images/partner/microsoft.png" alt="Microsoft Logo"
+                        class="partner-logo"></div>
+                <div class="partner-card"><img src="assets/images/partner/gdg-mumbai.webp" alt="GDG Logo"
+                        class="partner-logo"></div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Auto-Cloning Script for Infinite Marquee -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const marquee = document.getElementById("partner-marquee");
+        if (marquee) {
+            const items = marquee.innerHTML;
+            // Clone items enough times to fill the screen and animate smoothly
+            for (let i = 0; i < 8; i++) {
+                marquee.innerHTML += items;
+            }
+        }
+    });
+</script>
 
 <!-- FAQ Section -->
 <section id="faq" class="bg-faq-soft py-5">
@@ -534,7 +589,7 @@ include 'includes/navigation.php';
             <h6 class="text-gradient fw-bold text-uppercase ls-2 mb-3">Got Questions?</h6>
             <h2 class="display-4 fw-bold">Frequently Asked Questions</h2>
             <p class="lead text-muted mx-auto mx-w-700">
-                Everything you need to know about joining and growing with the Mumbai Women Coders community. Can't find
+                Everything you need to know about joining and growing with the Women Coders community. Can't find
                 an answer? Feel free to reach out!
             </p>
         </div>
@@ -543,15 +598,14 @@ include 'includes/navigation.php';
             <!-- FAQ 1 -->
             <div class="faq-item">
                 <div class="faq-question">
-                    <h4>Who can join Mumbai Women Coders?</h4>
-                    <div class="faq-icon"><i class="bi bi-chevron-down"></i></div>
+                    <h4>Who can join Women Coders</h4>
+                    <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
                 </div>
                 <div class="faq-answer">
                     <p>
                         We are a dedicated community focused on empowering and supporting women in the technology
-                        sector. We welcome all women who are passionate about coding, leadership, and professional
-                        growth in the Mumbai tech ecosystem.
-                    </p>
+                        sector. We welcome everyone who are passionate about coding, leadership, and professional growth
+                        in the tech ecosystem. </p>
                 </div>
             </div>
 
@@ -559,11 +613,11 @@ include 'includes/navigation.php';
             <div class="faq-item">
                 <div class="faq-question">
                     <h4>Is there a membership fee?</h4>
-                    <div class="faq-icon"><i class="bi bi-chevron-down"></i></div>
+                    <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
                 </div>
                 <div class="faq-answer">
                     <p>
-                        No, joining Mumbai Women Coders is completely free! Our core technical meetups, study groups,
+                        No, joining Women Coders is completely free! Our core technical meetups, study groups,
                         and community platforms are accessible to everyone without any charge.
                     </p>
                 </div>
@@ -572,8 +626,8 @@ include 'includes/navigation.php';
             <!-- FAQ 3 -->
             <div class="faq-item">
                 <div class="faq-question">
-                    <h4>How can I become a speaker at an MWC event?</h4>
-                    <div class="faq-icon"><i class="bi bi-chevron-down"></i></div>
+                    <h4>How can I become a speaker at a Women Coders event?</h4>
+                    <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
                 </div>
                 <div class="faq-answer">
                     <p>
@@ -588,7 +642,7 @@ include 'includes/navigation.php';
             <div class="faq-item">
                 <div class="faq-question">
                     <h4>What kind of technical topics do you cover?</h4>
-                    <div class="faq-icon"><i class="bi bi-chevron-down"></i></div>
+                    <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
                 </div>
                 <div class="faq-answer">
                     <p>
@@ -599,18 +653,19 @@ include 'includes/navigation.php';
                 </div>
             </div>
 
+
             <!-- FAQ 5 -->
             <div class="faq-item">
                 <div class="faq-question">
-                    <h4>How do I volunteer for MWC?</h4>
-                    <div class="faq-icon"><i class="bi bi-chevron-down"></i></div>
+                    <h4>How can I become a volunteer at Women Coders</h4>
+                    <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
                 </div>
                 <div class="faq-answer">
                     <p>
-                        You can start by joining our Slack/Discord channels and checking the #volunteers-needed channel.
-                        We have various roles from event management and social media to technical mentoring and content
-                        creation.
-                    </p>
+                        Connect with us on our social media channels, join our WhatsApp community, and explore
+                        opportunities shared in our channels. Complete the Volunteer Form, and our team will get in
+                        touch with the next steps. <a href="https://forms.gle/LQjaPqYjzjGJ9FYT9" target="_blank">Join
+                            Today</a>
                 </div>
             </div>
         </div>
@@ -643,21 +698,21 @@ include 'includes/navigation.php';
   "@type": "FAQPage",
   "mainEntity": [{
     "@type": "Question",
-    "name": "Who can join Mumbai Women Coders?",
+    "name": "Who can join Women Coders?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome all women who are passionate about coding, leadership, and professional growth in the Mumbai tech ecosystem."
+      "text": "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome all women who are passionate about coding, leadership, and professional growth in the tech ecosystem."
     }
   }, {
     "@type": "Question",
     "name": "Is there a membership fee?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "No, joining Mumbai Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge."
+      "text": "No, joining Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge."
     }
   }, {
     "@type": "Question",
-    "name": "How can I become a speaker at an MWC event?",
+    "name": "How can I become a speaker at a Women Coders event?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "We're always looking for fresh perspectives! You can apply to speak by filling out our 'Call for Speakers' form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups."
@@ -671,12 +726,21 @@ include 'includes/navigation.php';
     }
   }, {
     "@type": "Question",
-    "name": "How do I volunteer for MWC?",
+    "name": "How do I volunteer for Women Coders?",
     "acceptedAnswer": {
       "@type": "Answer",
       "text": "You can start by joining our Slack/Discord channels and checking the #volunteers-needed channel. We have various roles from event management and social media to technical mentoring and content creation."
     }
-  }]
+  },
+  {
+    "@type": "Question",
+    "name": "Who can join Women Coders?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome all women who are passionate about coding, leadership, and professional growth in the tech ecosystem."
+    }
+  }
+]
 }
 </script>
 

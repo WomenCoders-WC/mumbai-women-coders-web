@@ -62,25 +62,25 @@ include '../includes/navigation.php';
                         <div class="col-md-6">
                             <div class="p-4 rounded-4 bg-white border-0 h-100 shadow-sm">
                                 <h4 class="fw-bold text-indigo-ink mb-4"><i
-                                        class="bi bi-shield-check text-success me-2"></i>Expected</h4>
+                                        class="fa-solid fa-shield-halved text-success me-2"></i>Expected</h4>
                                 <ul class="list-unstyled mb-0">
-                                    <li class="mb-3 d-flex"><i class="bi bi-check2 text-success me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-check text-success me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Participate in an authentic and
                                             active way</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-check2 text-success me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-check text-success me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Exercise consideration and
                                             respect</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-check2 text-success me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-check text-success me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Attempt collaboration before
                                             conflict</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-check2 text-success me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-check text-success me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Refrain from demeaning or harassing
                                             behavior</span>
                                     </li>
-                                    <li class="mb-0 d-flex"><i class="bi bi-check2 text-success me-3 mt-1"></i>
+                                    <li class="mb-0 d-flex"><i class="fa-solid fa-check text-success me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Be mindful of your
                                             surroundings</span>
                                     </li>
@@ -90,25 +90,25 @@ include '../includes/navigation.php';
                         <div class="col-md-6">
                             <div class="p-4 rounded-4 bg-white border-0 h-100 shadow-sm">
                                 <h4 class="fw-bold text-indigo-ink mb-4"><i
-                                        class="bi bi-shield-exclamation text-danger me-2"></i>Unacceptable</h4>
+                                        class="fa-solid fa-shield text-danger me-2"></i>Unacceptable</h4>
                                 <ul class="list-unstyled mb-0">
-                                    <li class="mb-3 d-flex"><i class="bi bi-x-lg text-danger me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-xmark text-danger me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Intimidating or abusive
                                             speech</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-x-lg text-danger me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-xmark text-danger me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Discriminatory or derogatory
                                             actions</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-x-lg text-danger me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-xmark text-danger me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Inappropriate use of nudity or
                                             sexual images</span>
                                     </li>
-                                    <li class="mb-3 d-flex"><i class="bi bi-x-lg text-danger me-3 mt-1"></i>
+                                    <li class="mb-3 d-flex"><i class="fa-solid fa-xmark text-danger me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Violence depictions or sustained
                                             disruption</span>
                                     </li>
-                                    <li class="mb-0 d-flex"><i class="bi bi-x-lg text-danger me-3 mt-1"></i>
+                                    <li class="mb-0 d-flex"><i class="fa-solid fa-xmark text-danger me-3 mt-1"></i>
                                         <span class="text-dark-amethyst fw-semibold">Unwelcome sexual attention or
                                             physical contact</span>
                                     </li>
@@ -132,7 +132,7 @@ include '../includes/navigation.php';
                         </div>
                         <div class="col-md-4 text-center d-none d-md-block">
                             <div class="display-1 text-lavender-purple opacity-25">
-                                <i class="bi bi-gavel"></i>
+                                <i class="fa-solid fa-gavel"></i>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@ include '../includes/navigation.php';
                                             Mumbai, Navi
                                             Mumbai, and Thane.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="me-3 fs-3 text-white"><i class="bi bi-envelope-heart"></i></div>
+                                            <div class="me-3 fs-3 text-white"><i class="fa-solid fa-envelope"></i></div>
                                             <div>
                                                 <small
                                                     class="text-white text-opacity-50 d-block text-uppercase ls-1">Direct
@@ -206,7 +206,7 @@ include '../includes/navigation.php';
                                             for all UK
                                             events.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="me-3 fs-3 text-white"><i class="bi bi-envelope-heart"></i></div>
+                                            <div class="me-3 fs-3 text-white"><i class="fa-solid fa-envelope"></i></div>
                                             <div>
                                                 <small
                                                     class="text-white text-opacity-50 d-block text-uppercase ls-1">Direct
@@ -240,7 +240,7 @@ include '../includes/navigation.php';
                                                 class="text-white fw-bold text-decoration-underline">Berlin Code of
                                                 Conduct</a>.</p>
                                         <div class="d-flex align-items-center">
-                                            <div class="me-3 fs-3 text-white"><i class="bi bi-envelope-heart"></i></div>
+                                            <div class="me-3 fs-3 text-white"><i class="fa-solid fa-envelope"></i></div>
                                             <div>
                                                 <small
                                                     class="text-white text-opacity-50 d-block text-uppercase ls-1">Direct
