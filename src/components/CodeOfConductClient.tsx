@@ -149,7 +149,7 @@ const CodeOfConductClient = () => {
                                                         <div className="me-3 fs-3 text-white"><i className="fa-solid fa-envelope"></i></div>
                                                         <div>
                                                             <small className="text-white text-opacity-50 d-block text-uppercase ls-1">Direct Report</small>
-                                                            <a href="mailto:conduct-mumbai@womencoders.org" className="text-white text-decoration-none fw-bold h5">conduct-mumbai@womencoders.org</a>
+                                                            <a href="mailto:mumbaiwomencoders@gmail.com" className="text-white text-decoration-none fw-bold h5">mumbaiwomencoders@gmail.com</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -174,7 +174,7 @@ const CodeOfConductClient = () => {
                                                         <div className="me-3 fs-3 text-white"><i className="fa-solid fa-envelope"></i></div>
                                                         <div>
                                                             <small className="text-white text-opacity-50 d-block text-uppercase ls-1">Direct Report</small>
-                                                            <a href="mailto:conduct-london@womencoders.org" className="text-white text-decoration-none fw-bold h5">conduct-london@womencoders.org</a>
+                                                            <a href="mailto:mumbaiwomencoders@gmail.com" className="text-white text-decoration-none fw-bold h5">mumbaiwomencoders@gmail.com</a>
                                                         </div>
                                                     </div>
                                                 </div>

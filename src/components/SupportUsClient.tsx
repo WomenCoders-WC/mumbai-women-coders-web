@@ -258,7 +258,7 @@ const SupportUsClient = () => {
                                         <div className="text-white position-relative z-1">
                                             <div className="d-flex align-items-center mb-3">
                                                 <div className="icon-circle-m me-3"><i className="fa-solid fa-envelope"></i></div>
-                                                <span>partnerships@womencoders.org</span>
+                                                <span>mumbaiwomencoders@gmail.com</span>
                                             </div>
                                             <div className="d-flex align-items-center">
                                                 <div className="icon-circle-m me-3"><i className="fa-solid fa-location-dot"></i></div>
@@ -271,49 +271,14 @@ const SupportUsClient = () => {
                                             Partnership Inquiry
                                             <span className="position-absolute bottom-0 start-0 w-50 bg-primary title-underline-m"></span>
                                         </h4>
-                                        <form action="#" method="POST" className="mt-4">
-                                            <div className="row g-3">
-                                                <div className="col-md-6">
-                                                    <div className="mb-3">
-                                                        <label className="form-label small fw-bold text-uppercase ls-1 text-muted">Full Name</label>
-                                                        <input type="text" className="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="Jane Doe" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="mb-3">
-                                                        <label className="form-label small fw-bold text-uppercase ls-1 text-muted">Work Email</label>
-                                                        <input type="email" className="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="jane@company.com" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12">
-                                                    <div className="mb-3">
-                                                        <label className="form-label small fw-bold text-uppercase ls-1 text-muted">Organization</label>
-                                                        <input type="text" className="form-control rounded-pill px-4 py-3 border-light shadow-sm" placeholder="Company Name" required />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12">
-                                                    <div className="mb-3">
-                                                        <label className="form-label small fw-bold text-uppercase ls-1 text-muted">Support Interest</label>
-                                                        <select className="form-select rounded-pill px-4 py-3 border-light shadow-sm" defaultValue="">
-                                                            <option value="" disabled>Select an option</option>
-                                                            <option value="sponsorship">Sponsorship</option>
-                                                            <option value="partnership">Strategic Partnership</option>
-                                                            <option value="grants">Grants</option>
-                                                            <option value="inkind">In-kind Contribution</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12">
-                                                    <div className="mb-3">
-                                                        <label className="form-label small fw-bold text-uppercase ls-1 text-muted">Message</label>
-                                                        <textarea className="form-control rounded-4 px-4 py-3 border-light shadow-sm" rows={4} placeholder="How can we collaborate?"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 text-end mt-4">
-                                                    <button type="submit" className="btn btn-premium btn-lg w-100 py-3 shadow-lg">Send Inquiry <i className="fa-regular fa-paper-plane ms-2"></i></button>
-                                                </div>
-                                            </div>
-                                        </form>
+                                        <div className="mt-4">
+                                            <p className="text-muted mb-4 pb-2 fs-6">
+                                                We process all our partnership and support inquiries through our dedicated Google Form to ensure your request reaches the right team quickly.
+                                            </p>
+                                            <a href="https://forms.gle/te5xWA5ZcHABkr3A9" target="_blank" rel="noreferrer" className="btn btn-premium btn-lg w-100 py-3 shadow-lg d-flex align-items-center justify-content-center text-decoration-none">
+                                                Open Google Form <i className="fa-solid fa-arrow-up-right-from-square ms-2"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

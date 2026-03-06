@@ -116,7 +116,7 @@ export default function ContactPage() {
                                 <div className="d-flex align-items-center text-primary">
                                     <i className="fa-solid fa-envelope fs-3 me-2"></i>
                                     <div>
-                                        <span className="d-block fw-bold text-dark">contact@mwc.org</span>
+                                        <span className="d-block fw-bold text-dark">mumbaiwomencoders@gmail.com</span>
                                         <small className="text-muted">Email Support</small>
                                     </div>
                                 </div>

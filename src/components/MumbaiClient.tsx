@@ -227,7 +227,7 @@ const MumbaiClient = () => {
                                                     <div className="row align-items-center">
                                                         <div className="col-lg-7">
                                                             <h3 className="h4 fw-800 mb-1 text-gradient">International Women's Day Celebration</h3>
-                                                            <div className="text-muted small"><i className="fa-solid fa-location-dot text-primary"></i> Mumbai</div>
+                                                            <div className="text-muted small"><i className="fa-solid fa-location-dot text-primary"></i> ITM Institute of Design and Media, Andheri (W),Mumbai</div>
                                                         </div>
                                                         <div className="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
                                                             <div className="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">Community Event</div>
@@ -237,6 +237,46 @@ const MumbaiClient = () => {
                                                         </div>
                                                         <div className="col-12 mt-3">
                                                             <a href="https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website" target="_blank" rel="noreferrer" className="btn btn-premium-sm">Register Now <i className="fa-solid fa-arrow-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Event 1 */}
+                                <div className="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
+                                    <div className="row g-0">
+                                        <div className="col-md-3">
+                                            <div className="event-img-container position-relative">
+                                                <span className="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay">Mumbai Chapter</span>
+                                                <img src="/assets/images/events/mwc-8-3/mwc-8-3-26.jpg" className="event-preview-img" alt="International Women's Day" />
+                                                <div className="event-img-overlay"></div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-9">
+                                            <div className="row align-items-center g-0 p-4 h-100">
+                                                <div className="col-md-2 text-center">
+                                                    <div className="event-date-box mx-auto mb-3 mb-md-0">
+                                                        <span className="d-block h2 fw-800 mb-0">8</span>
+                                                        <span className="text-uppercase fw-bold ls-1 small">MARCH</span>
+                                                    </div>
+                                                </div>
+                                                <div className="col-md-10 ps-md-4">
+                                                    <div className="row align-items-center">
+                                                        <div className="col-lg-7">
+                                                            <h3 className="h4 fw-800 mb-1 text-gradient">SheBuilds on Lovable x International Women's Day(Mumbai)</h3>
+                                                            <div className="text-muted small"><i className="fa-solid fa-location-dot text-primary"></i> ITM Institute of Design and Media, Andheri (W),Mumbai</div>
+                                                        </div>
+                                                        <div className="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
+                                                            <div className="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">Buildathon</div>
+                                                            <div className="text-muted small d-block">
+                                                                <i className="fa-solid fa-laptop me-1"></i> In-Person
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-12 mt-3">
+                                                            <a href="https://luma.com/mxykzefr?utm_content=latest_event&utm_medium=direct&utm_source=website" target="_blank" rel="noreferrer" className="btn btn-premium-sm">Register Now <i className="fa-solid fa-arrow-right"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>

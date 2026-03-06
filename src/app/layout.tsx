@@ -3,6 +3,8 @@ import Script from "next/script";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import LayoutWrapper from "@/components/LayoutWrapper";
+import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://womencoders.org"),
@@ -58,6 +60,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </LayoutWrapper>
+        <FloatingWhatsApp />
 
         {/* Scripts */}
         <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />

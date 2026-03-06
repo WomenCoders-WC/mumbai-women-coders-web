@@ -108,7 +108,7 @@ const Footer = () => {
                                 </div>
                                 <div className="contact-item d-flex align-items-center w-100 justify-content-center justify-content-md-start">
                                     <div className="contact-icon"><i className="fa-regular fa-envelope"></i></div>
-                                    <span className="small opacity-75">hello@womencoders.com</span>
+                                    <span className="small opacity-75">mumbaiwomencoders@gmail.com</span>
                                 </div>
                             </div>
 
