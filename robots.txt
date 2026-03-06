@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /
-
-# Sitemaps
-Sitemap: https://womencoders.org/sitemap.xml
