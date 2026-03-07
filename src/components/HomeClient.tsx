@@ -156,7 +156,7 @@ const HomeClient = () => {
                     <div className="row justify-content-center text-center">
                         <div className="col-lg-10 animate__animated animate__fadeIn">
                             <div className="mb-4 hero-logo-wrapper">
-                                <img src="/assets/images/logo/dark/logo-main.webp" alt="Women Coders Logo" className="hero-logo" />
+                                <img src="/assets/images/logo/dark/logo-main.webp" alt="Women Coders Logo" className="hero-logo" fetchPriority="high" />
                             </div>
                             <div className="d-inline-flex align-items-center mb-4 px-4 py-2 rounded-pill shadow-sm hero-badge">
                                 <small className="fw-bold text-gradient text-uppercase ls-2">Women Coders Community</small>
