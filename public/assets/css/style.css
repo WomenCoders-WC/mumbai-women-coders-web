@@ -1467,7 +1467,7 @@ section {
 }
 
 .bg-cosmic-theme .event-card-row .event-date-box {
-    color: var(--text-main) !important;
+    color: #fff !important;
 }
 
 /* Restore Purple Gradient Text on Light Background */
