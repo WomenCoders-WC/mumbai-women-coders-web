@@ -112,7 +112,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div className="newsletter-fancy shadow-lg">
+                            {/* <div className="newsletter-fancy shadow-lg">
                                 <h6 className="mb-3 fw-bold text-white">Newsletter</h6>
                                 <form className="newsletter-form" onSubmit={(e) => e.preventDefault()}>
                                     <div className="input-glass-group">
@@ -120,7 +120,7 @@ const Footer = () => {
                                         <button type="submit"><i className="fa-solid fa-arrow-right"></i></button>
                                     </div>
                                 </form>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
