@@ -2,7 +2,10 @@
 
 import { useEffect } from 'react';
 import Link from 'next/link';
-import { upcomingEvents } from '@/data/upcoming-events';
+import { upcomingEvents } from '@/data/home-upcoming-events';
+import { speakers } from '@/data/speakers';
+import { faqs } from '@/data/faqs';
+import { successStories } from '@/data/success-stories';
 
 const HomeClient = () => {
     useEffect(() => {
@@ -126,28 +129,6 @@ const HomeClient = () => {
             });
         };
     }, []);
-
-    const speakers = [
-        {
-            name: 'Ramyashree Shetty',
-            role: 'Data Engineer @ Radix',
-            img: '/assets/images/speakers/ramyashree-shetty.webp',
-            link: 'https://www.linkedin.com/in/ramyashree-shetty/'
-        },
-        {
-            name: 'Taazeen Ansari',
-            role: 'Computer Engineering Student @ SIES',
-            img: '/assets/images/speakers/taazeen-ansari.webp',
-            link: 'https://www.linkedin.com/in/taazeenansari/'
-        },
-        {
-            name: 'Nikita Goswami',
-            role: 'AI/ML Research Intern @ Monash University',
-            img: '/assets/images/speakers/nikita-goswami.webp',
-            link: 'https://www.linkedin.com/in/nikitagoswami3/'
-        }
-    ];
-
     return (
         <main>
             {/* Hero Section */}
@@ -501,34 +482,21 @@ const HomeClient = () => {
                     </div>
 
                     <div className="row g-5 mt-4">
-                        {/* Story 1 */}
-                        <div className="col-lg-6 fade-up-trigger">
-                            <div className="story-card h-100">
-                                <i className="fa-solid fa-quote-left story-quote-icon"></i>
-                                <div className="member-avatar-ring">
-                                    <img src="/assets/images/speakers/ramyashree-shetty.webp" alt="Shruti Deshmukh" />
+                        {successStories.map((story, index) => (
+                            <div className={`col-lg-6 fade-up-trigger ${story.delayClass || ''}`} key={index}>
+                                <div className="story-card h-100">
+                                    <i className="fa-solid fa-quote-left story-quote-icon"></i>
+                                    <div className="member-avatar-ring">
+                                        <img src={story.image} alt={story.imageAlt} />
+                                    </div>
+                                    <h3 className="h4 fw-bold text-white mb-2">{story.name}</h3>
+                                    <p className="text-gradient small fw-bold text-uppercase mb-3">{story.role}</p>
+                                    <p className="text-white-50 mb-0">
+                                        {story.quote}
+                                    </p>
                                 </div>
-                                <h3 className="h4 fw-bold text-white mb-2">Ramyashree Shetty</h3>
-                                <p className="text-gradient small fw-bold text-uppercase mb-3">Data Engineer @ Radix</p>
-                                <p className="text-white-50 mb-0">
-                                    "Speaking at Mumbai Women Coders was such a fun and energizing experience. It’s a community built by women, for everyone who is open, curious, and full of great questions. I loved sharing “Selective AI is a Skill” and the lively conversations that followed. Truly a space where ideas flow freely and everyone feels welcome."
-                                </p>
                             </div>
-                        </div>
-                        {/* Story 2 */}
-                        <div className="col-lg-6 fade-up-trigger delay-2">
-                            <div className="story-card h-100">
-                                <i className="fa-solid fa-quote-left story-quote-icon"></i>
-                                <div className="member-avatar-ring">
-                                    <img src="/assets/images/speakers/taazeen-ansari.webp" alt="Sneha Rao" />
-                                </div>
-                                <h3 className="h4 fw-bold text-white mb-2">Taazeen Ansari</h3>
-                                <p className="text-gradient small fw-bold text-uppercase mb-3">Student @ SIES</p>
-                                <p className="text-white-50 mb-0">
-                                    "For me, speaking at the first Mumbai Women Coders meetup of 2026 wasn’t just about delivering a session - it was about being part of something bigger. The energy in the room, the conversations we shared, and the questions we explored together made it feel personal and meaningful. What I loved most was how we weren’t just listening - we were thinking, reflecting, and growing as a community. It felt like a space where all of us could openly question, learn, and support each other."
-                                </p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -564,65 +532,22 @@ const HomeClient = () => {
                     </div>
 
                     <div className="faq-container fade-up-trigger">
-                        <div className="faq-item">
-                            <div className="faq-question">
-                                <h4>Who can join Women Coders</h4>
-                                <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
+                        {faqs.map((faq, index) => (
+                            <div className="faq-item" key={index}>
+                                <div className="faq-question">
+                                    <h4>{faq.question}</h4>
+                                    <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
+                                </div>
+                                <div className="faq-answer">
+                                    <p>
+                                        {faq.answerText}
+                                        {faq.link && (
+                                            <a href={faq.link.url} target="_blank" rel="noreferrer">{faq.link.text}</a>
+                                        )}
+                                    </p>
+                                </div>
                             </div>
-                            <div className="faq-answer">
-                                <p>
-                                    We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome everyone who are passionate about coding, leadership, and professional growth in the tech ecosystem.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="faq-item">
-                            <div className="faq-question">
-                                <h4>Is there a membership fee?</h4>
-                                <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
-                            </div>
-                            <div className="faq-answer">
-                                <p>
-                                    No, joining Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="faq-item">
-                            <div className="faq-question">
-                                <h4>How can I become a speaker at a Women Coders event?</h4>
-                                <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
-                            </div>
-                            <div className="faq-answer">
-                                <p>
-                                    We're always looking for fresh perspectives! You can apply to speak by filling out our "Call for Speakers" form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="faq-item">
-                            <div className="faq-question">
-                                <h4>What kind of technical topics do you cover?</h4>
-                                <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
-                            </div>
-                            <div className="faq-answer">
-                                <p>
-                                    We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and Salary Negotiation.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="faq-item">
-                            <div className="faq-question">
-                                <h4>How can I become a volunteer at Women Coders</h4>
-                                <div className="faq-icon"><i className="fa-solid fa-chevron-down"></i></div>
-                            </div>
-                            <div className="faq-answer">
-                                <p>
-                                    Connect with us on our social media channels, join our WhatsApp community, and explore opportunities shared in our channels. Complete the Volunteer Form, and our team will get in touch with the next steps. <a href="https://forms.gle/LQjaPqYjzjGJ9FYT9" target="_blank" rel="noreferrer">Join Today</a>
-                                </p>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -662,48 +587,14 @@ const HomeClient = () => {
                     __html: JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "FAQPage",
-                        mainEntity: [
-                            {
-                                "@type": "Question",
-                                name: "Who can join Women Coders?",
-                                acceptedAnswer: {
-                                    "@type": "Answer",
-                                    text: "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome everyone who are passionate about coding, leadership, and professional growth in the tech ecosystem."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                name: "Is there a membership fee?",
-                                acceptedAnswer: {
-                                    "@type": "Answer",
-                                    text: "No, joining Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                name: "How can I become a speaker at a Women Coders event?",
-                                acceptedAnswer: {
-                                    "@type": "Answer",
-                                    text: "We're always looking for fresh perspectives! You can apply to speak by filling out our 'Call for Speakers' form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                name: "What kind of technical topics do you cover?",
-                                acceptedAnswer: {
-                                    "@type": "Answer",
-                                    text: "We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and Salary Negotiation."
-                                }
-                            },
-                            {
-                                "@type": "Question",
-                                name: "How can I become a volunteer at Women Coders?",
-                                acceptedAnswer: {
-                                    "@type": "Answer",
-                                    text: "Connect with us on our social media channels, join our WhatsApp community, and explore opportunities shared in our channels. Complete the Volunteer Form, and our team will get in touch with the next steps."
-                                }
+                        mainEntity: faqs.map(faq => ({
+                            "@type": "Question",
+                            name: faq.question,
+                            acceptedAnswer: {
+                                "@type": "Answer",
+                                text: faq.answerText
                             }
-                        ]
+                        }))
                     })
                 }}
             />
