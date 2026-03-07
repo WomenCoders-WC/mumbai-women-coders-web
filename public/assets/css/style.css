@@ -3443,18 +3443,24 @@ section {
     animation-play-state: paused;
 }
 
-.partner-card {
-    display: inline-block;
+.marquee-content .partner-card {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    height: 100px;
+    padding: 0 20px;
 }
 
-.partner-logo {
+.marquee-content .partner-logo {
     max-height: 80px;
     width: auto;
+    max-width: none;
     filter: grayscale(100%) opacity(60%);
     transition: all 0.3s ease;
 }
 
-.partner-card:hover .partner-logo {
+.marquee-content .partner-card:hover .partner-logo {
     filter: grayscale(0%) opacity(100%);
     transform: scale(1.1);
 }

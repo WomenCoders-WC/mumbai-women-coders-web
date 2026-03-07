@@ -57,6 +57,28 @@ const HomeClient = () => {
 
         initSwiper();
 
+        // Carousel initialization
+        let carouselInstance: any = null;
+        let carouselTimeout: any;
+
+        const initCarousel = () => {
+            const bootstrap = (window as any).bootstrap;
+            const carouselElement = document.getElementById('aboutCarousel');
+            if (bootstrap && carouselElement) {
+                // Initialize the carousel
+                carouselInstance = new bootstrap.Carousel(carouselElement, {
+                    interval: 3000,
+                    ride: 'carousel'
+                });
+            } else if (!bootstrap) {
+                // Retry if bootstrap hasn't loaded yet
+                carouselTimeout = setTimeout(initCarousel, 100);
+            }
+        };
+
+        // Delay slight to ensure DOM is ready
+        setTimeout(initCarousel, 100);
+
         // Auto-Cloning Script for Infinite Marquee
         const marquee = document.getElementById("partner-marquee");
         if (marquee && marquee.children.length === 2) {
@@ -92,6 +114,12 @@ const HomeClient = () => {
             }
             if (swiperInstance) {
                 swiperInstance.destroy(true, true);
+            }
+            if (carouselTimeout) {
+                clearTimeout(carouselTimeout);
+            }
+            if (carouselInstance) {
+                carouselInstance.dispose();
             }
             faqs.forEach(question => {
                 question.removeEventListener('click', handleFaqClick);

@@ -77,7 +77,7 @@ const MumbaiClient = () => {
                             The founding hub of Women Coders, fostering innovation and inclusion in the heart of India's Silicon Valley alternative.
                         </p>
                         <div className="d-flex flex-wrap justify-content-center gap-3">
-                            <a href="https://www.meetup.com/mumbai-women-coders/" target="_blank" rel="noreferrer" className="btn btn-premium">Join on Meetup</a>
+                            <a href="#upcoming" className="btn btn-premium">Upcoming Events</a>
                             <a href="#about" className="btn btn-m-outline">Learn More</a>
                         </div>
                     </div>

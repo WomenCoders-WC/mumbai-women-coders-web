@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /*
+
+Sitemap: https://www.women-coders.org/sitemap.xml
