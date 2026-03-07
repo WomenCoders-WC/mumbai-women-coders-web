@@ -626,6 +626,87 @@ const HomeClient = () => {
                     </div>
                 </div>
             </section>
+
+            {/* SEO Schemas */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "WebSite",
+                        name: "Women Coders",
+                        url: "https://www.women-coders.org/"
+                    })
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Organization",
+                        name: "Women Coders",
+                        url: "https://www.women-coders.org/",
+                        logo: "https://www.women-coders.org/assets/images/logo/dark/logo-main.webp",
+                        description: "A vibrant tech community for women in technology and their allies, creating lasting change in the tech ecosystem.",
+                        sameAs: [
+                            "https://www.linkedin.com/company/mumbai-women-coders",
+                            "https://www.instagram.com/mumbaiwomencoders/"
+                        ]
+                    })
+                }}
+            />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        mainEntity: [
+                            {
+                                "@type": "Question",
+                                name: "Who can join Women Coders?",
+                                acceptedAnswer: {
+                                    "@type": "Answer",
+                                    text: "We are a dedicated community focused on empowering and supporting women in the technology sector. We welcome everyone who are passionate about coding, leadership, and professional growth in the tech ecosystem."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                name: "Is there a membership fee?",
+                                acceptedAnswer: {
+                                    "@type": "Answer",
+                                    text: "No, joining Women Coders is completely free! Our core technical meetups, study groups, and community platforms are accessible to everyone without any charge."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                name: "How can I become a speaker at a Women Coders event?",
+                                acceptedAnswer: {
+                                    "@type": "Answer",
+                                    text: "We're always looking for fresh perspectives! You can apply to speak by filling out our 'Call for Speakers' form available on our events page, or by reaching out to our chapter leads during any of our monthly meetups."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                name: "What kind of technical topics do you cover?",
+                                acceptedAnswer: {
+                                    "@type": "Answer",
+                                    text: "We cover a wide spectrum including Full-Stack Web Development, Data Science, AI/ML, Cloud Infrastructure (AWS/Azure), Cybersecurity, and even soft skills like Technical Leadership and Salary Negotiation."
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                name: "How can I become a volunteer at Women Coders?",
+                                acceptedAnswer: {
+                                    "@type": "Answer",
+                                    text: "Connect with us on our social media channels, join our WhatsApp community, and explore opportunities shared in our channels. Complete the Volunteer Form, and our team will get in touch with the next steps."
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
         </main>
     );
 };
