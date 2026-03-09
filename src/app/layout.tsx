@@ -7,9 +7,12 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://womencoders.org"),
+  metadataBase: new URL("https://www.women-coders.org"),
   title: "Mumbai Women Coders",
   description: "A community for women who code in Mumbai and beyond.",
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: [
       { url: '/assets/images/favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
