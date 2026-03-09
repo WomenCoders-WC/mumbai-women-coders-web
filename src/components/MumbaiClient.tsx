@@ -20,7 +20,39 @@ const MumbaiClient = () => {
                     const edges = data.data.groupByUrlname.events.edges || [];
                     eventsArray = edges.map((edge: any) => edge.node).filter(Boolean);
                 }
-                setPastEvents(eventsArray);
+
+                const customPastEvents = [
+                    {
+                        id: "custom-1",
+                        title: "International Women's Day Celebration",
+                        eventUrl: "https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website",
+                        dateTime: "2026-03-08T10:00:00+05:30",
+                        eventType: "PHYSICAL",
+                        venue: {
+                            name: "ITM Institute of Design and Media, Andheri (W),Mumbai",
+                            city: "Mumbai"
+                        },
+                        featuredEventPhoto: {
+                            highResUrl: "/assets/images/events/mwc-8-3-26.jpg"
+                        }
+                    },
+                    {
+                        id: "custom-2",
+                        title: "SheBuilds on Lovable x International Women's Day(Mumbai)",
+                        eventUrl: "https://luma.com/mxykzefr?utm_content=latest_event&utm_medium=direct&utm_source=website",
+                        dateTime: "2026-03-08T10:00:00+05:30",
+                        eventType: "PHYSICAL",
+                        venue: {
+                            name: "ITM Institute of Design and Media, Andheri (W),Mumbai",
+                            city: "Mumbai"
+                        },
+                        featuredEventPhoto: {
+                            highResUrl: "/assets/images/events/mwc-8-3/mwc-8-3-26.jpg"
+                        }
+                    }
+                ];
+
+                setPastEvents([...customPastEvents, ...eventsArray]);
             })
             .catch(err => console.error("Error fetching past events: ", err));
 
@@ -206,46 +238,56 @@ const MumbaiClient = () => {
                         {/* Upcoming Events Pane */}
                         <div className={`tab-pane fade ${activeTab === 'upcoming' ? 'show active' : ''}`} role="tabpanel">
                             <div className="events-list">
-                                {upcomingEvents.map((event) => (
-                                    <div key={event.id} className="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
-                                        <div className="row g-0">
-                                            <div className="col-md-3">
-                                                <div className="event-img-container position-relative">
-                                                    {event.badge && <span className="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay">{event.badge}</span>}
-                                                    <img src={event.image} className="event-preview-img" alt={event.imageAlt} />
-                                                    <div className="event-img-overlay"></div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-9">
-                                                <div className="row align-items-center g-0 p-4 h-100">
-                                                    <div className="col-md-2 text-center">
-                                                        <div className="event-date-box mx-auto mb-3 mb-md-0">
-                                                            <span className="d-block h2 fw-800 mb-0">{event.dateDay}</span>
-                                                            <span className="text-uppercase fw-bold ls-1 small">{event.dateMonth}</span>
-                                                        </div>
+                                {upcomingEvents.length > 0 ? (
+                                    upcomingEvents.map((event) => (
+                                        <div key={event.id} className="event-card-row mb-5 animate-fade-up fade-up-trigger text-center text-md-start">
+                                            <div className="row g-0">
+                                                <div className="col-md-3">
+                                                    <div className="event-img-container position-relative">
+                                                        {event.badge && <span className="position-absolute top-0 start-0 m-3 badge bg-white text-royal-violet fw-bold shadow-sm z-3 event-badge-overlay">{event.badge}</span>}
+                                                        <img src={event.image} className="event-preview-img" alt={event.imageAlt} />
+                                                        <div className="event-img-overlay"></div>
                                                     </div>
-                                                    <div className="col-md-10 ps-md-4">
-                                                        <div className="row align-items-center">
-                                                            <div className="col-lg-7">
-                                                                <h3 className="h4 fw-800 mb-1 text-gradient">{event.title}</h3>
-                                                                <div className="text-muted small"><i className="fa-solid fa-location-dot text-primary"></i> {event.locationShort}</div>
+                                                </div>
+                                                <div className="col-md-9">
+                                                    <div className="row align-items-center g-0 p-4 h-100">
+                                                        <div className="col-md-2 text-center">
+                                                            <div className="event-date-box mx-auto mb-3 mb-md-0">
+                                                                <span className="d-block h2 fw-800 mb-0">{event.dateDay}</span>
+                                                                <span className="text-uppercase fw-bold ls-1 small">{event.dateMonth}</span>
                                                             </div>
-                                                            <div className="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
-                                                                <div className="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">{event.eventType}</div>
-                                                                <div className="text-muted small d-block">
-                                                                    <i className={`fa-solid ${event.eventIcon} me-1`}></i> {event.eventFormat}
+                                                        </div>
+                                                        <div className="col-md-10 ps-md-4">
+                                                            <div className="row align-items-center">
+                                                                <div className="col-lg-7">
+                                                                    <h3 className="h4 fw-800 mb-1 text-gradient">{event.title}</h3>
+                                                                    <div className="text-muted small"><i className="fa-solid fa-location-dot text-primary"></i> {event.locationShort}</div>
                                                                 </div>
-                                                            </div>
-                                                            <div className="col-12 mt-3">
-                                                                <a href={event.registrationLink} target="_blank" rel="noreferrer" className="btn btn-premium-sm">Register Now <i className="fa-solid fa-arrow-right"></i></a>
+                                                                <div className="col-lg-5 text-center text-md-end mt-3 mt-lg-0">
+                                                                    <div className="d-inline-block px-3 py-1 rounded-pill bg-lavender-light text-primary fw-bold small mb-2">{event.eventType}</div>
+                                                                    <div className="text-muted small d-block">
+                                                                        <i className={`fa-solid ${event.eventIcon} me-1`}></i> {event.eventFormat}
+                                                                    </div>
+                                                                </div>
+                                                                <div className="col-12 mt-3">
+                                                                    <a href={event.registrationLink} target="_blank" rel="noreferrer" className="btn btn-premium-sm">Register Now <i className="fa-solid fa-arrow-right"></i></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    ))
+                                ) : (
+                                    <div className="text-center py-5 my-4 animate-fade-up fade-up-trigger">
+                                        <i className="fa-regular fa-calendar-days text-gradient mb-4 d-inline-block" style={{ fontSize: '3.5rem' }}></i>
+                                        <h3 className="h3 fw-bold mb-3">Stay Tuned!</h3>
+                                        <p className="text-muted lead mx-auto" style={{ maxWidth: '600px' }}>
+                                            We are currently planning our next exciting learning sessions and meetups. Follow our social channels to get notified!
+                                        </p>
                                     </div>
-                                ))}
+                                )}
                             </div>
                         </div>
 
