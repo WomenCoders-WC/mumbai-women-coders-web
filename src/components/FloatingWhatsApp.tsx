@@ -5,7 +5,7 @@ import React from 'react';
 const FloatingWhatsApp = () => {
     return (
         <a
-            href="https://chat.whatsapp.com/Izg9LXqH4996RYJpuWFgZc"
+            href="https://chat.whatsapp.com/Cokk164Eqzt7zUAED54EH7"
             className="floating-whatsapp"
             target="_blank"
             rel="noopener noreferrer"
