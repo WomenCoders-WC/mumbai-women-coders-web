@@ -17,7 +17,7 @@ export interface UpcomingEvent {
 export const upcomingEvents: UpcomingEvent[] = [
     {
         id: "1",
-        image: "/assets/images/events/mwc-25-7.jpg",
+        image: "/assets/images/events/mwc-25-7.jpeg",
         imageAlt: "One Prompt Is Not Enough - MWC",
         badge: "Mumbai Chapter",
         dateDay: "25",
