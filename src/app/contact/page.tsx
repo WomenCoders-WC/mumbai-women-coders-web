@@ -76,7 +76,7 @@ export default function ContactPage() {
                                     <p className="text-muted small mb-4 flex-grow-1">
                                         Need help joining a chapter or want to start a new one in your area? Get specialized support.
                                     </p>
-                                    <a href="https://docs.google.com/forms/" target="_blank" rel="noreferrer" className="btn btn-outline-info rounded-pill px-4 w-100 fw-bold">
+                                    <a href="https://linktr.ee/mumbaiwomencoders" target="_blank" rel="noreferrer" className="btn btn-outline-info rounded-pill px-4 w-100 fw-bold">
                                         Get Support <i className="fa-solid fa-arrow-right ms-2 transition-icon"></i>
                                     </a>
                                 </div>
