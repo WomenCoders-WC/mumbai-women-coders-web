@@ -232,7 +232,7 @@ export default function ContactPage() {
                                     <span>Get cool swag and community recognition</span>
                                 </li>
                             </ul>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScfkHDuCeWdmgsrlACmILNx41LhS47eNKHMaOAX2LKkSQL54g/viewform/" target="_blank" rel="noreferrer" className="btn btn-premium btn-lg hover-lift">
+                            <a href="https://forms.gle/E5qZ7wsua5FsmVXn8" target="_blank" rel="noreferrer" className="btn btn-premium btn-lg hover-lift">
                                 Apply to Volunteer <i className="fa-solid fa-arrow-right ms-2 transition-icon"></i>
                             </a>
                         </div>
