@@ -23,6 +23,20 @@ const MumbaiClient = () => {
 
                 const customPastEvents = [
                     {
+                        id: "custom-11",
+                        title: "One Prompt Is Not Enough",
+                        eventUrl: "https://luma.com/rpjnqwjz?utm_content=latest_event&utm_medium=direct&utm_source=website",
+                        dateTime: "2026-07-25T11:00:00+05:30",
+                        eventType: "PHYSICAL",
+                        venue: {
+                            name: "ATLAS SkillTech University, Mumbai",
+                            city: "Mumbai"
+                        },
+                        featuredEventPhoto: {
+                            highResUrl: "/assets/images/events/mwc-25-7.jpeg"
+                        }
+                    },
+                    {
                         id: "custom-1",
                         title: "International Women's Day Celebration",
                         eventUrl: "https://luma.com/kta9xsx4?utm_content=latest_event&utm_medium=direct&utm_source=website",
